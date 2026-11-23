@@ -1,0 +1,50 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "富士山 萩原",
+    "_html": "<a href=./volcam.php?VC=31401 target=\"_parent\"><img src=\"./icon/camera.png\"></a>",
+    "code": "31401"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.932,
+     35.31
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "阿蘇山 草千里",
+    "_html": "<a href=./volcam.php?VC=50301 target=\"_parent\"><img src=\"./icon/camera.png\"></a>",
+    "code": "50301"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.052,
+     32.886
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "<span>阿蘇山 <ruby><rb>車帰</rb><rt>くるまがえり</rt></ruby></span>",
+    "_html": "<a href=./volcam.php?VC=50302 target=\"_parent\"><img src=\"./icon/camera.png\"></a>",
+    "code": "50302"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.972,
+     32.916
+    ]
+   }
+  }
+ ]
+}

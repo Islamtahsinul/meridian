@@ -1,0 +1,85 @@
+{
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "EPSG:2056"
+  }
+ },
+ "license": "https://www.meteoswiss.admin.ch/about-us/legal-basis.html",
+ "mapname": "ch.meteoschweiz.messnetz-webcams",
+ "map_long_name": "Weather cameras",
+ "map_short_name": "Weather cams",
+ "map_abstract": "In order to obtain information on the current weather conditions along Switzerland's main flight paths, MeteoSwiss operates a camera network with around 35 weather cameras (webcams). The cameras primarily serve to monitor the weather along the main flight paths. The angle and location of the cameras are set specifically for the purpose of monitoring weather conditions, and provide an insight into the terrain and mountain passes that are key for air traffic. The cameras save a panoramic image every ten minutes. During twilight hours, an infrared filter is employed to make optimum use of the remaining light. This also ensures the generation of high-quality black and white panoramic images in low-light conditions and makes it easier for meteorologists to monitor the aviation weather and provide forecasts on a continuous basis.",
+ "creation_time": "23.11.2026 04:30",
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2577039.59,
+     1147655.08
+    ]
+   },
+   "id": "CHD",
+   "properties": {
+    "station_name": "Château-d'Oex",
+    "station_symbol": 1,
+    "altitude": "1031.50 m (Height a. ground: 3.50 m)",
+    "description": "<table><tbody><tr><td class='text-nowrap'><strong>Station name</strong></td><td>Château-d'Oex (CHD)</td></tr><tr><td class='text-nowrap'><strong>Station type</strong></td><td>Weather&nbspcam</td></tr><tr><td class='text-nowrap'><strong>Data Owner</strong></td><td>MeteoSwiss</td></tr><tr><td class='text-nowrap'><strong>Height Weather Cam</strong></td><td>1031.50 m (Height a. ground: 3.50 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-webcams&station=CHD\">Information about this station</a></td></tr><tr><td colspan=\"2\"><img src=\"https://backend.roundshot.com/cams/b6924125a999595b9495f8dbf6b8f501/thumbnail\" alt=\"Webcam-Bild der Station Château-d'Oex\" height=\"70\" /></td></tr></tbody></table>"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2783102.22,
+     1143454.55
+    ]
+   },
+   "id": "COV",
+   "properties": {
+    "station_name": "Piz Corvatsch",
+    "station_symbol": 1,
+    "altitude": "3307.00 m (Height a. ground: 3.00 m)",
+    "description": "<table><tbody><tr><td class='text-nowrap'><strong>Station name</strong></td><td>Piz Corvatsch (COV)</td></tr><tr><td class='text-nowrap'><strong>Station type</strong></td><td>Weather&nbspcam</td></tr><tr><td class='text-nowrap'><strong>Data Owner</strong></td><td>MeteoSwiss</td></tr><tr><td class='text-nowrap'><strong>Height Weather Cam</strong></td><td>3307.00 m (Height a. ground: 3.00 m)</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-webcams&station=COV\">Information about this station</a></td></tr><tr><td colspan=\"2\"><img src=\"https://backend.roundshot.com/cams/e4380bf2e9f5bcde2dfc8000ec99abcf/thumbnail\" alt=\"Webcam-Bild der Station Piz Corvatsch\" height=\"70\" /></td></tr></tbody></table>"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2761999.1,
+     1203422.2
+    ]
+   },
+   "id": "LAN",
+   "properties": {
+    "station_name": "Landquart",
+    "station_symbol": 1,
+    "altitude": "548.00 m (Height a. ground: 18.50 m (on 17.00 m-roof))",
+    "description": "<table><tbody><tr><td class='text-nowrap'><strong>Station name</strong></td><td>Landquart (LAN)</td></tr><tr><td class='text-nowrap'><strong>Station type</strong></td><td>Weather&nbspcam</td></tr><tr><td class='text-nowrap'><strong>Data Owner</strong></td><td>MeteoSwiss</td></tr><tr><td class='text-nowrap'><strong>Height Weather Cam</strong></td><td>548.00 m (Height a. ground: 18.50 m (on 17.00 m-roof))</td></tr><tr><td class='text-nowrap'><strong>Link</strong></td><td><a target=\"_blank\" href=\"https://www.meteoswiss.admin.ch/services-and-publications/applications/measurement-values-and-measuring-networks.html#param=messnetz-webcams&station=LAN\">Information about this station</a></td></tr><tr><td colspan=\"2\"><img src=\"https://backend.roundshot.com/cams/beabc9f0a0300ebf4d4950a6e2a2454a/thumbnail\" alt=\"Webcam-Bild der Station Landquart\" height=\"70\" /></td></tr></tbody></table>"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     2497034.96,
+     1142373.27
+    ]
+   },
+   "id": "XXX",
+   "properties": {
+    "station_name": "La Dôle",
+    "station_symbol": 1,
+    "altitude": "1677.00 m (Height a. ground: 4.00 m)",
+    "description": "<table></table>"
+   }
+  }
+ ]
+}

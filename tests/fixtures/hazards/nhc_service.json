@@ -1,0 +1,8 @@
+{"layers": [
+  {"id": 82, "name": "AT4", "parentLayerId": -1},
+  {"id": 84, "name": "AT4 Forecast Points", "parentLayerId": 83, "geometryType": "esriGeometryPoint"},
+  {"id": 85, "name": "AT4 Forecast Track", "parentLayerId": 83, "geometryType": "esriGeometryPolyline"},
+  {"id": 86, "name": "AT4 Forecast Cone", "parentLayerId": 83, "geometryType": "esriGeometryPolygon"},
+  {"id": 90, "name": "AT4 Past Track", "parentLayerId": 88, "geometryType": "esriGeometryPolyline"},
+  {"id": 91, "name": "AT4 Past Cumulative Wind Swath", "parentLayerId": 88, "geometryType": "esriGeometryPolygon"}
+]}

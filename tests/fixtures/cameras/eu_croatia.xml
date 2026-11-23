@@ -1,0 +1,240 @@
+<d2LogicalModel modelBaseVersion="2" xmlns="http://datex2.eu/schema/2/2_0">
+  <exchange>
+    <supplierIdentification>
+      <country>hr</country>
+      <nationalIdentifier>HAC SCNVP</nationalIdentifier>
+    </supplierIdentification>
+  </exchange>
+  <payloadPublication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PredefinedLocationsPublication" lang="hr">
+    <publicationTime>2024-06-11T14:47:56.847+02:00</publicationTime>
+    <publicationCreator>
+      <country>hr</country>
+      <nationalIdentifier>HAC SCNVP</nationalIdentifier>
+    </publicationCreator>
+    <headerInformation>
+      <confidentiality>noRestriction</confidentiality>
+      <informationStatus>real</informationStatus>
+    </headerInformation>
+    <predefinedLocationContainer xsi:type="PredefinedLocation" id="CAMERA:A1:DUG:84010" version="2024-05-15 16:51:58.0">
+      <predefinedLocationContainerExtension>
+        <trafficCameraRecord>
+          <cameraId>CAMERA:A1:DUG:84010</cameraId>
+          <updatedTS>2024-05-15T16:51:58.000+02:00</updatedTS>
+          <stillImageUrl>https://cro3-dev154.hac.hr/cameras/babb282e-5f62-413d-b432-dd27a19ac52c.jpg</stillImageUrl>
+          <stillImageContentType>JPEG</stillImageContentType>
+          <stillImageHeight>480</stillImageHeight>
+          <stillImageWidth>640</stillImageWidth>
+          <cameraTitle>
+            <values>
+              <value lang="hr">A1 32 DU 425+520 Čvor Zagvozd VK01</value>
+            </values>
+          </cameraTitle>
+          <cameraDescription>
+            <values>
+              <value lang="hr">Čvor Zagvozd</value>
+            </values>
+          </cameraDescription>
+          <cameraType>digital</cameraType>
+          <visibility>noRestrictions</visibility>
+        </trafficCameraRecord>
+      </predefinedLocationContainerExtension>
+      <location xsi:type="Point">
+        <locationForDisplay>
+          <latitude>43.405277</latitude>
+          <longitude>17.028334</longitude>
+        </locationForDisplay>
+        <pointAlongLinearElement>
+          <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+          <linearElement xsi:type="LinearElementByCode">
+            <linearElementIdentifier>A1</linearElementIdentifier>
+          </linearElement>
+          <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+            <distanceAlong>425520.0</distanceAlong>
+          </distanceAlongLinearElement>
+        </pointAlongLinearElement>
+        <pointByCoordinates>
+          <pointCoordinates>
+            <latitude>43.405277</latitude>
+            <longitude>17.028334</longitude>
+          </pointCoordinates>
+        </pointByCoordinates>
+      </location>
+    </predefinedLocationContainer>
+    <predefinedLocationContainer xsi:type="PredefinedLocation" id="CAMERA:A1:DUG:84085" version="2024-05-22 10:33:39.0">
+      <predefinedLocationContainerExtension>
+        <trafficCameraRecord>
+          <cameraId>CAMERA:A1:DUG:84085</cameraId>
+          <updatedTS>2024-05-22T10:33:39.000+02:00</updatedTS>
+          <stillImageUrl>https://cro3-tmp.hac.hr/cameras/1352824c-394f-430f-a51f-20353ce3e225.jpg</stillImageUrl>
+          <stillImageContentType>JPEG</stillImageContentType>
+          <stillImageHeight>480</stillImageHeight>
+          <stillImageWidth>640</stillImageWidth>
+          <cameraTitle>
+            <values>
+              <value lang="hr">A1 32 ZG 425+520 Čvor Zagvozd VK01</value>
+            </values>
+          </cameraTitle>
+          <cameraDescription>
+            <values>
+              <value lang="hr">Čvor Zagvozd</value>
+            </values>
+          </cameraDescription>
+          <cameraType>digital</cameraType>
+          <visibility>noRestrictions</visibility>
+        </trafficCameraRecord>
+      </predefinedLocationContainerExtension>
+      <location xsi:type="Point">
+        <locationForDisplay>
+          <latitude>43.405277</latitude>
+          <longitude>17.028334</longitude>
+        </locationForDisplay>
+        <pointAlongLinearElement>
+          <directionRelativeAtPoint>opposite</directionRelativeAtPoint>
+          <linearElement xsi:type="LinearElementByCode">
+            <linearElementIdentifier>A1</linearElementIdentifier>
+          </linearElement>
+          <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+            <distanceAlong>425520.0</distanceAlong>
+          </distanceAlongLinearElement>
+        </pointAlongLinearElement>
+        <pointByCoordinates>
+          <pointCoordinates>
+            <latitude>43.405277</latitude>
+            <longitude>17.028334</longitude>
+          </pointCoordinates>
+        </pointByCoordinates>
+      </location>
+    </predefinedLocationContainer>
+    <predefinedLocationContainer xsi:type="PredefinedLocation" id="CAMERA:A1:MAK:94001" version="2024-05-14 13:41:26.0">
+      <predefinedLocationContainerExtension>
+        <trafficCameraRecord>
+          <cameraId>CAMERA:A1:MAK:94001</cameraId>
+          <updatedTS>2024-05-14T13:41:26.000+02:00</updatedTS>
+          <stillImageUrl>https://cro3-dev154.hac.hr/cameras/80758aa3-aee1-4f24-9a25-e1902a017cd5.jpg</stillImageUrl>
+          <stillImageContentType>JPEG</stillImageContentType>
+          <stillImageHeight>480</stillImageHeight>
+          <stillImageWidth>640</stillImageWidth>
+          <cameraTitle>
+            <values>
+              <value lang="hr">A1 8 DU 102+505 Tunel Mala Kapela VK03</value>
+            </values>
+          </cameraTitle>
+          <cameraDescription>
+            <values>
+              <value lang="hr">Tunel Mala Kapela</value>
+            </values>
+          </cameraDescription>
+        </trafficCameraRecord>
+      </predefinedLocationContainerExtension>
+      <location xsi:type="Point">
+        <locationForDisplay>
+          <latitude>45.11722</latitude>
+          <longitude>15.246111</longitude>
+        </locationForDisplay>
+        <pointAlongLinearElement>
+          <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+          <linearElement xsi:type="LinearElementByCode">
+            <linearElementIdentifier>A1</linearElementIdentifier>
+          </linearElement>
+          <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+            <distanceAlong>102505.0</distanceAlong>
+          </distanceAlongLinearElement>
+        </pointAlongLinearElement>
+        <pointByCoordinates>
+          <pointCoordinates>
+            <latitude>45.11722</latitude>
+            <longitude>15.246111</longitude>
+          </pointCoordinates>
+        </pointByCoordinates>
+      </location>
+    </predefinedLocationContainer>
+    <predefinedLocationContainer xsi:type="PredefinedLocation" id="25100241666368" version="2024-06-11 01:00:45.0">
+      <predefinedLocationContainerExtension>
+        <trafficCameraRecord>
+          <cameraId>25100241666368</cameraId>
+          <updatedTS>2024-06-11T01:00:45.000+02:00</updatedTS>
+          <stillImageUrl>https://kamere.binaistra.com/CCTV29_Cvor_Vodnjan_jug.jpg</stillImageUrl>
+          <stillImageHeight>640</stillImageHeight>
+          <stillImageWidth>480</stillImageWidth>
+          <stillImageRefreshIntervalMS>25</stillImageRefreshIntervalMS>
+          <videoHeight>640</videoHeight>
+          <videoWidth>480</videoWidth>
+          <viewBearing>1</viewBearing>
+          <viewAngle>20</viewAngle>
+          <cameraTitle>
+            <values>
+              <value lang="hr">CCTV29 - Čvor Vodnjan Jug</value>
+            </values>
+          </cameraTitle>
+          <cameraDescription>
+            <values>
+              <value lang="hr">Prometna kamera</value>
+            </values>
+          </cameraDescription>
+          <regionName>
+            <values>
+              <value lang="hr">Južna Istra</value>
+            </values>
+          </regionName>
+        </trafficCameraRecord>
+      </predefinedLocationContainerExtension>
+      <location xsi:type="Point">
+        <locationForDisplay>
+          <latitude>44.954792</latitude>
+          <longitude>13.871744</longitude>
+        </locationForDisplay>
+        <pointByCoordinates>
+          <pointCoordinates>
+            <latitude>44.954792</latitude>
+            <longitude>13.871744</longitude>
+          </pointCoordinates>
+        </pointByCoordinates>
+      </location>
+    </predefinedLocationContainer>
+    <predefinedLocationContainer xsi:type="PredefinedLocation" id="CAMERA:A1:BOS:999999" version="2024-05-15 16:36:09.0">
+      <predefinedLocationContainerExtension>
+        <trafficCameraRecord>
+          <cameraId>CAMERA:A1:BOS:999999</cameraId>
+          <updatedTS>2024-05-15T16:36:09.000+02:00</updatedTS>
+          <stillImageUrl>https://cro3-dev154.hac.hr/cameras/385235ae-397e-4a9d-adf3-8d216aaf727c.jpg</stillImageUrl>
+          <stillImageContentType>JPEG</stillImageContentType>
+          <stillImageHeight>480</stillImageHeight>
+          <stillImageWidth>640</stillImageWidth>
+          <cameraTitle>
+            <values>
+              <value lang="hr">A1 5 DU 049+914  Čvor Novigrad VK01</value>
+            </values>
+          </cameraTitle>
+          <cameraDescription>
+            <values>
+              <value lang="hr">Čvor Novigrad</value>
+            </values>
+          </cameraDescription>
+          <cameraType>digital</cameraType>
+          <visibility>restricted</visibility>
+        </trafficCameraRecord>
+      </predefinedLocationContainerExtension>
+      <location xsi:type="Point">
+        <locationForDisplay>
+          <latitude>45.481945</latitude>
+          <longitude>15.432222</longitude>
+        </locationForDisplay>
+        <pointAlongLinearElement>
+          <directionRelativeAtPoint>aligned</directionRelativeAtPoint>
+          <linearElement xsi:type="LinearElementByCode">
+            <linearElementIdentifier>A1</linearElementIdentifier>
+          </linearElement>
+          <distanceAlongLinearElement xsi:type="DistanceFromLinearElementStart">
+            <distanceAlong>49914.0</distanceAlong>
+          </distanceAlongLinearElement>
+        </pointAlongLinearElement>
+        <pointByCoordinates>
+          <pointCoordinates>
+            <latitude>45.481945</latitude>
+            <longitude>15.432222</longitude>
+          </pointCoordinates>
+        </pointByCoordinates>
+      </location>
+    </predefinedLocationContainer>
+  </payloadPublication>
+</d2LogicalModel>

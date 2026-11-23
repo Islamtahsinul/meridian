@@ -1,0 +1,145 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "LC09_L2SP_201024_20261118_02_T1",
+   "bbox": [
+    -1.4073416563086503,
+    50.53899541506499,
+    2.22145213863358,
+    52.813294584935015
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -0.4978371358149244,
+       52.757516228319616
+      ],
+      [
+       -1.2123004676234634,
+       51.05894335856493
+      ],
+      [
+       1.356923538498122,
+       50.609907316441294
+      ],
+      [
+       2.1670937611579544,
+       52.30074116472408
+      ],
+      [
+       -0.4978371358149244,
+       52.757516228319616
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eo:cloud_cover": 57.89,
+    "landsat:wrs_path": "201",
+    "landsat:scene_id": "LC92010242026322LGN00",
+    "datetime": "2026-11-18T10:52:31.898391Z",
+    "platform": "landsat-9",
+    "landsat:wrs_row": "024"
+   },
+   "assets": {},
+   "links": [
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2"
+    },
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_201024_20261118_02_T1"
+    },
+    {
+     "rel": "via",
+     "href": "https://landsatlook.usgs.gov/stac-server/collections/landsat-c2l2-sr/items/LC09_L2SP_201024_20261118_20261119_02_T1_SR",
+     "type": "application/json",
+     "title": "USGS STAC Item"
+    },
+    {
+     "rel": "via",
+     "href": "https://landsatlook.usgs.gov/stac-server/collections/landsat-c2l2-st/items/LC09_L2SP_201024_20261118_20261119_02_T1_ST",
+     "type": "application/json",
+     "title": "USGS STAC Item"
+    }
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "LC09_L2SP_201024_20261102_02_T1",
+   "bbox": [
+    -1.4029116571030893,
+    50.5391454146146,
+    2.225692139661615,
+    52.813324585385395
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -0.49206888472662136,
+       52.75768637467912
+      ],
+      [
+       -1.2067504677038505,
+       51.05914358722714
+      ],
+      [
+       1.3624331550616213,
+       50.60998490777466
+      ],
+      [
+       2.1728175397570104,
+       52.30051166782107
+      ],
+      [
+       -0.49206888472662136,
+       52.75768637467912
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eo:cloud_cover": 56.8,
+    "landsat:wrs_path": "201",
+    "landsat:scene_id": "LC92010242026306LGN00",
+    "datetime": "2026-11-02T10:52:29.887684Z",
+    "platform": "landsat-9",
+    "landsat:wrs_row": "024"
+   },
+   "assets": {},
+   "links": [
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2"
+    },
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "href": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-c2-l2/items/LC09_L2SP_201024_20261102_02_T1"
+    },
+    {
+     "rel": "via",
+     "href": "https://landsatlook.usgs.gov/stac-server/collections/landsat-c2l2-sr/items/LC09_L2SP_201024_20261102_20261103_02_T1_SR",
+     "type": "application/json",
+     "title": "USGS STAC Item"
+    },
+    {
+     "rel": "via",
+     "href": "https://landsatlook.usgs.gov/stac-server/collections/landsat-c2l2-st/items/LC09_L2SP_201024_20261102_20261103_02_T1_ST",
+     "type": "application/json",
+     "title": "USGS STAC Item"
+    }
+   ]
+  }
+ ]
+}

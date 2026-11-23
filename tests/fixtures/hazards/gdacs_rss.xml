@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://www.gdacs.org" xmlns:ns3="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:ns4="http://www.georss.org/georss" version="2.0">
+  <channel>
+    <title>GDACS RSS information</title>
+    <link>http://www.gdacs.org/</link>
+    <copyright>public domain</copyright>
+    <description>Near real-time notification about natural disaster with a potential humanitarian impact</description>
+    <managingEditor>editor@example.invalid</managingEditor>
+    
+    
+    
+    <webMaster>editor@example.invalid</webMaster>
+    <pubDate>Sun, 22 Nov 2026 21:15:03 GMT</pubDate>
+    <ns0:link href="http://www.gdacs.org/xml/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Green earthquake (Magnitude 5.9M, Depth:10km) in China 21/11/2026 10:45 UTC, Few people affected (in MMI&gt;=VII).</title>
+      <description>On 11/21/2026 10:45:33 AM, an earthquake occurred in China potentially affecting Few people affected (in MMI&gt;=VII). The earthquake had Magnitude 5.9M, Depth:10km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1747930_1.png" />
+      <ns1:temporary>false</ns1:temporary>
+      <link>http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578540</link>
+      <pubDate>Sat, 21 Nov 2026 11:02:39 GMT</pubDate>
+      <ns1:dateadded>Sat, 21 Nov 2026 11:02:39 GMT</ns1:dateadded>
+      <ns1:datemodified>Sun, 22 Nov 2026 14:01:27 GMT</ns1:datemodified>
+      <ns1:iscurrent>true</ns1:iscurrent>
+      <ns1:fromdate>Sat, 21 Nov 2026 10:45:33 GMT</ns1:fromdate>
+      <ns1:todate>Sat, 21 Nov 2026 10:45:33 GMT</ns1:todate>
+      <ns1:durationinweek>0</ns1:durationinweek>
+      <ns1:year>2026</ns1:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1578540</guid>
+      <ns3:Point>
+        <ns3:lat>37.1958</ns3:lat>
+        <ns3:long>96.6398</ns3:long>
+      </ns3:Point>
+      
+      <ns1:bbox>92.6398 100.6398 33.1958 41.1958</ns1:bbox>
+      <ns4:point>37.1958 96.6398</ns4:point>
+      <ns1:cap>https://www.gdacs.org/contentdata/resources/EQ/1578540/cap_1578540.xml</ns1:cap>
+      <ns1:icon>http://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</ns1:icon>
+      <ns1:version>1</ns1:version>
+      <ns1:eventtype>EQ</ns1:eventtype>
+      <ns1:alertlevel>Green</ns1:alertlevel>
+      <ns1:alertscore>0.01</ns1:alertscore>
+      <ns1:episodealertlevel>Green</ns1:episodealertlevel>
+      <ns1:episodealertscore>1</ns1:episodealertscore>
+      <ns1:eventname />
+      <ns1:eventid>1578540</ns1:eventid>
+      <ns1:episodeid>1747930</ns1:episodeid>
+      <ns1:calculationtype>earthquakeonly</ns1:calculationtype>
+      <ns1:severity unit="M" value="5.9">Magnitude 5.9M, Depth:10km</ns1:severity>
+      <ns1:population unit="(in MMI&gt;=VII)" value="27">Few people affected (in MMI&gt;=VII)</ns1:population>
+      <ns1:vulnerability value="1.34753404409685" />
+      <ns1:iso3>CHN</ns1:iso3>
+      <ns1:country>China</ns1:country>
+      <ns1:glide />
+      <ns1:mapimage />
+      <ns1:maplink />
+      <ns1:gtsimage />
+      <ns1:gtslink />
+      <ns1:resources>
+        <ns1:resource id="event_rss" version="0" source="EC-JRC" url="http://www.gdacs.org//datareport/resources/EQ/1578540/rss_1578540.xml" type="rss">
+          <ns1:title>Event in rss format</ns1:title>
+          <ns1:description>Joint Research Center of the European Commission</ns1:description>
+          <ns1:acknowledgements>Copyright notice: European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given.</ns1:acknowledgements>
+          <ns1:accesslevel>Public</ns1:accesslevel>
+        </ns1:resource>
+      </ns1:resources>
+    </item>
+    <item>
+      <title>Green earthquake (Magnitude 6.8M, Depth:143.423km) in Indonesia 21/11/2026 09:42 UTC, 70 thousand in MMI V.</title>
+      <description>On 11/21/2026 9:42:10 AM, an earthquake occurred in Indonesia potentially affecting 70 thousand in MMI V. The earthquake had Magnitude 6.8M, Depth:143.423km.</description>
+      <enclosure type="image/png" length="1" url="https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/eq/eq1747917_1.png" />
+      <ns1:temporary>false</ns1:temporary>
+      <link>http://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1578530</link>
+      <pubDate>Sat, 21 Nov 2026 09:54:31 GMT</pubDate>
+      <ns1:dateadded>Sat, 21 Nov 2026 09:54:31 GMT</ns1:dateadded>
+      <ns1:datemodified>Sun, 22 Nov 2026 14:01:55 GMT</ns1:datemodified>
+      <ns1:iscurrent>true</ns1:iscurrent>
+      <ns1:fromdate>Sat, 21 Nov 2026 09:42:10 GMT</ns1:fromdate>
+      <ns1:todate>Sat, 21 Nov 2026 09:42:10 GMT</ns1:todate>
+      <ns1:durationinweek>0</ns1:durationinweek>
+      <ns1:year>2026</ns1:year>
+      <dc:subject>EQ1</dc:subject>
+      <guid isPermaLink="false">EQ1578530</guid>
+      <ns3:Point>
+        <ns3:lat>-7.7563</ns3:lat>
+        <ns3:long>127.5428</ns3:long>
+      </ns3:Point>
+      
+      <ns1:bbox>123.5428 131.5428 -11.7563 -3.7563</ns1:bbox>
+      <ns4:point>-7.7563 127.5428</ns4:point>
+      <ns1:cap>https://www.gdacs.org/contentdata/resources/EQ/1578530/cap_1578530.xml</ns1:cap>
+      <ns1:icon>http://www.gdacs.org/Images/gdacs_icons/alerts/Green/EQ.png</ns1:icon>
+      <ns1:version>1</ns1:version>
+      <ns1:eventtype>EQ</ns1:eventtype>
+      <ns1:alertlevel>Green</ns1:alertlevel>
+      <ns1:alertscore>0</ns1:alertscore>
+      <ns1:episodealertlevel>Green</ns1:episodealertlevel>
+      <ns1:episodealertscore>1</ns1:episodealertscore>
+      <ns1:eventname />
+      <ns1:eventid>1578530</ns1:eventid>
+      <ns1:episodeid>1747917</ns1:episodeid>
+      <ns1:calculationtype>tsunami</ns1:calculationtype>
+      <ns1:severity unit="M" value="6.8">Magnitude 6.8M, Depth:143.4km</ns1:severity>
+      <ns1:population unit="in MMI V" value="67432">70 thousand in MMI V</ns1:population>
+      <ns1:vulnerability value="1.62113293717696" />
+      <ns1:iso3>IDN</ns1:iso3>
+      <ns1:country>Indonesia</ns1:country>
+      <ns1:glide />
+      <ns1:mapimage />
+      <ns1:maplink />
+      <ns1:gtsimage />
+      <ns1:gtslink />
+      <ns1:resources>
+        <ns1:resource id="event_rss" version="0" source="EC-JRC" url="http://www.gdacs.org//datareport/resources/EQ/1578530/rss_1578530.xml" type="rss">
+          <ns1:title>Event in rss format</ns1:title>
+          <ns1:description>Joint Research Center of the European Commission</ns1:description>
+          <ns1:acknowledgements>Copyright notice: European Union (CC BY 4.0), reuse is allowed, provided appropriate credit to GDACS is given.</ns1:acknowledgements>
+          <ns1:accesslevel>Public</ns1:accesslevel>
+        </ns1:resource>
+      </ns1:resources>
+    </item>
+    </channel>
+</rss>

@@ -1,0 +1,52 @@
+{
+ "listaCamaras": [
+  {
+   "concello": "Bueu",
+   "dataUltimaAct": "2026-11-23T12:24:00",
+   "idConcello": 36004,
+   "identificador": 10904,
+   "imaxeCamara": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Onsplaya/ultima.jpg",
+   "imaxeCamaraMini": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Onsplaya/miniUltima.jpg",
+   "lat": 42.376904,
+   "lon": -8.932206,
+   "nomeCamara": "Ons Praia",
+   "provincia": "Pontevedra"
+  },
+  {
+   "concello": "Bueu",
+   "dataUltimaAct": "2026-11-23T12:24:00",
+   "idConcello": 36004,
+   "identificador": 10904,
+   "imaxeCamara": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Onspuerto/ultima.jpg",
+   "imaxeCamaraMini": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Onspuerto/miniUltima.jpg",
+   "lat": 42.37694,
+   "lon": -8.932135,
+   "nomeCamara": "Ons Porto",
+   "provincia": "Pontevedra"
+  },
+  {
+   "concello": "Ribadeo",
+   "dataUltimaAct": "2026-11-23T12:24:00",
+   "idConcello": 27051,
+   "identificador": 10900,
+   "imaxeCamara": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Ribadeoporto/ultima.jpg",
+   "imaxeCamaraMini": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Ribadeoporto/miniUltima.jpg",
+   "lat": 43.5412,
+   "lon": -7.03614,
+   "nomeCamara": "Ribadeo",
+   "provincia": "Lugo"
+  },
+  {
+   "concello": "Burela",
+   "dataUltimaAct": "2025-01-02T10:00:00",
+   "idConcello": 27902,
+   "identificador": 10901,
+   "imaxeCamara": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Burela/ultima.jpg",
+   "imaxeCamaraMini": "https://www.meteogalicia.gal/datosred/camaras/MeteoGalicia/Burela/miniUltima.jpg",
+   "lat": 43.656,
+   "lon": -7.34435,
+   "nomeCamara": "Burela",
+   "provincia": "Lugo"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "cameraCount": 3,
+ "videoCameras": [
+  {
+   "urls": {
+    "rtmp": "rtmpt://video.deldot.gov:80/live/TCAM901.stream",
+    "f4m": "http://video.deldot.gov:1935/live/TCAM901.stream/manifest.f4m",
+    "m3u8": "http://video.deldot.gov:1935/live/TCAM901.stream/playlist.m3u8",
+    "m3u8s": "https://video.deldot.gov:443/live/TCAM901.stream/playlist.m3u8",
+    "mssmooth": "http://video.deldot.gov:1935/live/TCAM901.stream/Manifest"
+   },
+   "id": "TCAM901",
+   "title": "DE 99 @ TEST RD (NORTH OFF)",
+   "county": "Testcounty",
+   "lat": 39.0,
+   "lon": -75.5,
+   "hash": "900000",
+   "enabled": true,
+   "status": "Active"
+  },
+  {
+   "urls": {
+    "rtmp": "rtmpt://video.deldot.gov:80/live/TCAM902.stream",
+    "f4m": "http://video.deldot.gov:1935/live/TCAM902.stream/manifest.f4m",
+    "m3u8": "http://video.deldot.gov:1935/live/TCAM902.stream/playlist.m3u8",
+    "m3u8s": "https://video.deldot.gov:443/live/TCAM902.stream/playlist.m3u8",
+    "mssmooth": "http://video.deldot.gov:1935/live/TCAM902.stream/Manifest"
+   },
+   "id": "TCAM902",
+   "title": "SAMPLE ST @ EXAMPLE CONNECTOR",
+   "county": "Testcounty",
+   "lat": 39.1,
+   "lon": -75.55,
+   "hash": "900001",
+   "enabled": true,
+   "status": "Active"
+  },
+  {
+   "urls": {
+    "rtmp": "rtmpt://video.deldot.gov:80/live/TCAM903.stream",
+    "f4m": "http://video.deldot.gov:1935/live/TCAM903.stream/manifest.f4m",
+    "m3u8": "http://video.deldot.gov:1935/live/TCAM903.stream/playlist.m3u8",
+    "m3u8s": "https://video.deldot.gov:443/live/TCAM903.stream/playlist.m3u8",
+    "mssmooth": "http://video.deldot.gov:1935/live/TCAM903.stream/Manifest"
+   },
+   "id": "TCAM903",
+   "title": "DE 98 @ DEMO RD",
+   "county": "Testcounty",
+   "lat": 39.2,
+   "lon": -75.6,
+   "hash": "900002",
+   "enabled": true,
+   "status": "Unavailable"
+  }
+ ]
+}

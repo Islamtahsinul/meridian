@@ -1,0 +1,57 @@
+{
+ "objectIdFieldName": "ObjectId",
+ "features": [
+  {
+   "attributes": {
+    "portid": "chokepoint1",
+    "portname": "Suez Canal",
+    "fullname": "Suez Canal",
+    "lat": 30.59334599,
+    "lon": 32.43688221,
+    "vessel_count_total": 19787,
+    "pageid": "c57c79bf612b4372b08a9c6ea9c97ef0"
+   }
+  },
+  {
+   "attributes": {
+    "portid": "chokepoint6",
+    "portname": "Strait of Hormuz",
+    "fullname": "Strait of Hormuz",
+    "lat": 26.29685349,
+    "lon": 56.85984844,
+    "vessel_count_total": 32496,
+    "pageid": "cb5856222a5b4105adc6ee7e880a1730"
+   }
+  },
+  {
+   "attributes": {
+    "portid": "chokepoint12",
+    "portname": "Korea Strait",
+    "fullname": "Korea Strait",
+    "lat": 34.13076811,
+    "lon": 129.209206,
+    "vessel_count_total": 82119,
+    "pageid": "3adbfe51b53e42e48ef5ece5a3bb12a9"
+   }
+  },
+  {
+   "attributes": {
+    "portid": "chokepoint28",
+    "portname": "Kerch Strait",
+    "fullname": "Kerch Strait",
+    "lat": 45.26676309041701,
+    "lon": 36.54390169965004,
+    "vessel_count_total": 10390,
+    "pageid": "0f7ba54d142e48ea98f8b70a159cd6ae"
+   }
+  },
+  {
+   "attributes": {
+    "portid": "port999",
+    "portname": "Not a chokepoint",
+    "lat": 1,
+    "lon": 2
+   }
+  }
+ ]
+}

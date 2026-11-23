@@ -1,0 +1,90 @@
+<XNOTAM-Update xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.1" origin="" created="2026-11-23T08:09:11">
+  <Group>
+    <Add>
+      <Not>
+        <NotUid>
+          <txtNameAcctFac>FDC</txtNameAcctFac>
+          <dateIndexYear>2026</dateIndexYear>
+          <noSeqNo>9435</noSeqNo>
+          <dateIssued>2026-11-23T14:03:54</dateIssued>
+          <txtLocalName>6/9435</txtLocalName>
+          <codeGUID>ac2e86be-d889-487f-adfc-5c691058311b</codeGUID>
+        </NotUid>
+        <codeDailyOper>true</codeDailyOper>
+        <dateEffective>2026-11-23T14:00:00</dateEffective>
+        <dateExpire>2026-11-30T23:00:00</dateExpire>
+        <codeTimeZone>UTC</codeTimeZone>
+        <codeExpirationTimeZone>UTC</codeExpirationTimeZone>
+        <txtDescrPurpose>TO PROVIDE A SAFE ENVIRONMENT FOR FIRE FIGHTING ACFT OPS</txtDescrPurpose>
+        <AffLocGroup>
+          <txtNameCity>69NM NW LYNCHBURG</txtNameCity>
+          <txtNameUSState>VIRGINIA</txtNameUSState>
+        </AffLocGroup>
+        <codeFacility>ZDC</codeFacility>
+        <TfrNot>
+          <codeType>91.137(a)(2)</codeType>
+          <TFRAreaGroup>
+            <aseTFRArea>
+              <AseUid>
+                <codeType>RAS</codeType>
+                <codeId>917</codeId>
+              </AseUid>
+              <txtName>Hazard Area1</txtName>
+              <codeDistVerUpper>ALT</codeDistVerUpper>
+              <valDistVerUpper>5200</valDistVerUpper>
+              <uomDistVerUpper>FT</uomDistVerUpper>
+              <codeDistVerLower>ALT</codeDistVerLower>
+              <valDistVerLower>0</valDistVerLower>
+              <uomDistVerLower>FT</uomDistVerLower>
+              <Att>
+                <codeWorkHr>NOTAM</codeWorkHr>
+              </Att>
+              <codeExclVerUpper>INCLUDE</codeExclVerUpper>
+              <codeExclVerLower>INCLUDE</codeExclVerLower>
+              <isScheduledTfrArea>TRUE</isScheduledTfrArea>
+              <dayCode>Daily</dayCode>
+              <ScheduleGroup>
+                <isTimeSeparate>TRUE</isTimeSeparate>
+                <dateEffective>2026-11-23T14:00:00</dateEffective>
+                <dateExpire>2026-11-30T23:00:00</dateExpire>
+                <startTime>2026-11-23T14:00:00</startTime>
+                <endTime>2026-11-23T23:00:00</endTime>
+              </ScheduleGroup>
+            </aseTFRArea>
+            <Aac>
+              <AacUid>
+                <AseUidChi>
+                  <codeType>RAS</codeType>
+                  <codeId>917</codeId>
+                </AseUidChi>
+                <AseUidPar>
+                  <codeType>PART</codeType>
+                  <codeId>918</codeId>
+                </AseUidPar>
+              </AacUid>
+              <codeType>BOM</codeType>
+              <codeOpr>BASE</codeOpr>
+            </Aac>
+            <InstructionsGroup />
+            <codeIncFRD>TRUE</codeIncFRD>
+            <codeShpPrt>COMPOSITE</codeShpPrt>
+            <codeLclTime>TRUE</codeLclTime>
+            <codeAuthATC>FALSE</codeAuthATC>
+          </TFRAreaGroup>
+          <TemplateType>BigThreatLanguage</TemplateType>
+          <codeCtrlFacilityType>ARTCC</codeCtrlFacilityType>
+        </TfrNot>
+        <txtNameCoordFacility>WASHINGTON</txtNameCoordFacility>
+        <codeCoordFacility>ZDC</codeCoordFacility>
+        <codeCoordFacilityType>ARTCC</codeCoordFacilityType>
+        <txtAddrCoordPhone>703-771-3470</txtAddrCoordPhone>
+        <txtNamePOC>VIRGINIA INTERAGENCY COORDINATION CENTER ,  LITTLE RIDGE</txtNamePOC>
+        <txtAddrPOCPhone>434-423-2002</txtAddrPOCPhone>
+        <valFreqPOC>123.125</valFreqPOC>
+        <txtDescrUSNS>!FDC 6/9435 ZDC VA..AIRSPACE 69NM NW LYNCHBURG, VA..TEMPORARY FLIGHT RESTRICTIONS. PURSUANT TO 14 CFR SECTION 91.137(A)(2) TEMPORARY FLIGHT RESTRICTIONS ARE IN EFFECT TO PROVIDE A SAFE ENVIRONMENT FOR FIRE FIGHTING ACFT OPS. WI AN AREA DEFINED AS 1NM RADIUS OF 381800N0794730W (EKN166039.6) SFC-5200FT VIRGINIA INTERAGENCY COORDINATION CENTER TEL 434-423-2002 OR FREQ 123.125 LITTLE RIDGE IS IN CHARGE OF THE OPERATION. WASHINGTON/ZDC/ARTCC TEL 703-771-3470 IS THE FAA CDN FAC. DLY 1400-2300 2611231400-2611302300 </txtDescrUSNS>
+        <txtDescrTraditional>!FDC 6/9435 ZDC VA..AIRSPACE 69NM NW LYNCHBURG, VA..TEMPORARY FLIGHT RESTRICTION. PURSUANT TO 14 CFR SECTION 91.137(A)(2), TEMPORARY FLIGHT RESTRICTIONS ARE IN EFFECT WI AN AREA DEFINED AS 1NM RADIUS OF 381800N0794730W (EKN166039.6) SFC-5200FT MSL EFFECTIVE 2611231400 UTC UNTIL 2611302300 UTC DLY 1400-2300. TO PROVIDE A SAFE ENVIRONMENT FOR FIRE FIGHTING ACFT OPS VIRGINIA INTERAGENCY COORDINATION CENTER , LITTLE RIDGE, TEL 434-423-2002, /FREQ 123.125 IS IN CHARGE OF ON SCENE EMERGENCY RESPONSE ACTIVITIES. THE WASHINGTON /ZDC/ ARTCC, TEL 703-771-3470, IS THE CDN FAC. 2611231400-2611302300 2611231400-2611302300</txtDescrTraditional>
+        <codeFreeformText>false</codeFreeformText>
+      </Not>
+    </Add>
+  </Group>
+</XNOTAM-Update>

@@ -1,0 +1,123 @@
+{
+ "success": true,
+ "errors": [],
+ "result": {
+  "annotations": [
+   {
+    "id": "1753",
+    "dataSource": "ALL",
+    "description": "Synthetic test annotation 1: a made-up outage used only by the unit tests.",
+    "tags": [],
+    "scope": null,
+    "startDate": "2026-11-20T23:00:00Z",
+    "endDate": "2026-11-21T04:15:00Z",
+    "locations": [
+     "GF"
+    ],
+    "asns": [],
+    "geoIds": [],
+    "origins": [],
+    "entities": [
+     {
+      "entityType": "LOCATION",
+      "entityValue": "GF",
+      "entityName": "French Guiana",
+      "entityLocation": null
+     }
+    ],
+    "eventType": "OUTAGE",
+    "linkedUrl": "https://radar.example.invalid/annotation/1753",
+    "asnsDetails": [],
+    "locationsDetails": [
+     {
+      "name": "French Guiana",
+      "code": "GF"
+     }
+    ],
+    "originsDetails": [],
+    "outage": {
+     "outageCause": "POWER_OUTAGE",
+     "outageType": "REGIONAL"
+    }
+   },
+   {
+    "id": "1752",
+    "dataSource": "ALL",
+    "description": "Synthetic test annotation 2: a made-up outage used only by the unit tests.",
+    "tags": [],
+    "scope": null,
+    "startDate": "2026-11-18T19:15:00Z",
+    "endDate": "2026-11-18T23:00:00Z",
+    "locations": [],
+    "asns": [
+     65544
+    ],
+    "geoIds": [],
+    "origins": [],
+    "entities": [
+     {
+      "entityType": "AS",
+      "entityValue": "65544",
+      "entityName": "EXAMPLE-NETWORK-16",
+      "entityLocation": "CH"
+     }
+    ],
+    "eventType": "OUTAGE",
+    "linkedUrl": "https://radar.example.invalid/annotation/1752",
+    "asnsDetails": [
+     {
+      "asn": "65544",
+      "name": "EXAMPLE-NETWORK-16",
+      "location": {
+       "code": "CH",
+       "name": "Switzerland"
+      }
+     }
+    ],
+    "locationsDetails": [],
+    "originsDetails": [],
+    "outage": {
+     "outageCause": "UNKNOWN",
+     "outageType": "NETWORK"
+    }
+   },
+   {
+    "id": "1751",
+    "dataSource": "ALL",
+    "description": "Synthetic test annotation 3: a made-up outage used only by the unit tests.",
+    "tags": [],
+    "scope": null,
+    "startDate": "2026-11-18T12:30:00Z",
+    "endDate": "2026-11-20T08:00:00Z",
+    "locations": [
+     "PK"
+    ],
+    "asns": [],
+    "geoIds": [],
+    "origins": [],
+    "entities": [
+     {
+      "entityType": "LOCATION",
+      "entityValue": "PK",
+      "entityName": "Pakistan",
+      "entityLocation": null
+     }
+    ],
+    "eventType": "OUTAGE",
+    "linkedUrl": "https://radar.example.invalid/annotation/1751",
+    "asnsDetails": [],
+    "locationsDetails": [
+     {
+      "name": "Pakistan",
+      "code": "PK"
+     }
+    ],
+    "originsDetails": [],
+    "outage": {
+     "outageCause": "UNKNOWN",
+     "outageType": "NATIONWIDE"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+[
+ {
+  "camera_url": {
+   "url": "https://trafficcam.calgary.ca/loc37.jpg",
+   "description": "Camera 38"
+  },
+  "quadrant": "NW",
+  "camera_location": "Crowchild Trail / Shaganappi Trail NW",
+  "point": {
+   "type": "Point",
+   "coordinates": [
+    -114.149379,
+    51.0988494
+   ]
+  }
+ },
+ {
+  "camera_url": {
+   "url": "https://trafficcam.calgary.ca/loc42.jpg",
+   "description": "Camera 43"
+  },
+  "quadrant": "NW",
+  "camera_location": "Beddington Trail / Country Hills Blvd NW",
+  "point": {
+   "type": "Point",
+   "coordinates": [
+    -114.0922392,
+    51.1438922
+   ]
+  }
+ }
+]

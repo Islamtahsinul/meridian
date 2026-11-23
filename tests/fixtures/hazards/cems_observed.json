@@ -1,0 +1,91 @@
+{
+ "type": "FeatureCollection",
+ "name": "EMSR936_AOI01_DEL_MONIT01_observedEventA_v1",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "event_type": "5-Flood",
+    "obj_desc": "Riverine flood",
+    "notation": "Flooded area"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -79.6,
+       -2.12
+      ],
+      [
+       -79.58,
+       -2.12
+      ],
+      [
+       -79.58,
+       -2.1
+      ],
+      [
+       -79.6,
+       -2.1
+      ],
+      [
+       -79.6,
+       -2.12
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "event_type": "5-Flood",
+    "obj_desc": "Riverine flood",
+    "notation": "Flooded area"
+   },
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        -79.57,
+        -2.15
+       ],
+       [
+        -79.56,
+        -2.15
+       ],
+       [
+        -79.56,
+        -2.14
+       ],
+       [
+        -79.57,
+        -2.14
+       ],
+       [
+        -79.57,
+        -2.15
+       ]
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "notation": "Point"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.6,
+     -2.1
+    ]
+   }
+  }
+ ]
+}

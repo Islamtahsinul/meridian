@@ -1,0 +1,46 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "TRAFCAM_ID": 900,
+    "LOCATION": "Test Ave. and Sample St. 1",
+    "OWNER": "CoK",
+    "IMAGE_": "https://its.kirklandwa.gov/CamView/TestCamera1PTZ.jpg",
+    "LAT": -122.2,
+    "LON": 47.71
+   },
+   "geometry": {
+    "x": -122.2,
+    "y": 47.71
+   }
+  },
+  {
+   "attributes": {
+    "TRAFCAM_ID": 901,
+    "LOCATION": "Test Ave. and Sample St. 2",
+    "OWNER": "CoK",
+    "IMAGE_": "https://its.kirklandwa.gov/CamView/TestCamera2PTZ.jpg",
+    "LAT": -122.201,
+    "LON": 47.711
+   },
+   "geometry": {
+    "x": -122.201,
+    "y": 47.711
+   }
+  },
+  {
+   "attributes": {
+    "TRAFCAM_ID": 902,
+    "LOCATION": "Test Ave. and Sample St. 3",
+    "OWNER": "CoK",
+    "IMAGE_": "https://its.kirklandwa.gov/CamView/TestCamera3PTZ.jpg",
+    "LAT": -122.202,
+    "LON": 47.712
+   },
+   "geometry": {
+    "x": -122.202,
+    "y": 47.712
+   }
+  }
+ ]
+}

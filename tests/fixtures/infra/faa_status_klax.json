@@ -1,0 +1,47 @@
+{
+ "delay": false,
+ "type": "Closed to some traffic",
+ "reason": null,
+ "avg_delay_min": null,
+ "trend": null,
+ "source": "FAA NAS Status",
+ "updated": 1779906709.0,
+ "code": "partial_closure",
+ "level": "low",
+ "summary": "Closed to non-scheduled transient general aviation aircraft, except with 24 hours' prior permission until 28 May 16:00 UTC.",
+ "max_delay_min": null,
+ "start": 1779906360.0,
+ "end": 1811520000.0,
+ "items": [
+  {
+   "delay": false,
+   "type": "Closed to some traffic",
+   "reason": null,
+   "avg_delay_min": null,
+   "trend": null,
+   "source": "FAA NAS Status",
+   "updated": 1779906709.0,
+   "code": "partial_closure",
+   "level": "low",
+   "summary": "Closed to non-scheduled transient general aviation aircraft, except with 24 hours' prior permission until 28 May 16:00 UTC.",
+   "max_delay_min": null,
+   "min_delay_min": null,
+   "start": 1779906360.0,
+   "end": 1811520000.0
+  }
+ ],
+ "airport": {
+  "faa": "LAX",
+  "icao": "KLAX",
+  "name": "Los Angeles International",
+  "lat": 33.9416,
+  "lon": -118.4085
+ },
+ "runways": {
+  "arrival": "25L/24R",
+  "departure": "25R/24L",
+  "arrival_rate": 66
+ },
+ "fetched_at": 1795472697.8,
+ "link": "https://nasstatus.faa.gov/"
+}

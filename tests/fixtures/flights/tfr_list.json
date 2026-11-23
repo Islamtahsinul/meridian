@@ -1,0 +1,42 @@
+[
+ {
+  "notam_id": "6/9435",
+  "type": "HAZARDS",
+  "facility": "ZDC",
+  "state": "VA",
+  "description": "69NM NW LYNCHBURG, VA, Monday, November 23, 2026 through Monday, November 30, 2026 UTC",
+  "creation_date": "11/23/2026"
+ },
+ {
+  "notam_id": "6/9335",
+  "type": "VIP",
+  "facility": "ZMA",
+  "state": "FL",
+  "description": "West Palm Beach, FL, Tuesday, November 24, 2026 through Sunday, November 29, 2026 Local",
+  "creation_date": "11/22/2026"
+ },
+ {
+  "notam_id": "6/8986",
+  "type": "UAS PUBLIC GATHERING",
+  "facility": "ZOB",
+  "state": "MI",
+  "description": "Detroit, MI, Thursday, November 26, 2026 UTC",
+  "creation_date": "11/19/2026"
+ },
+ {
+  "notam_id": "6/6924",
+  "type": "SECURITY",
+  "facility": "ZJX",
+  "state": "FL",
+  "description": "DISNEY WORLD THEME PARK, ORLANDO, FL",
+  "creation_date": "11/10/2026"
+ },
+ {
+  "notam_id": "6/3366",
+  "type": "SECURITY",
+  "facility": "FDC",
+  "state": "USA",
+  "description": "  USA, Thursday, April 16, 2026 through Sunday, April 16, 2028 UTC",
+  "creation_date": "04/16/2026"
+ }
+]

@@ -1,0 +1,55 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "FID": 1,
+    "OBJECTID": 1,
+    "No": 1,
+    "Station_ID": 56,
+    "Location": "Hawthorn",
+    "Road_No": "B1432",
+    "Owner": "DCC",
+    "Link": "http://www.durham.gov.uk/article/4530?station=56",
+    "Cam_Link": "https://www.durham.gov.uk/weathercameras?action=detail&camera=56"
+   },
+   "geometry": {
+    "x": -1.3569629267213237,
+    "y": 54.808160794845534
+   }
+  },
+  {
+   "attributes": {
+    "FID": 2,
+    "OBJECTID": 2,
+    "No": 2,
+    "Station_ID": 3382,
+    "Location": "Running Waters",
+    "Road_No": "A181",
+    "Owner": "DCC",
+    "Link": "http://www.durham.gov.uk/article/4530?station=3382",
+    "Cam_Link": "https://www.durham.gov.uk/weathercameras?action=detail&camera=3382"
+   },
+   "geometry": {
+    "x": -1.4892341027505587,
+    "y": 54.75780893691157
+   }
+  },
+  {
+   "attributes": {
+    "FID": 3,
+    "OBJECTID": 3,
+    "No": 3,
+    "Station_ID": null,
+    "Location": "Bradbury",
+    "Road_No": "A689",
+    "Owner": "DCC",
+    "Link": "http://www.durham.gov.uk/article/4530?station=54",
+    "Cam_Link": "https://www.durham.gov.uk/weathercameras?action=detail&camera=54"
+   },
+   "geometry": {
+    "x": -1.5165695870896518,
+    "y": 54.654376716112516
+   }
+  }
+ ]
+}

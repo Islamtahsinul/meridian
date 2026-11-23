@@ -1,0 +1,91 @@
+{
+ "total": 2,
+ "webcams": [
+  {
+   "title": "Testville: Lake view",
+   "viewCount": 1111,
+   "webcamId": 1900000001,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:07:09.000Z",
+   "images": {
+    "current": {
+     "icon": "https://imgproxy.windy.com/_/icon/plain/current/1900000001/original.jpg?v=2",
+     "thumbnail": "https://imgproxy.windy.com/_/thumbnail/plain/current/1900000001/original.jpg?v=2",
+     "preview": "https://imgproxy.windy.com/_/preview/plain/current/1900000001/original.jpg?v=2"
+    },
+    "sizes": {
+     "icon": {
+      "width": 48,
+      "height": 48
+     },
+     "thumbnail": {
+      "width": 200,
+      "height": 112
+     },
+     "preview": {
+      "width": 400,
+      "height": 224
+     }
+    },
+    "daylight": {
+     "icon": "https://imgproxy.windy.com/_/icon/plain/daylight/1900000001/original.jpg?v=2",
+     "thumbnail": "https://imgproxy.windy.com/_/thumbnail/plain/daylight/1900000001/original.jpg?v=2",
+     "preview": "https://imgproxy.windy.com/_/preview/plain/daylight/1900000001/original.jpg?v=2"
+    }
+   },
+   "player": {
+    "day": "https://webcams.windy.com/webcams/public/embed/player/1900000001/day",
+    "month": "https://webcams.windy.com/webcams/public/embed/player/1900000001/month",
+    "year": "https://webcams.windy.com/webcams/public/embed/player/1900000001/year",
+    "lifetime": "https://webcams.windy.com/webcams/public/embed/player/1900000001/lifetime"
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000001",
+    "provider": "https://camera-1.example.invalid/"
+   }
+  },
+  {
+   "title": "Sampletown › East: Ridge",
+   "viewCount": 1222,
+   "webcamId": 1900000002,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:01:40.000Z",
+   "images": {
+    "current": {
+     "icon": "https://imgproxy.windy.com/_/icon/plain/current/1900000002/original.jpg?v=2",
+     "thumbnail": "https://imgproxy.windy.com/_/thumbnail/plain/current/1900000002/original.jpg?v=2",
+     "preview": "https://imgproxy.windy.com/_/preview/plain/current/1900000002/original.jpg?v=2"
+    },
+    "sizes": {
+     "icon": {
+      "width": 48,
+      "height": 48
+     },
+     "thumbnail": {
+      "width": 200,
+      "height": 112
+     },
+     "preview": {
+      "width": 400,
+      "height": 224
+     }
+    },
+    "daylight": {
+     "icon": "https://imgproxy.windy.com/_/icon/plain/daylight/1900000002/original.jpg?v=2",
+     "thumbnail": "https://imgproxy.windy.com/_/thumbnail/plain/daylight/1900000002/original.jpg?v=2",
+     "preview": "https://imgproxy.windy.com/_/preview/plain/daylight/1900000002/original.jpg?v=2"
+    }
+   },
+   "player": {
+    "day": "https://webcams.windy.com/webcams/public/embed/player/1900000002/day",
+    "month": "https://webcams.windy.com/webcams/public/embed/player/1900000002/month",
+    "year": "https://webcams.windy.com/webcams/public/embed/player/1900000002/year",
+    "lifetime": "https://webcams.windy.com/webcams/public/embed/player/1900000002/lifetime"
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000002",
+    "provider": "https://camera-2.example.invalid/"
+   }
+  }
+ ]
+}

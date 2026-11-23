@@ -1,0 +1,7 @@
+"id","airport_ref","airport_ident","type","description","frequency_mhz"
+20,1,"EGLL","ATIS","ATIS",128.075
+21,1,"EGLL","TWR","Heathrow Tower",118.5
+22,1,"EGLL","GND","Heathrow Ground",121.9
+23,1,"EGLL","APP","Heathrow Director",119.725
+24,4,"GB-0001","A/G","Example Radio",129.825
+25,4,"GB-0001","BAD","Broken",99999

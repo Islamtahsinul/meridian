@@ -1,0 +1,9 @@
+[
+ {"Id": 101, "Source": "GDOT", "SourceId": "ATL-0101", "Roadway": "I-75", "Direction": "Northbound",
+  "Latitude": 33.77134, "Longitude": -84.39163, "Location": "I-75 at North Ave",
+  "Views": [{"Id": 5001, "Url": "https://511ga.org/map/Cctv/5001", "Status": "Enabled", "Description": "I-75 at North Ave"}]},
+ {"Id": 102, "Source": "GDOT", "SourceId": "ATL-0102", "Roadway": "I-285", "Direction": "Unknown",
+  "Latitude": 33.89, "Longitude": -84.47, "Location": "I-285 at Cobb Pkwy",
+  "Views": [{"Id": 5002, "Url": "https://511ga.org/map/Cctv/5002", "Status": "Enabled", "Description": "Looking east"},
+            {"Id": 5003, "Url": "https://511ga.org/map/Cctv/5003", "Status": "Disabled", "Description": "Looking west"}]}
+]

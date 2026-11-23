@@ -1,0 +1,40 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1,
+    "Location": "Test Peak 1",
+    "Source": "Alert California",
+    "Webcam_URL": "https://cameras.alertcalifornia.org/?id=Axis-TestPeak1",
+    "Thumbnail_Url": "https://cameras.alertcalifornia.org/public-camera-data/Axis-TestPeak1/latest-frame.jpg",
+    "County": "sample",
+    "Camera_ID": "testpeak1",
+    "Elevation_Ft": null,
+    "Latitude": null,
+    "Longitude": null
+   },
+   "geometry": {
+    "x": -120.5,
+    "y": 40.4
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 2,
+    "Location": "Example Ridge 2",
+    "Source": "Alert California",
+    "Webcam_URL": "https://cameras.alertcalifornia.org/?id=Axis-ExampleRidge2",
+    "Thumbnail_Url": "https://cameras.alertcalifornia.org/public-camera-data/Axis-ExampleRidge2/latest-frame.jpg",
+    "County": "example",
+    "Camera_ID": "exampleridge2",
+    "Elevation_Ft": null,
+    "Latitude": null,
+    "Longitude": null
+   },
+   "geometry": {
+    "x": -122.6,
+    "y": 41.6
+   }
+  }
+ ]
+}

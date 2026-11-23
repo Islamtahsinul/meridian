@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<export xmlns="http://eu.europa.ec/fpi/fsd/export" generationDate="2026-11-20T16:51:00.798+01:00" globalFileId="186069">
+    <sanctionEntity designationDetails="" unitedNationId="" euReferenceNumber="EU.27.901" logicalId="9001">
+        <remark>Fictional test individual</remark>
+        <regulation regulationType="regulation" organisationType="commission" publicationDate="2003-07-08" entryIntoForceDate="2003-07-07" numberTitle="1210/2003 (OJ L169)" programme="IRQ" logicalId="348">
+            <publicationUrl>http://eur-lex.europa.eu/example</publicationUrl>
+        </regulation>
+        <subjectType code="person" classificationCode="P"/>
+        <nameAlias firstName="Example" middleName="" lastName="Person" wholeName="Example Person" function="" gender="M" title="" nameLanguage="" strong="true" regulationLanguage="en" logicalId="17">
+            <remark>Type of ship: never read for people</remark>
+        </nameAlias>
+        <identification number="9826902" identificationTypeCode="imo" identificationTypeDescription="IMO (vessel identification)" logicalId="18"/>
+        <birthdate circa="false" calendarType="GREGORIAN" birthdate="1970-01-01" year="1970" regulationLanguage="en" logicalId="14"/>
+    </sanctionEntity>
+    <sanctionEntity designationDate="2026-04-23" designationDetails="" unitedNationId="" euReferenceNumber="EU.14163.0" logicalId="181626">
+        <regulation regulationType="amendment" organisationType="council" publicationDate="2026-04-23" entryIntoForceDate="2026-04-23" numberTitle="2026/509" programme="UKR" logicalId="221340"/>
+        <subjectType code="enterprise" classificationCode="E"/>
+        <nameAlias wholeName="Al Houda Holding Limited" function="Registered owner of the San Damian (IMO 9274331), a vessel listed by the Union." nameLanguage="EN" strong="true" regulationLanguage="en" logicalId="181629"/>
+        <identification number="6421505" identificationTypeCode="imo" identificationTypeDescription="IMO (vessel identification)" countryIso2Code="00" logicalId="181628"/>
+    </sanctionEntity>
+    <sanctionEntity designationDate="2022-09-12" designationDetails="" unitedNationId="KPe.057" euReferenceNumber="EU.4445.42" logicalId="116172">
+        <regulation regulationType="amendment" organisationType="council" publicationDate="2022-09-12" numberTitle="2022/1509" programme="PRK" logicalId="160001"/>
+        <subjectType code="enterprise" classificationCode="E"/>
+        <nameAlias wholeName="FIRST OIL" nameLanguage="" strong="true" regulationLanguage="en" logicalId="116173"/>
+        <identification number="5963351" identificationTypeCode="imo" identificationTypeDescription="IMO (vessel identification)" logicalId="116174"/>
+    </sanctionEntity>
+    <sanctionEntity designationDate="2022-12-12" designationDetails="" unitedNationId="" euReferenceNumber="EU.9443.81" logicalId="147503">
+        <regulation regulationType="amendment" organisationType="council" publicationDate="2022-12-12" entryIntoForceDate="2022-12-12" numberTitle="2022/2429 (OJ L318I)" programme="PRK" logicalId="166796"/>
+        <subjectType code="enterprise" classificationCode="E"/>
+        <nameAlias wholeName="New Konk" function="" title="" nameLanguage="" strong="true" regulationLanguage="en" logicalId="147506">
+            <remark>Type of ship: delivery vessel, oil tanker
+
+Owner: New Konk Ocean International Company Limited
+MMSI: 445123456</remark>
+        </nameAlias>
+        <address countryIso2Code="KP" countryDescription="KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF" regulationLanguage="en" logicalId="147504">
+            <remark>Principal place of business: DPRK</remark>
+        </address>
+        <identification number="9036387" identificationTypeCode="imo" identificationTypeDescription="IMO (vessel identification)" countryIso2Code="00" logicalId="147505"/>
+    </sanctionEntity>
+    <sanctionEntity designationDetails="" unitedNationId="" euReferenceNumber="EU.99999.1" logicalId="199999">
+        <regulation regulationType="amendment" organisationType="council" publicationDate="2025-05-20" numberTitle="2025/999" programme="RUS" logicalId="230001"/>
+        <regulation regulationType="amendment" organisationType="council" publicationDate="2024-12-16" numberTitle="2024/3192" programme="UKR" logicalId="230002"/>
+        <subjectType code="enterprise" classificationCode="E"/>
+        <nameAlias wholeName="KOROLEV PROSPECT" nameLanguage="" strong="true" regulationLanguage="en" logicalId="199998">
+            <remark>Type of ship: crude oil tanker
+Flag: Gabon</remark>
+        </nameAlias>
+        <identification number="9826902" identificationTypeCode="imo" identificationTypeDescription="IMO (vessel identification)" logicalId="199997"/>
+    </sanctionEntity>
+</export>

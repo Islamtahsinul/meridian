@@ -1,0 +1,142 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "mcs901",
+    "placeName": "Tesztfalu",
+    "roadNumber": "99",
+    "sectionKm": 7,
+    "sectionM": 435,
+    "trackCode": 0,
+    "coordX": null,
+    "coordY": null,
+    "address": "99.sz főút 7+435km",
+    "countyCode": 19,
+    "county": "Mintamegye",
+    "trackCodeTxt": "",
+    "status": 0,
+    "published": true,
+    "active": true,
+    "webcams": [
+     {
+      "id": 9001,
+      "cameraPlaceId": "mcs901",
+      "cameraNum": 1,
+      "cameraView": "Mintaváros",
+      "published": true,
+      "lastImage": 1795432289929,
+      "shortDescription": "Tesztfalu",
+      "longDescription": "Szintetikus tesztkamera, 99-es út (Mintaváros felé)"
+     },
+     {
+      "id": 9002,
+      "cameraPlaceId": "mcs901",
+      "cameraNum": 2,
+      "cameraView": "Példaváros",
+      "published": true,
+      "lastImage": 1795432297914,
+      "shortDescription": "Tesztfalu",
+      "longDescription": "Szintetikus tesztkamera, 99-es út (Példaváros felé)"
+     }
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.6,
+     47.2
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "mcs902",
+    "placeName": "Próbafalu",
+    "roadNumber": "98",
+    "sectionKm": 68,
+    "sectionM": 110,
+    "trackCode": 0,
+    "coordX": null,
+    "coordY": null,
+    "address": "98.sz főút 68+110km",
+    "countyCode": 8,
+    "county": "Tesztmegye",
+    "trackCodeTxt": "",
+    "status": 0,
+    "published": false,
+    "active": true,
+    "webcams": [
+     {
+      "id": 9003,
+      "cameraPlaceId": "mcs902",
+      "cameraNum": 2,
+      "cameraView": "Mintaváros",
+      "published": true,
+      "lastImage": 1795432299429,
+      "shortDescription": "Próbafalu",
+      "longDescription": "Szintetikus tesztkamera, 98-es út (Mintaváros felé)"
+     },
+     {
+      "id": 9004,
+      "cameraPlaceId": "mcs902",
+      "cameraNum": 1,
+      "cameraView": "Példaváros",
+      "published": true,
+      "lastImage": 1795432287773,
+      "shortDescription": "Próbafalu",
+      "longDescription": "Szintetikus tesztkamera, 98-es út (Példaváros felé)"
+     }
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     17.7,
+     47.6
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "mcs903",
+    "placeName": "Határfalu",
+    "roadNumber": "97",
+    "sectionKm": 189,
+    "sectionM": 870,
+    "trackCode": 0,
+    "coordX": null,
+    "coordY": null,
+    "address": "97.sz főút 189+870km",
+    "countyCode": 18,
+    "county": "Próbamegye",
+    "trackCodeTxt": "",
+    "status": 0,
+    "published": true,
+    "active": true,
+    "webcams": [
+     {
+      "id": 9005,
+      "cameraPlaceId": "mcs903",
+      "cameraNum": 1,
+      "cameraView": "Határátkelő",
+      "published": true,
+      "lastImage": 1795432297273,
+      "shortDescription": "Határfalu",
+      "longDescription": "Szintetikus tesztkamera, 97-es út (Határátkelő felé)"
+     }
+    ]
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     16.3,
+     47.0
+    ]
+   }
+  }
+ ]
+}

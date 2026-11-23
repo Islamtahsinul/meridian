@@ -1,0 +1,4 @@
+{"now": 1795382024.0, "resultCount": 2, "ptime": 0.048, "aircraft": [
+ {"hex": "407d45", "type": "adsb_icao", "flight": "LOG91YC ", "r": "G-LMTD", "t": "AT76", "desc": "ATR-72-600", "alt_baro": 12000, "gs": 267.8, "track": 350.33, "baro_rate": 0, "squawk": "7622", "category": "A2", "lat": 51.971942, "lon": -0.973781, "nic": 8, "seen_pos": 0.245, "version": 2, "nac_p": 10, "seen": 0.0},
+ {"hex": "48e305", "type": "adsb_icao_nt", "r": "TWR", "t": "TWR", "alt_baro": "ground", "lat": 54.376923, "lon": 18.517739, "nic": 11, "seen_pos": 0.899, "nac_p": 11, "seen": 0.9}
+]}

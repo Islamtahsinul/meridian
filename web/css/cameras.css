@@ -1,0 +1,109 @@
+/* Cameras module: camera pictures in cards and tiles, the camera grid and What's here thumbnails.
+   Everything is prefixed cameras-; colours come from the core tokens. */
+
+/* ---------------------------------------------------------------- the picture (card) */
+.card-section > .cameras-view { margin: 0; }
+.cameras-view { position: relative; min-height: 120px; aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; }
+.cameras-view img, .cameras-view video { display: block; width: 100%; height: 100%; max-height: none; object-fit: contain; background: #05070c; }
+.cameras-view video, .cameras-view .cameras-mjpeg { position: absolute; inset: 0; }
+.cameras-view .credit { max-width: 62%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cameras-view .stamp { letter-spacing: .01em; }
+.cameras-view.cameras-old .stamp { color: var(--amber); }
+.cameras-view.cameras-playing .credit { bottom: auto; top: 4px; }
+.cameras-msg { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 18px 16px; text-align: center; line-height: 1.35; }
+.cameras-msg.cameras-msg-over { inset: auto 0 0 0; padding: 6px 10px 20px; background: linear-gradient(transparent, rgba(5, 7, 12, .92) 35%); color: var(--paper); font-size: 12.5px; }
+
+/* direct pictures (Windy): shown from the source's own link, never larger than they are (no
+   stretching, the source's terms), linked to the source, with its credit line in the corner */
+.cameras-direct .cameras-directlink { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; }
+.cameras-view.cameras-direct img { width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; background: transparent; }
+.cameras-view.cameras-direct .credit { max-width: calc(100% - 12px); white-space: normal; overflow: visible; line-height: 1.25; }
+.cameras-view.cameras-direct .stamp { top: 4px; bottom: auto; }
+.cameras-courtesy a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.cameras-courtesy a:hover { color: var(--paper); }
+
+/* a thin progress line while a frame loads */
+.cameras-spin { position: absolute; left: 0; top: 0; height: 2px; width: 0; background: var(--g-cameras); opacity: 0; pointer-events: none; }
+.cameras-loading .cameras-spin { opacity: .8; animation: cameras-load 1.4s ease-in-out infinite; }
+@keyframes cameras-load { 0% { left: 0; width: 0; } 50% { left: 15%; width: 55%; } 100% { left: 100%; width: 0; } }
+
+/* ---------------------------------------------------------------- the grid modal */
+.cameras-grid-modal .modal-body { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; padding: 10px 14px 14px; overflow: hidden; }
+.cameras-grid { display: flex; flex-direction: column; gap: 10px; flex: 1 1 auto; min-height: 0; }
+.cameras-gridbar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; }
+.cameras-seg button { font-size: 13px; }
+.cameras-gridcount { font-variant-numeric: tabular-nums; color: var(--paper-dim); font-size: 13px; }
+.cameras-pager { display: inline-flex; gap: 2px; }
+.cameras-pager .icon-btn:disabled { opacity: .35; cursor: default; background: transparent; }
+.cameras-gridnote { margin-left: auto; color: var(--paper-faint); font-size: 12px; }
+
+.cameras-wall {
+  --n: 3;
+  flex: 1 1 auto; min-height: 0; display: grid; gap: 8px;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+  grid-template-rows: repeat(var(--n), minmax(0, 1fr));
+}
+.cameras-wall.cameras-wall-empty { display: flex; align-items: center; justify-content: center; }
+.cameras-loadingtext { margin: auto; }
+.cameras-empty { display: flex; flex-direction: column; align-items: center; gap: 8px; max-width: 46ch; text-align: center; color: var(--paper-dim); }
+.cameras-empty svg { color: var(--g-cameras); opacity: .8; }
+.cameras-empty p { margin: 0; }
+
+.cameras-tile {
+  position: relative; min-height: 0; overflow: hidden; cursor: pointer;
+  background: #05070c; border: 1px solid var(--ink-3); border-radius: var(--r-control);
+}
+.cameras-tile:hover, .cameras-tile:focus-visible { border-color: var(--g-cameras); outline: none; }
+.cameras-tile-blank { cursor: default; background: transparent; border-style: dashed; border-color: var(--ink-2); }
+.cameras-tile-blank:hover { border-color: var(--ink-2); }
+.cameras-tile-gone { cursor: default; display: flex; align-items: flex-end; }
+.cameras-blankhint { margin: 0; height: 100%; display: flex; align-items: center; justify-content: center; padding: 12px; text-align: center; color: var(--paper-faint); font-size: 13px; }
+.cameras-tileview { position: absolute; inset: 0; margin: 0; min-height: 0; aspect-ratio: auto; border-radius: 0; }
+.cameras-tileview img { object-fit: cover; }
+.cameras-tileview .stamp { top: 5px; bottom: auto; right: 7px; font-size: 11.5px; }
+.cameras-tileview .media-msg { font-size: 12.5px; padding-bottom: 44px; }
+.cameras-cap {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 2; display: grid; gap: 1px;
+  padding: 18px 10px 7px; background: linear-gradient(transparent, rgba(5, 7, 12, .9) 55%); pointer-events: none;
+}
+.cameras-capname { font-weight: 600; font-stretch: semi-condensed; font-size: 14px; color: var(--paper); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cameras-capsub { font-size: 12px; color: var(--paper-dim); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cameras-pill {
+  position: absolute; left: 7px; top: 6px; z-index: 2; padding: 0 6px; border-radius: var(--r-chip); font-size: 11.5px;
+  line-height: 17px; color: #2a1408; background: #ffb08a; font-weight: 600; font-stretch: semi-condensed; pointer-events: none;
+}
+.cameras-tile:hover .cameras-pill { opacity: 0; }
+.cameras-tilex {
+  position: absolute; left: 6px; top: 5px; z-index: 3; width: 24px; height: 24px; border: 0; border-radius: var(--r-chip);
+  background: rgba(17, 26, 44, .82); color: var(--paper); cursor: pointer; opacity: 0; font-size: 16px; line-height: 1;
+}
+.cameras-tile:hover .cameras-tilex, .cameras-tilex:focus-visible, .cameras-tile-gone .cameras-tilex { opacity: 1; }
+.cameras-tilex:hover { background: var(--ink-3); }
+/* direct tiles: the picture links to the source, the caption opens the card */
+.cameras-tile-direct .cameras-cap { pointer-events: auto; cursor: pointer; }
+.cameras-tile-direct .cameras-tileview .credit { top: 5px; bottom: auto; left: 36px; max-width: calc(100% - 120px); font-size: 11.5px; z-index: 3; }
+.cameras-tile-direct .cameras-tileview img { object-fit: contain; }
+
+/* ---------------------------------------------------------------- What's here thumbnails */
+.cameras-near { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+.cameras-nearitem { all: unset; cursor: pointer; display: grid; gap: 2px; min-width: 0; }
+.cameras-nearitem img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--r-chip); background: #05070c; border: 1px solid var(--ink-3); }
+.cameras-nearitem:hover img, .cameras-nearitem:focus-visible img { border-color: var(--g-cameras); }
+.cameras-nearitem-noimg img { visibility: hidden; }
+.cameras-nearitem-direct { cursor: default; }
+.cameras-nearpic { display: block; }
+.cameras-nearitem-direct img { object-fit: contain; }
+.cameras-nearbtn { all: unset; cursor: pointer; }
+.cameras-nearbtn:hover, .cameras-nearbtn:focus-visible { color: var(--g-cameras); text-decoration: underline; }
+.cameras-nearcredit { margin-top: 5px; font-size: 11.5px; color: var(--paper-faint); }
+.cameras-nearcredit:empty { display: none; }
+.cameras-nearname { font-size: 12px; color: var(--paper); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cameras-neardist { font-size: 11.5px; color: var(--paper-faint); font-variant-numeric: tabular-nums; }
+
+@media (max-width: 860px) {
+  .cameras-gridnote { display: none; }
+  .cameras-wall { gap: 4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cameras-loading .cameras-spin { animation: none; width: 100%; opacity: .5; }
+}

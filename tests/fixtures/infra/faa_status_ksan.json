@@ -1,0 +1,79 @@
+{
+ "delay": true,
+ "type": "Ground delay programme",
+ "reason": "Airport volume",
+ "avg_delay_min": 30,
+ "trend": null,
+ "source": "FAA NAS Status",
+ "updated": 1795444688.0,
+ "code": "ground_delay",
+ "level": "medium",
+ "summary": "Flights bound for SAN wait on the ground before departure, 30 min on average and up to 80 min, 17:00 UTC to 24 Nov 04:59 UTC.",
+ "max_delay_min": 80,
+ "start": 1795453200.0,
+ "end": 1795496340.0,
+ "items": [
+  {
+   "delay": true,
+   "type": "Ground delay programme",
+   "reason": "Airport volume",
+   "avg_delay_min": 30,
+   "trend": null,
+   "source": "FAA NAS Status",
+   "updated": 1795444688.0,
+   "code": "ground_delay",
+   "level": "medium",
+   "summary": "Flights bound for SAN wait on the ground before departure, 30 min on average and up to 80 min, 17:00 UTC to 24 Nov 04:59 UTC.",
+   "max_delay_min": 80,
+   "min_delay_min": null,
+   "start": 1795453200.0,
+   "end": 1795496340.0
+  },
+  {
+   "delay": true,
+   "type": "Departure delays",
+   "reason": "Volume: compacted demand",
+   "avg_delay_min": 30,
+   "trend": "Increasing",
+   "source": "FAA NAS Status",
+   "updated": 1795467960.0,
+   "code": "departure_delay",
+   "level": "medium",
+   "summary": "Departures are delayed 31 to 45 min, increasing.",
+   "max_delay_min": 45,
+   "min_delay_min": 31,
+   "start": null,
+   "end": null
+  },
+  {
+   "delay": false,
+   "type": "Closed to some traffic",
+   "reason": null,
+   "avg_delay_min": null,
+   "trend": null,
+   "source": "FAA NAS Status",
+   "updated": 1790872524.0,
+   "code": "partial_closure",
+   "level": "low",
+   "summary": "Closed to non-scheduled transient general aviation aircraft, except with prior permission until 1 Jan 08:00 UTC.",
+   "max_delay_min": null,
+   "min_delay_min": null,
+   "start": 1790872380.0,
+   "end": 1798790400.0
+  }
+ ],
+ "airport": {
+  "faa": "SAN",
+  "icao": "KSAN",
+  "name": "San Diego-Lindbergh Field",
+  "lat": 32.7338,
+  "lon": -117.1933
+ },
+ "runways": {
+  "arrival": "27",
+  "departure": "27",
+  "arrival_rate": 24
+ },
+ "fetched_at": 1795472697.8,
+ "link": "https://nasstatus.faa.gov/"
+}

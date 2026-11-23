@@ -1,0 +1,315 @@
+{
+ "TotalResults": 6,
+ "TotalPages": 1,
+ "CurrentPage": 1,
+ "PreviousPage": null,
+ "NextPage": null,
+ "Seed": null,
+ "Items": [
+  {
+   "Id": "A22_1",
+   "Active": true,
+   "Shortname": "Brennero",
+   "Webcamname": {
+    "it": "Brennero"
+   },
+   "GpsPoints": {
+    "position": {
+     "Default": null,
+     "Gpstype": "position",
+     "Altitude": null,
+     "Geometry": null,
+     "Latitude": 46.99682,
+     "Longitude": 11.50218,
+     "AltitudeUnitofMeasure": null
+    }
+   },
+   "Webcamurl": "https://www.autobrennero.it/WebCamImg/km1.jpg",
+   "ImageGallery": [
+    {
+     "Width": null,
+     "Height": null,
+     "License": null,
+     "ValidTo": null,
+     "ImageUrl": "https://www.autobrennero.it/WebCamImg/km1.jpg",
+     "CopyRight": null,
+     "ImageDesc": {},
+     "ImageName": "Brennero",
+     "ImageTags": null,
+     "ValidFrom": null,
+     "ImageTitle": {},
+     "ImageSource": "a22",
+     "IsInGallery": null,
+     "ImageAltText": {},
+     "ListPosition": null,
+     "LicenseHolder": null
+    }
+   ],
+   "LicenseInfo": {
+    "Author": "",
+    "License": "CC0",
+    "ClosedData": false,
+    "LicenseHolder": "https://www.autobrennero.it/"
+   },
+   "Source": "a22",
+   "Mapping": {
+    "a22": {
+     "km": "1"
+    }
+   }
+  },
+  {
+   "Id": "A22_77",
+   "Active": true,
+   "Shortname": "Bolzano Nord",
+   "Webcamname": {
+    "it": "Bolzano Nord"
+   },
+   "GpsPoints": {
+    "position": {
+     "Default": null,
+     "Gpstype": "position",
+     "Altitude": null,
+     "Geometry": null,
+     "Latitude": 46.49393,
+     "Longitude": 11.41251,
+     "AltitudeUnitofMeasure": null
+    }
+   },
+   "Webcamurl": "https://www.autobrennero.it/WebCamImg/km77.jpg",
+   "ImageGallery": [
+    {
+     "Width": null,
+     "Height": null,
+     "License": null,
+     "ValidTo": null,
+     "ImageUrl": "https://www.autobrennero.it/WebCamImg/km77.jpg",
+     "CopyRight": null,
+     "ImageDesc": {},
+     "ImageName": "Bolzano Nord",
+     "ImageTags": null,
+     "ValidFrom": null,
+     "ImageTitle": {},
+     "ImageSource": "a22",
+     "IsInGallery": null,
+     "ImageAltText": {},
+     "ListPosition": null,
+     "LicenseHolder": null
+    }
+   ],
+   "LicenseInfo": {
+    "Author": "",
+    "License": "CC0",
+    "ClosedData": false,
+    "LicenseHolder": "https://www.autobrennero.it/"
+   },
+   "Source": "a22",
+   "Mapping": {
+    "a22": {
+     "km": "77"
+    }
+   }
+  },
+  {
+   "Id": "A22_228",
+   "Active": true,
+   "Shortname": "Verona Nord",
+   "Webcamname": {
+    "it": "Verona Nord"
+   },
+   "GpsPoints": {
+    "position": {
+     "Default": null,
+     "Gpstype": "position",
+     "Altitude": null,
+     "Geometry": null,
+     "Latitude": 45.40677,
+     "Longitude": 10.91248,
+     "AltitudeUnitofMeasure": null
+    }
+   },
+   "Webcamurl": "https://www.autobrennero.it/WebCamImg/km228.jpg",
+   "ImageGallery": [
+    {
+     "Width": null,
+     "Height": null,
+     "License": null,
+     "ValidTo": null,
+     "ImageUrl": "https://www.autobrennero.it/WebCamImg/km228.jpg",
+     "CopyRight": null,
+     "ImageDesc": {},
+     "ImageName": "Verona Nord",
+     "ImageTags": null,
+     "ValidFrom": null,
+     "ImageTitle": {},
+     "ImageSource": "a22",
+     "IsInGallery": null,
+     "ImageAltText": {},
+     "ListPosition": null,
+     "LicenseHolder": null
+    }
+   ],
+   "LicenseInfo": {
+    "Author": "",
+    "License": "CC0",
+    "ClosedData": false,
+    "LicenseHolder": "https://www.autobrennero.it/"
+   },
+   "Source": "a22",
+   "Mapping": {
+    "a22": {
+     "km": "228"
+    }
+   }
+  },
+  {
+   "Id": "A22_100",
+   "Active": false,
+   "Shortname": "Egna",
+   "Webcamname": {
+    "it": "Egna"
+   },
+   "GpsPoints": {
+    "position": {
+     "Default": null,
+     "Gpstype": "position",
+     "Altitude": null,
+     "Geometry": null,
+     "Latitude": 46.35002,
+     "Longitude": 11.28365,
+     "AltitudeUnitofMeasure": null
+    }
+   },
+   "Webcamurl": "https://www.autobrennero.it/WebCamImg/km100.jpg",
+   "ImageGallery": [
+    {
+     "Width": null,
+     "Height": null,
+     "License": null,
+     "ValidTo": null,
+     "ImageUrl": "https://www.autobrennero.it/WebCamImg/km100.jpg",
+     "CopyRight": null,
+     "ImageDesc": {},
+     "ImageName": "Egna",
+     "ImageTags": null,
+     "ValidFrom": null,
+     "ImageTitle": {},
+     "ImageSource": "a22",
+     "IsInGallery": null,
+     "ImageAltText": {},
+     "ListPosition": null,
+     "LicenseHolder": null
+    }
+   ],
+   "LicenseInfo": {
+    "Author": "",
+    "License": "CC0",
+    "ClosedData": false,
+    "LicenseHolder": "https://www.autobrennero.it/"
+   },
+   "Source": "a22",
+   "Mapping": {
+    "a22": {
+     "km": "100"
+    }
+   }
+  },
+  {
+   "Id": "A22_129",
+   "Active": true,
+   "Shortname": "Paganella Ovest",
+   "Webcamname": {
+    "it": "Paganella Ovest"
+   },
+   "GpsPoints": {},
+   "Webcamurl": "https://www.autobrennero.it/WebCamImg/km129.jpg",
+   "ImageGallery": [
+    {
+     "Width": null,
+     "Height": null,
+     "License": null,
+     "ValidTo": null,
+     "ImageUrl": "https://www.autobrennero.it/WebCamImg/km129.jpg",
+     "CopyRight": null,
+     "ImageDesc": {},
+     "ImageName": "Paganella Ovest",
+     "ImageTags": null,
+     "ValidFrom": null,
+     "ImageTitle": {},
+     "ImageSource": "a22",
+     "IsInGallery": null,
+     "ImageAltText": {},
+     "ListPosition": null,
+     "LicenseHolder": null
+    }
+   ],
+   "LicenseInfo": {
+    "Author": "",
+    "License": "CC0",
+    "ClosedData": false,
+    "LicenseHolder": "https://www.autobrennero.it/"
+   },
+   "Source": "a22",
+   "Mapping": {
+    "a22": {
+     "km": "129"
+    }
+   }
+  },
+  {
+   "Id": "FERATEL_84109A42-B103-47EA-A2CC-23CE9AD37D7F_6202",
+   "Active": true,
+   "Shortname": "3 Zinnen Racing Arena",
+   "Webcamname": {
+    "de": "3 Zinnen Racing Arena",
+    "en": "3 Zinnen Racing Arena",
+    "it": "3 Zinnen Racing Arena"
+   },
+   "GpsPoints": {
+    "position": {
+     "Default": null,
+     "Gpstype": "position",
+     "Altitude": 1245.0,
+     "Geometry": null,
+     "Latitude": 46.727645,
+     "Longitude": 12.202379,
+     "AltitudeUnitofMeasure": "m"
+    }
+   },
+   "Webcamurl": "http://webtv.feratel.com/webtv/?design=v5&pg=CDB9645D-E67B-44D2-9FC9-E1539FF9A6B7&cam=6202",
+   "ImageGallery": [
+    {
+     "Width": null,
+     "Height": null,
+     "License": null,
+     "ValidTo": null,
+     "ImageUrl": "http://wtvthmb.feratel.com/thumbnails/6202.jpeg?t=38&dcsdesign=WTP_opendatahubsuedtirol&design=v5",
+     "CopyRight": null,
+     "ImageDesc": {},
+     "ImageName": "MediaPlayer Thumbnails 38",
+     "ImageTags": null,
+     "ValidFrom": null,
+     "ImageTitle": {},
+     "ImageSource": "feratel",
+     "IsInGallery": true,
+     "ImageAltText": {},
+     "ListPosition": 0,
+     "LicenseHolder": null
+    }
+   ],
+   "LicenseInfo": {
+    "Author": "",
+    "License": "CC0",
+    "ClosedData": false,
+    "LicenseHolder": "https://www.feratel.com/"
+   },
+   "Source": "feratel",
+   "Mapping": {
+    "feratel": {
+     "panid": "6202",
+     "link_id": "84109A42-B103-47EA-A2CC-23CE9AD37D7F"
+    }
+   }
+  }
+ ]
+}

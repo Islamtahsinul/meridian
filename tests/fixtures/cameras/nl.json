@@ -1,0 +1,28 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "objectid": 10,
+    "location": "Heart's Content Barrens",
+    "url": "https://www.gov.nl.ca/ti/highway-cams/cameras/sites/heartscontent_amec/current.jpg",
+    "CamType": "CAM"
+   },
+   "geometry": {
+    "x": -53.29388300039257,
+    "y": 47.83224999995166
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 11,
+    "location": "Bay Roberts",
+    "url": "https://www.gov.nl.ca/ti/highway-cams/cameras/sites/bayroberts_amec/current.jpg",
+    "CamType": "CAM"
+   },
+   "geometry": {
+    "x": -53.30924400040986,
+    "y": 47.56402100011926
+   }
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+/* Hazards module card details. Class names are prefixed hazards-. */
+
+.hazards-text {
+  white-space: pre-line;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: var(--paper);
+  max-width: 62ch;
+  overflow-wrap: anywhere;
+}
+
+.hazards-more {
+  margin-top: 4px;
+  padding: 2px 0;
+  border: 0;
+  background: transparent;
+  color: var(--signal);
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+.hazards-more:hover { text-decoration: underline; }
+
+.hazards-here .li-t { display: flex; align-items: baseline; gap: 6px; }
+
+/* England flood warnings: the severity in plain words, then the gauge chart */
+.hazards-meaning {
+  margin: 0;
+  padding: 6px 10px;
+  border-left: 3px solid var(--g-events);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--paper);
+}
+.hazards-meaning-1 { border-left-color: #ff5d52; }
+.hazards-meaning-2 { border-left-color: #ff8c42; }
+.hazards-meaning-3 { border-left-color: #ffd34d; }
+.hazards-meaning-4 { border-left-color: #9aa6bd; }
+
+.hazards-chart-box { max-width: 340px; }
+.hazards-chart { display: block; width: 100%; height: auto; font-variant-numeric: tabular-nums; }
+.hazards-chart-axis { stroke: rgba(235, 230, 214, 0.25); stroke-width: 1; }
+.hazards-chart-normal { stroke: #ffb547; stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.85; }
+.hazards-chart-line { fill: none; stroke: #6cb6ff; stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
+.hazards-chart-dot { fill: #6cb6ff; stroke: #111a2c; stroke-width: 1; }
+.hazards-chart-tick { fill: rgba(235, 230, 214, 0.7); font-size: 9.5px; }
+.hazards-chart-note { fill: #ffb547; font-size: 9px; }
+
+/* Copernicus emergency mapping: areas of interest and their map products */
+.hazards-sub {
+  margin: 8px 0 2px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--paper);
+}
+.hazards-plist { list-style: none; margin: 0; padding: 0; }
+.hazards-plist li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
+  padding: 3px 0;
+  border-bottom: 1px solid rgba(235, 230, 214, 0.08);
+  font-size: 12.5px;
+}
+.hazards-ptype { color: var(--paper); font-weight: 600; }
+.hazards-pmeta { color: var(--paper-faint); flex: 1 1 12em; }
+.hazards-plink { color: var(--signal); margin-left: auto; }
+.hazards-plist li.hazards-pstat { color: var(--paper-faint); font-size: 12px; border-bottom: 0; padding-top: 0; }
+.hazards-glyph {
+  display: inline-block;
+  width: 14px;
+  flex: none;
+  text-align: center;
+  color: var(--g-events);
+  font-size: 12px;
+}

@@ -1,0 +1,225 @@
+[
+ {
+  "airportId": "ABQ",
+  "groundStop": null,
+  "groundDelay": null,
+  "airportClosure": null,
+  "freeForm": null,
+  "arrivalDelay": null,
+  "departureDelay": null,
+  "airportConfig": {
+   "id": "63281644-d71a-4442-9dc5-9748dc64af1e",
+   "createdAt": "2026-11-23T12:39:53Z",
+   "airportId": "ABQ",
+   "arrivalRunwayConfig": "08/03",
+   "departureRunwayConfig": " ",
+   "arrivalRate": 64,
+   "sourceTimeStamp": "2026-11-23T12:39:52Z"
+  },
+  "deicing": {
+   "id": "bc4fbe7b-daea-4b69-8c2c-a62ebbb3adb6",
+   "createdAt": "2026-11-23T13:06:20Z",
+   "airportId": "ABQ",
+   "updatedAt": "2026-11-23T13:06:20Z",
+   "eventTime": "2026-11-23T13:04:00Z",
+   "expTime": "2026-11-24T07:59:59Z"
+  },
+  "airportLongName": "Albuquerque International Sunport",
+  "latitude": "35.0432",
+  "longitude": "-106.6129"
+ },
+ {
+  "airportId": "LAS",
+  "groundStop": null,
+  "groundDelay": null,
+  "airportClosure": null,
+  "freeForm": {
+   "id": "f985d4e9-cd3e-45a8-abf5-7868392de5a4",
+   "airportId": "LAS",
+   "createdAt": null,
+   "updatedAt": "2026-10-28T19:30:18Z",
+   "startTime": "2026-10-28T19:26:00Z",
+   "endTime": "2027-01-27T23:00:00Z",
+   "simpleText": "!LAS 10/160 LAS AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775 2610281926-2701272300",
+   "text": "TO NON SKED TRANSIENT GA ACFT EXC 24HR PPR 702-261-7775",
+   "notamNumber": 160,
+   "issuedDate": "2026-10-28T19:26:00Z"
+  },
+  "arrivalDelay": null,
+  "departureDelay": null,
+  "airportConfig": {
+   "id": "622b03ca-1370-4641-90a3-079906287b9d",
+   "createdAt": "2026-11-23T14:09:11Z",
+   "airportId": "LAS",
+   "arrivalRunwayConfig": "19R/26L",
+   "departureRunwayConfig": "19L/26R",
+   "arrivalRate": 56,
+   "sourceTimeStamp": "2026-11-23T14:09:10Z"
+  },
+  "deicing": null,
+  "airportLongName": "Harry Reid International",
+  "latitude": "36.0840",
+  "longitude": "-115.1537"
+ },
+ {
+  "airportId": "OPF",
+  "groundStop": null,
+  "groundDelay": null,
+  "airportClosure": null,
+  "freeForm": null,
+  "arrivalDelay": null,
+  "departureDelay": {
+   "airportId": "OPF",
+   "reason": "WX:Low Ceilings",
+   "arrivalDeparture": {
+    "type": "Departure",
+    "min": "16 minutes",
+    "max": "30 minutes",
+    "trend": "Increasing"
+   },
+   "updateTime": "2026-11-23T13:27:00Z",
+   "averageDelay": "15",
+   "trend": "increasing"
+  },
+  "airportConfig": null,
+  "deicing": null,
+  "airportLongName": "Miami-Opa Locka Executive Airport",
+  "latitude": "25.907425657071492",
+  "longitude": "-80.2773553005903"
+ },
+ {
+  "airportId": "SAN",
+  "groundStop": null,
+  "groundDelay": {
+   "id": "58459ae0-0f39-4b80-b1b0-0d7a06395545",
+   "createdAt": "2026-11-23T14:38:08Z",
+   "airportId": "SAN",
+   "sourceTimeStamp": "2026-11-23T14:37:38Z",
+   "updatedAt": "2026-11-23T14:38:08Z",
+   "impactingCondition": "airport volume",
+   "avgDelay": 30.0,
+   "maxDelay": 80,
+   "startTime": "2026-11-23T17:00:00Z",
+   "endTime": "2026-11-24T04:59:00Z",
+   "center": "ZLA",
+   "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=31&adv_date=11232026&facId=SAN&title=ATCSCC ADVZY 031 SAN/ZLA 11/23/2026 CDM GROUND DELAY PROGRAM&titleDate=11/23/2026",
+   "departureScope": null,
+   "includedFacilities": [
+    "ZLA",
+    "ZAU",
+    "ZLC",
+    "ZTL",
+    "ZDC",
+    "ZNY"
+   ],
+   "includedFlights": ": ALL CONTIGUOUS US DEP",
+   "fadtParamType": "GDP",
+   "gsCancelReceivedTs": null,
+   "gsCancelSourceTs": null,
+   "compression": false,
+   "blanket": false
+  },
+  "airportClosure": null,
+  "freeForm": {
+   "id": "81a3aec5-2dd4-4a67-9678-fd14bcdabd2b",
+   "airportId": "SAN",
+   "createdAt": null,
+   "updatedAt": "2026-10-01T16:35:24Z",
+   "startTime": "2026-10-01T16:33:00Z",
+   "endTime": "2027-01-01T08:00:00Z",
+   "simpleText": "!SAN 10/004 SAN AD AP CLSD TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704 2610011633-2701010800",
+   "text": "TO NON SKED TRANSIENT GA ACFT EXC PPR 619-298-7704",
+   "notamNumber": 4,
+   "issuedDate": "2026-10-01T16:33:00Z"
+  },
+  "arrivalDelay": null,
+  "departureDelay": null,
+  "airportConfig": {
+   "id": "32450f35-ef1c-421e-8763-a51c552226e7",
+   "createdAt": "2026-11-23T13:36:24Z",
+   "airportId": "SAN",
+   "arrivalRunwayConfig": "27",
+   "departureRunwayConfig": "27",
+   "arrivalRate": 24,
+   "sourceTimeStamp": "2026-11-23T13:36:23Z"
+  },
+  "deicing": null,
+  "airportLongName": "San Diego-Lindbergh Field",
+  "latitude": "32.7338",
+  "longitude": "-117.1933"
+ },
+ {
+  "airportId": "EWR",
+  "groundStop": {
+   "airportId": "EWR",
+   "impactingCondition": "thunderstorms",
+   "startTime": "2026-11-23T14:10:00Z",
+   "endTime": "2026-11-23T16:00:00Z",
+   "includedFacilities": [
+    "ZNY",
+    "ZDC",
+    "ZBW"
+   ],
+   "advisoryUrl": "https://www.fly.faa.gov/adv/adv_otherdis.jsp?advn=40&adv_date=11232026&facId=EWR",
+   "probabilityOfExtension": "MEDIUM",
+   "updatedAt": "2026-11-23T14:12:00Z"
+  },
+  "groundDelay": null,
+  "airportClosure": null,
+  "freeForm": null,
+  "arrivalDelay": {
+   "airportId": "EWR",
+   "reason": "WX:Thunderstorms",
+   "arrivalDeparture": {
+    "type": "Arrival",
+    "min": "46 minutes",
+    "max": "1 hour and 15 minutes",
+    "trend": "Increasing"
+   },
+   "updateTime": "2026-11-23T14:05:00Z",
+   "averageDelay": "60",
+   "trend": "increasing"
+  },
+  "departureDelay": null,
+  "airportConfig": {
+   "arrivalRunwayConfig": "22L",
+   "departureRunwayConfig": "22R",
+   "arrivalRate": 28
+  },
+  "deicing": null,
+  "airportLongName": "Newark Liberty International",
+  "latitude": "40.6925",
+  "longitude": "-74.1687"
+ },
+ {
+  "airportId": "HNL",
+  "airportClosure": {
+   "airportId": "HNL",
+   "text": "",
+   "startTime": "2026-11-23T10:00:00Z",
+   "endTime": "2026-11-23T18:00:00Z",
+   "updatedAt": "2026-11-23T10:01:00Z"
+  },
+  "airportLongName": "Daniel K Inouye International",
+  "latitude": "21.3187",
+  "longitude": "-157.9224"
+ },
+ {
+  "airportId": "ORD",
+  "airportConfig": {
+   "arrivalRunwayConfig": "27L",
+   "arrivalRate": 100
+  },
+  "airportLongName": "Chicago O'Hare International",
+  "latitude": "41.9786",
+  "longitude": "-87.9048"
+ },
+ {
+  "airportId": "BAD",
+  "groundStop": {
+   "impactingCondition": "x"
+  },
+  "latitude": "95",
+  "longitude": "0"
+ }
+]

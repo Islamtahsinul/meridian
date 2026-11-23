@@ -1,0 +1,23 @@
+# Public AIVDM sample sentences from the gpsd project's regression data (test/sample.aivdm,
+# BSD licence, provided from real data by Kurt Schwehr, Mike Greene, Neal Arundale and AISHub).
+# Expected decodes in tests/test_ships_ais.py come from gpsd's sample.aivdm.chk.
+!AIVDM,1,1,,A,15RTgt0PAso;90TKcjM8h6g208CQ,0*4A
+!AIVDM,1,1,,A,16SteH0P00Jt63hHaa6SagvJ087r,0*42
+!AIVDM,1,1,,B,25Cjtd0Oj;Jp7ilG7=UkKBoB0<06,0*60
+!AIVDM,1,1,,A,38Id705000rRVJhE7cl9n;160000,0*40
+!AIVDM,2,1,1,A,55?MbV02;H;s<HtKR20EHE:0@T4@Dn2222222216L961O5Gf0NSQEp6ClRp8,0*1C
+!AIVDM,2,2,1,A,88888888880,2*25
+!AIVDM,1,1,,A,B52K>;h00Fc>jpUlNV@ikwpUoP06,0*4C
+!AIVDM,1,1,,A,B52KB8h006fu`Q6:g1McCwb5oP06,0*00
+!AIVDM,1,1,,B,C5N3SRgPEnJGEBT>NhWAwwo862PaLELTBJ:V00000000S0D:R220,0*0B
+!AIVDM,1,1,,A,H42O55i18tMET00000000000000,2*6D
+!AIVDM,1,1,,A,H42O55lti4hhhilD3nink000?050,0*40
+# channel multiplexing: two type 5 messages interleaved on channels A and B
+!AIVDM,2,1,6,B,542M92h00001@<7;?G0PD4i@R0<tqA8tj37>220o0h:2240Ht50000000000,0*3B
+!AIVDM,2,1,2,A,542M92h00001@<7;?G0PD4i@R0<tqA8tj37>220o0h:2240Ht500000000000000,0*3C
+!AIVDM,2,2,2,A,0000002,2*24
+!AIVDM,2,2,6,B,00000000000,2*21
+# NMEA 4.10 tag block with a UNIX time
+\g:1-2-73874,n:157036,s:r003669945,c:1241544035*4A\!AIVDM,1,1,,B,15N4cJ`005Jrek0H@9n`DW5608EP,0*13
+# USCG extended format (extra fields after the checksum)
+!AIVDM,1,1,,B,15Cjtd0Oj;Jp7ilG7=UkKBoB0<06,0*63,s1234,d-119,T12.34567123,r003669958,1085889680

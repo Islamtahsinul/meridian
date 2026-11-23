@@ -1,0 +1,125 @@
+{
+ "title": "Foreign travel advice",
+ "public_updated_at": "2024-08-05T08:23:09+01:00",
+ "links": {
+  "children": [
+   {
+    "api_path": "/api/content/foreign-travel-advice/chad",
+    "api_url": "https://www.gov.uk/api/content/foreign-travel-advice/chad",
+    "base_path": "/foreign-travel-advice/chad",
+    "content_id": "5b3924c1-2907-4549-9fea-499ca43e66b4",
+    "details": {
+     "change_description": "This travel advice has been reviewed for accuracy with changes made throughout, including updated information about applying for a visa, terrorism in Chad, terrorist kidnapping, political situation, robbery, protecting yourself and your belongings, Ramadan, driving standards and security, travelling outside N'Djamena, regional risks, health risks you may face in Chad, including Dengue and emergency numbers if your require police, ambulance or fire services ('Entry requirements', 'Safety and security', 'Regional risks', 'Health' and 'Getting help' pages).",
+     "country": {
+      "name": "Chad",
+      "slug": "chad",
+      "synonyms": [
+       "Sahel"
+      ]
+     }
+    },
+    "document_type": "travel_advice",
+    "links": {},
+    "locale": "en",
+    "public_updated_at": "2026-11-04T14:33:29Z",
+    "schema_name": "travel_advice",
+    "title": "Chad travel advice",
+    "web_url": "https://www.gov.uk/foreign-travel-advice/chad",
+    "withdrawn": false
+   },
+   {
+    "api_path": "/api/content/foreign-travel-advice/ukraine",
+    "api_url": "https://www.gov.uk/api/content/foreign-travel-advice/ukraine",
+    "base_path": "/foreign-travel-advice/ukraine",
+    "content_id": "ed654721-0bf5-415e-ad51-4fe93e6b3a0b",
+    "details": {
+     "change_description": "Updated information about the Russian invasion of Ukraine ('Warnings and insurance' page).",
+     "country": {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "synonyms": []
+     }
+    },
+    "document_type": "travel_advice",
+    "links": {},
+    "locale": "en",
+    "public_updated_at": "2026-10-02T08:30:25Z",
+    "schema_name": "travel_advice",
+    "title": "Ukraine travel advice",
+    "web_url": "https://www.gov.uk/foreign-travel-advice/ukraine",
+    "withdrawn": false
+   },
+   {
+    "api_path": "/api/content/foreign-travel-advice/france",
+    "api_url": "https://www.gov.uk/api/content/foreign-travel-advice/france",
+    "base_path": "/foreign-travel-advice/france",
+    "content_id": "05a8e85c-5a65-406e-923d-79c04a4433f6",
+    "details": {
+     "change_description": "Updated information about demonstrations (‘Warnings and insurance’ page).",
+     "country": {
+      "name": "France",
+      "slug": "france",
+      "synonyms": [
+       "Paris",
+       "Corsica"
+      ]
+     }
+    },
+    "document_type": "travel_advice",
+    "links": {},
+    "locale": "en",
+    "public_updated_at": "2026-10-22T16:57:33Z",
+    "schema_name": "travel_advice",
+    "title": "France travel advice",
+    "web_url": "https://www.gov.uk/foreign-travel-advice/france",
+    "withdrawn": false
+   },
+   {
+    "api_path": "/api/content/foreign-travel-advice/djibouti",
+    "api_url": "https://www.gov.uk/api/content/foreign-travel-advice/djibouti",
+    "base_path": "/foreign-travel-advice/djibouti",
+    "content_id": "0b95dd6d-7234-4d04-a7a6-b412447cc2d5",
+    "details": {
+     "change_description": "New information about military activity in the Red Sea area ('Regional risks’ page). ",
+     "country": {
+      "name": "Djibouti",
+      "slug": "djibouti",
+      "synonyms": []
+     }
+    },
+    "document_type": "travel_advice",
+    "links": {},
+    "locale": "en",
+    "public_updated_at": "2026-07-27T14:03:02Z",
+    "schema_name": "travel_advice",
+    "title": "Djibouti travel advice",
+    "web_url": "https://www.gov.uk/foreign-travel-advice/djibouti",
+    "withdrawn": false
+   },
+   {
+    "api_path": "/api/content/foreign-travel-advice/sudan",
+    "api_url": "https://www.gov.uk/api/content/foreign-travel-advice/sudan",
+    "base_path": "/foreign-travel-advice/sudan",
+    "content_id": "deee5c29-5006-4280-bb46-44c0bd7a6a11",
+    "details": {
+     "change_description": "Updated information on operations in Sudanese airports ('Safety and security' page).",
+     "country": {
+      "name": "Sudan",
+      "slug": "sudan",
+      "synonyms": [
+       "Sahel"
+      ]
+     }
+    },
+    "document_type": "travel_advice",
+    "links": {},
+    "locale": "en",
+    "public_updated_at": "2026-05-11T15:07:13Z",
+    "schema_name": "travel_advice",
+    "title": "Sudan travel advice",
+    "web_url": "https://www.gov.uk/foreign-travel-advice/sudan",
+    "withdrawn": false
+   }
+  ]
+ }
+}

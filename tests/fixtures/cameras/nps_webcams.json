@@ -1,0 +1,89 @@
+{
+ "total": "287",
+ "limit": "3",
+ "start": "0",
+ "data": [
+  {
+   "id": "81B464EA-1DD8-B71B-0B367470E91A4A7F",
+   "url": "https://www.nps.gov/subjects/air/webcams.htm?site=yose",
+   "title": "Turtleback Dome & Air Quality",
+   "description": "This air quality camera shows the view to the west from near Yosemite Valley and also displays current air quality and weather data.",
+   "images": [],
+   "relatedParks": [
+    {
+     "states": "CA",
+     "parkCode": "yose",
+     "designation": "National Park",
+     "fullName": "Yosemite National Park",
+     "url": "https://www.nps.gov/yose/index.htm",
+     "name": "Yosemite"
+    }
+   ],
+   "status": "Active",
+   "statusMessage": "",
+   "isStreaming": false,
+   "tags": [
+    "Yosemite",
+    "Yosemite National Park",
+    "Merced River Canyon",
+    "foothills"
+   ],
+   "latitude": 37.71335804198748,
+   "longitude": -119.70603346824646,
+   "geometryPoiId": "",
+   "credit": ""
+  },
+  {
+   "id": "430C8380-8BB1-4917-B443-80875DDB9CE1",
+   "url": "https://www.nps.gov/media/webcam/view.htm?id=430C8380-8BB1-4917-B443-80875DDB9CE1",
+   "title": "Puʻuʻōʻō Southeast Coast",
+   "description": "This image is from a research camera positioned on the southeast flank of Puʻuʻōʻō, looking toward the southeast. Disclaimer: The webcams are operational 24/7 and faithfully record the dark of night if there are no sources of incandescence or other lights. Thermal webcams record heat rather than light and get better views through volcanic gas. At times, clouds and rain obscure visibility. The cameras are subject to sporadic breakdown and may not be repaired immediately. Some cameras are observing an area that is off-limits to the general public because of significant volcanic hazards.",
+   "images": [],
+   "relatedParks": [
+    {
+     "states": "HI",
+     "parkCode": "havo",
+     "designation": "National Park",
+     "fullName": "Hawaiʻi Volcanoes National Park",
+     "url": "https://www.nps.gov/havo/index.htm",
+     "name": "Hawaiʻi Volcanoes"
+    }
+   ],
+   "status": "Active",
+   "statusMessage": "",
+   "isStreaming": false,
+   "tags": [
+    "webcam"
+   ],
+   "latitude": 19.389437906590206,
+   "longitude": -155.10103225708008,
+   "geometryPoiId": "",
+   "credit": ""
+  },
+  {
+   "id": "F876014B-9751-49D7-B2B3-4F8BD7A835A6",
+   "url": "https://www.nps.gov/media/webcam/view.htm?id=F876014B-9751-49D7-B2B3-4F8BD7A835A6",
+   "title": "Mount Dellenbaugh | North Vista",
+   "description": "Elevation: 6,995 Feet",
+   "images": [],
+   "relatedParks": [
+    {
+     "states": "AZ",
+     "parkCode": "para",
+     "designation": "National Monument",
+     "fullName": "Grand Canyon-Parashant National Monument",
+     "url": "https://www.nps.gov/para/index.htm",
+     "name": "Grand Canyon-Parashant"
+    }
+   ],
+   "status": "Inactive",
+   "statusMessage": "",
+   "isStreaming": false,
+   "tags": [],
+   "latitude": 36.1087388912266,
+   "longitude": -113.54097604751587,
+   "geometryPoiId": "",
+   "credit": ""
+  }
+ ]
+}

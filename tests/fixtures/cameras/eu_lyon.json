@@ -1,0 +1,136 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "pvo_patrimoine_voirie.pvocameracriter.35",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.86040666,
+     45.78824635
+    ]
+   },
+   "geometry_name": "the_geom",
+   "properties": {
+    "nom": "Lyon - Villeurbanne",
+    "libellelong": "Pont Poincaré",
+    "identifiant": 254,
+    "numeromaintenance": "CW3CL005",
+    "typecamera": "Web",
+    "fournisseur": "CRITER",
+    "observation": "Direction : Lyon - Villeurbanne",
+    "url": "https://download.data.grandlyon.com/files/rdata/pvo_patrimoine_voirie.pvocameracriter/CW3CL005.JPG",
+    "gid": 35,
+    "last_update_fme": "2026-11-23T12:14:32.248+01:00",
+    "last_update": "2026-11-23T12:14:12+01:00"
+   },
+   "bbox": [
+    4.86040666,
+    45.78824635,
+    4.86040666,
+    45.78824635
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "pvo_patrimoine_voirie.pvocameracriter.41",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.80278803,
+     45.76352375
+    ]
+   },
+   "geometry_name": "the_geom",
+   "properties": {
+    "nom": "A7 - Paris",
+    "libellelong": "Tunnel sous Fourvière",
+    "identifiant": 261,
+    "numeromaintenance": "CWL9801",
+    "typecamera": "Web",
+    "fournisseur": "CRITER",
+    "observation": "Direction : M6 - Paris",
+    "url": "https://download.data.grandlyon.com/files/rdata/pvo_patrimoine_voirie.pvocameracriter/CWL9801.JPG",
+    "gid": 41,
+    "last_update_fme": "2026-11-23T12:14:32.250+01:00",
+    "last_update": "2026-11-23T12:14:13+01:00"
+   },
+   "bbox": [
+    4.80278803,
+    45.76352375,
+    4.80278803,
+    45.76352375
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "pvo_patrimoine_voirie.pvocameracriter.44",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.92956796,
+     45.76641258
+    ]
+   },
+   "geometry_name": "the_geom",
+   "properties": {
+    "nom": "La Soie",
+    "libellelong": "Av. de Bohlen / Rue R.Salengro",
+    "identifiant": 222,
+    "numeromaintenance": "CWVV011",
+    "typecamera": "Web",
+    "fournisseur": "CRITER",
+    "observation": "Direction : Porte de La Soie",
+    "url": "https://download.data.grandlyon.com/files/rdata/pvo_patrimoine_voirie.pvocameracriter/CWVV011.JPG",
+    "gid": 44,
+    "last_update_fme": "2026-11-23T12:14:32.249+01:00",
+    "last_update": "2026-11-23T12:14:13+01:00"
+   },
+   "bbox": [
+    4.92956796,
+    45.76641258,
+    4.92956796,
+    45.76641258
+   ]
+  },
+  {
+   "type": "Feature",
+   "id": "pvo_patrimoine_voirie.pvocameracriter.35",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.86040666,
+     45.78824635
+    ]
+   },
+   "geometry_name": "the_geom",
+   "properties": {
+    "nom": "Lyon - Villeurbanne",
+    "libellelong": "Pont Poincaré",
+    "identifiant": 999,
+    "numeromaintenance": "CW3CL005",
+    "typecamera": "Web",
+    "fournisseur": "CRITER",
+    "observation": "Direction : Lyon - Villeurbanne",
+    "url": null,
+    "gid": 35,
+    "last_update_fme": "2026-11-23T12:14:32.248+01:00",
+    "last_update": "2026-11-23T12:14:12+01:00"
+   },
+   "bbox": [
+    4.86040666,
+    45.78824635,
+    4.86040666,
+    45.78824635
+   ]
+  }
+ ],
+ "totalFeatures": 4,
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:EPSG::4326"
+  }
+ }
+}

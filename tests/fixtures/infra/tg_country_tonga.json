@@ -1,0 +1,3 @@
+{"id":"tonga","name":"Tonga","cables":[
+ {"id":"delta","name":"Delta Pacific","rfs_year":2013,"is_planned":false,"landing_points":["nukualofa-tonga","suva-fiji"]}],
+ "landing_points":["nukualofa-tonga","suva-fiji"],"landing_points_in_country":["nukualofa-tonga"]}

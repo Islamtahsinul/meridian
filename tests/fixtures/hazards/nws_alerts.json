@@ -1,0 +1,363 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64fc68151f9de2318f31e0e58f174f08f0babebc.002.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -92.63,
+       34.27
+      ],
+      [
+       -92.63,
+       34.34
+      ],
+      [
+       -92.44,
+       34.38
+      ],
+      [
+       -92.44,
+       34.24
+      ],
+      [
+       -92.63,
+       34.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.64fc68151f9de2318f31e0e58f174f08f0babebc.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.64fc68151f9de2318f31e0e58f174f08f0babebc.002.1",
+    "areaDesc": "Grant, AR",
+    "geocode": {
+     "SAME": [
+      "005053"
+     ],
+     "UGC": [
+      "ARC053"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/ARC053"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ded1814e3e273f78a9a1cea9d6e5589a4611801.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.6ded1814e3e273f78a9a1cea9d6e5589a4611801.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-11-22T15:03:00-06:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e081676216d9541f67b0b5d1bf001181b5196add.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.e081676216d9541f67b0b5d1bf001181b5196add.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-11-22T15:10:00-06:00"
+     }
+    ],
+    "sent": "2026-11-22T15:17:00-06:00",
+    "effective": "2026-11-22T15:17:00-06:00",
+    "onset": "2026-11-22T15:17:00-06:00",
+    "expires": "2026-11-22T15:30:00-06:00",
+    "ends": "2026-11-22T15:30:00-06:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Observed",
+    "urgency": "Immediate",
+    "event": "Severe Thunderstorm Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Little Rock AR",
+    "headline": "Severe Thunderstorm Warning issued November 22 at 3:17PM CST until November 22 at 3:30PM CST by NWS Little Rock AR",
+    "description": "At 317 PM CST, a severe thunderstorm was located over Prattsville, or\n8 miles west of Sheridan, moving east at 25 mph.\n\nHAZARD...60 mph wind gusts and quarter size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Hail damage to vehicles is expected. Expect wind damage to\nroofs, siding, and trees.\n\nLocations impacted include...\nPrattsville...                    Jenkins Ferry State Park...\nBuie...",
+    "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.",
+    "response": "Shelter",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "SVSLZK"
+     ],
+     "WMOidentifier": [
+      "WWUS54 KLZK 222117"
+     ],
+     "NWSheadline": [
+      "A SEVERE THUNDERSTORM WARNING REMAINS IN EFFECT UNTIL 330 PM CST FOR WEST CENTRAL GRANT COUNTY"
+     ],
+     "eventMotionDescription": [
+      "2026-11-22T21:17:00-00:00...storm...270DEG...21KT...34.32,-92.56"
+     ],
+     "windThreat": [
+      "RADAR INDICATED"
+     ],
+     "maxWindGust": [
+      "60 MPH"
+     ],
+     "hailThreat": [
+      "RADAR INDICATED"
+     ],
+     "maxHailSize": [
+      "1.00"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CON.KLZK.SV.W.0361.000000T0000Z-261122T2130Z/"
+     ],
+     "eventEndingTime": [
+      "2026-11-22T15:30:00-06:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "SVS"
+     ],
+     "NationalWeatherService": [
+      "SVW"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4135b38dafc3bffb5cc33be07bb6c6afadeb0084.001.2",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4135b38dafc3bffb5cc33be07bb6c6afadeb0084.001.2",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4135b38dafc3bffb5cc33be07bb6c6afadeb0084.001.2",
+    "areaDesc": "Point Isabelle to Lower Entrance of Portage Canal MI; Portage Lake to Huron Island MI to Lower Entrance of Portage Canal To Huron Islands MI Including Keweenaw and Huron Bays",
+    "geocode": {
+     "SAME": [
+      "091246",
+      "091247"
+     ],
+     "UGC": [
+      "LSZ246",
+      "LSZ247"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/LSZ246",
+     "https://api.weather.gov/zones/forecast/LSZ247"
+    ],
+    "references": [],
+    "sent": "2026-11-22T15:57:00-05:00",
+    "effective": "2026-11-22T15:57:00-05:00",
+    "onset": "2026-11-23T00:00:00-05:00",
+    "expires": "2026-11-23T04:00:00-05:00",
+    "ends": "2026-11-23T13:00:00-05:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Small Craft Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Marquette MI",
+    "headline": "Small Craft Advisory issued November 22 at 3:57PM EST until November 23 at 1:00PM EST by NWS Marquette MI",
+    "description": "* WHAT...North winds 10 to 20 kt with gusts up to 30 kt and\nwaves 1 to 3 ft expected.\n\n* WHERE...Point Isabelle to Lower Entrance of Portage Canal MI\nand Lower Entrance of Portage Canal To Huron Islands MI\nIncluding Keweenaw and Huron Bays.\n\n* WHEN...From midnight tonight to 1 PM EST Monday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+    "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "MWWMQT"
+     ],
+     "WMOidentifier": [
+      "WHUS73 KMQT 222057"
+     ],
+     "NWSheadline": [
+      "SMALL CRAFT ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 1 PM EST MONDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.KMQT.SC.Y.0183.261123T0500Z-261123T1800Z/"
+     ],
+     "eventEndingTime": [
+      "2026-11-23T13:00:00-05:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "SCY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-52165",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0-KEEPALIVE-52165",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0-KEEPALIVE-52165",
+    "areaDesc": "Montgomery",
+    "geocode": {
+     "SAME": [
+      "024031"
+     ],
+     "UGC": [
+      "MDC031"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/MDC031"
+    ],
+    "references": [],
+    "sent": "2026-11-22T21:14:55+00:00",
+    "effective": "2026-11-22T21:14:55+00:00",
+    "onset": null,
+    "expires": "2026-11-22T21:24:55+00:00",
+    "ends": null,
+    "status": "Test",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Unknown",
+    "certainty": "Unknown",
+    "urgency": "Unknown",
+    "event": "Test Message",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS",
+    "headline": null,
+    "description": "Monitoring message only. Please disregard.",
+    "instruction": "Monitoring message only. Please disregard.",
+    "response": "None",
+    "note": "This is only a test for monitoring of vital dissemination systems.",
+    "parameters": {
+     "AWIPSidentifier": [
+      "KEPWBC"
+     ],
+     "WMOidentifier": [
+      "NZUS91 KWBC 222114"
+     ],
+     "BLOCKCHANNEL": [
+      "CMAS",
+      "EAS",
+      "NWEM"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "TST"
+     ]
+    }
+   }
+  },
+  {
+   "id": "urn:oid:2.49.0.1.840.0.expired.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4135b38dafc3bffb5cc33be07bb6c6afadeb0084.001.2",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.expired.001.1",
+    "areaDesc": "Point Isabelle to Lower Entrance of Portage Canal MI; Portage Lake to Huron Island MI to Lower Entrance of Portage Canal To Huron Islands MI Including Keweenaw and Huron Bays",
+    "geocode": {
+     "SAME": [
+      "091246",
+      "091247"
+     ],
+     "UGC": [
+      "LSZ246",
+      "LSZ247"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/LSZ246",
+     "https://api.weather.gov/zones/forecast/LSZ247"
+    ],
+    "references": [],
+    "sent": "2026-11-22T15:57:00-05:00",
+    "effective": "2026-11-22T15:57:00-05:00",
+    "onset": "2026-11-23T00:00:00-05:00",
+    "expires": "2020-01-01T00:00:00-00:00",
+    "ends": "2020-01-01T00:00:00-00:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Small Craft Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Marquette MI",
+    "headline": "Small Craft Advisory issued November 22 at 3:57PM EST until November 23 at 1:00PM EST by NWS Marquette MI",
+    "description": "* WHAT...North winds 10 to 20 kt with gusts up to 30 kt and\nwaves 1 to 3 ft expected.\n\n* WHERE...Point Isabelle to Lower Entrance of Portage Canal MI\nand Lower Entrance of Portage Canal To Huron Islands MI\nIncluding Keweenaw and Huron Bays.\n\n* WHEN...From midnight tonight to 1 PM EST Monday.\n\n* IMPACTS...Conditions will be hazardous to small craft.",
+    "instruction": "Inexperienced mariners, especially those operating smaller\nvessels, should avoid navigating in hazardous conditions.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "MWWMQT"
+     ],
+     "WMOidentifier": [
+      "WHUS73 KMQT 222057"
+     ],
+     "NWSheadline": [
+      "SMALL CRAFT ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 1 PM EST MONDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.KMQT.SC.Y.0183.261123T0500Z-261123T1800Z/"
+     ],
+     "eventEndingTime": [
+      "2026-11-23T13:00:00-05:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "SCY"
+     ]
+    }
+   }
+  }
+ ]
+}

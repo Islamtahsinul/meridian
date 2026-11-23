@@ -1,0 +1,14 @@
+[
+  {"callSign": "OJAB ", "destination": "KOTKA   ", "draught": 82, "eta": 772510, "imo": 9000003,
+   "mmsi": 230000001, "name": "TEST CARGO@@@", "posType": 1, "referencePointA": 120, "referencePointB": 30,
+   "referencePointC": 12, "referencePointD": 11, "shipType": 70, "timestamp": 1795379000000},
+  {"callSign": "OJCD", "destination": "HELSINKI", "draught": 95, "eta": 0, "imo": 9000015,
+   "mmsi": 230000002, "name": "TEST TANKER", "posType": 1, "referencePointA": 180, "referencePointB": 40,
+   "referencePointC": 16, "referencePointD": 16, "shipType": 80, "timestamp": 1795379000000},
+  {"callSign": "ESXY", "destination": "TALLINN", "draught": 60, "eta": 772510, "imo": 1234568,
+   "mmsi": 276000003, "name": "TEST FERRY", "posType": 1, "referencePointA": 150, "referencePointB": 40,
+   "referencePointC": 15, "referencePointD": 15, "shipType": 60, "timestamp": 1795379000000},
+  {"callSign": "SABC", "destination": "", "draught": 0, "eta": 0, "imo": 0,
+   "mmsi": 265000004, "name": "SEA BREEZE", "posType": 1, "referencePointA": 8, "referencePointB": 4,
+   "referencePointC": 2, "referencePointD": 2, "shipType": 36, "timestamp": 1795379000000}
+]

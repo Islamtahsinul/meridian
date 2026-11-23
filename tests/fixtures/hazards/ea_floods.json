@@ -1,0 +1,132 @@
+{
+ "meta": {
+  "publisher": "Environment Agency",
+  "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "documentation": "http://environment.data.gov.uk/flood-monitoring/doc/reference",
+  "version": "0.9",
+  "comment": "Status: Beta service",
+  "hasFormat": [
+   "http://environment.data.gov.uk/flood-monitoring/id/floods.csv",
+   "http://environment.data.gov.uk/flood-monitoring/id/floods.rdf",
+   "http://environment.data.gov.uk/flood-monitoring/id/floods.ttl",
+   "http://environment.data.gov.uk/flood-monitoring/id/floods.html"
+  ]
+ },
+ "items": [
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/floods/114WAFT1W01A00",
+   "description": "West Cornwall Rivers",
+   "eaAreaName": "Devon, Cornwall and the Isles of Scilly",
+   "eaRegionName": "No longer used",
+   "floodArea": {
+    "@id": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/114WAFT1W01A00",
+    "county": "Cornwall",
+    "notation": "114WAFT1W01A00",
+    "polygon": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/114WAFT1W01A00/polygon",
+    "riverOrSea": "River Hayle, Bolingey Stream"
+   },
+   "floodAreaID": "114WAFT1W01A00",
+   "isTidal": false,
+   "message": "Flooding is possible for: Penzance, Hayle and St Ives.\nRiver levels remain high.",
+   "severity": "Flood alert",
+   "severityLevel": 3,
+   "timeMessageChanged": "2026-11-23T11:04:00",
+   "timeRaised": "2026-11-23T11:04:00",
+   "timeSeverityChanged": "2026-11-23T11:04:00"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/floods/113FWFEXE01",
+   "description": "River Exe at Exeter",
+   "eaAreaName": "Devon, Cornwall and the Isles of Scilly",
+   "eaRegionName": "No longer used",
+   "floodArea": {
+    "@id": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/113FWFEXE01",
+    "county": "Devon",
+    "notation": "113FWFEXE01",
+    "polygon": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/113FWFEXE01/polygon",
+    "riverOrSea": "River Exe"
+   },
+   "floodAreaID": "113FWFEXE01",
+   "isTidal": false,
+   "message": "Flooding is expected at Exeter Quay.\nAct now.",
+   "severity": "Flood warning",
+   "severityLevel": 2,
+   "timeMessageChanged": "2026-11-23T14:30:00",
+   "timeRaised": "2026-11-23T14:30:00",
+   "timeSeverityChanged": "2026-11-23T14:30:00"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/floods/113FWCSEVERE",
+   "description": "Exmouth seafront",
+   "eaAreaName": "Devon, Cornwall and the Isles of Scilly",
+   "eaRegionName": "No longer used",
+   "floodArea": {
+    "@id": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/113FWCSEVERE",
+    "county": "Devon",
+    "notation": "113FWCSEVERE",
+    "polygon": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/113FWCSEVERE/polygon",
+    "riverOrSea": "Exe Estuary"
+   },
+   "floodAreaID": "113FWCSEVERE",
+   "isTidal": true,
+   "message": "Severe flooding is expected. There is a danger to life.",
+   "severity": "Severe Flood Warning",
+   "severityLevel": 1,
+   "timeMessageChanged": "2026-11-23T15:10:00",
+   "timeRaised": "2026-11-23T15:10:00",
+   "timeSeverityChanged": "2026-11-23T15:10:00"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/floods/112WAFTUBA",
+   "description": "Upper Tamar",
+   "eaAreaName": "Devon, Cornwall and the Isles of Scilly",
+   "eaRegionName": "No longer used",
+   "floodArea": {
+    "@id": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/112WAFTUBA",
+    "county": "Cornwall, Devon",
+    "notation": "112WAFTUBA",
+    "polygon": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/112WAFTUBA/polygon",
+    "riverOrSea": "River Tamar"
+   },
+   "floodAreaID": "112WAFTUBA",
+   "isTidal": false,
+   "message": "Flooding is possible.",
+   "severity": "Flood alert",
+   "severityLevel": 3,
+   "timeMessageChanged": "2026-11-23T09:00:00",
+   "timeRaised": "2026-11-23T09:00:00",
+   "timeSeverityChanged": "2026-11-23T09:00:00"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/floods/011ENDED",
+   "description": "Somewhere ended",
+   "eaAreaName": "Devon, Cornwall and the Isles of Scilly",
+   "eaRegionName": "No longer used",
+   "floodArea": {
+    "@id": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/011ENDED",
+    "county": "Somerset",
+    "notation": "011ENDED",
+    "polygon": "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/011ENDED/polygon",
+    "riverOrSea": "River Parrett"
+   },
+   "floodAreaID": "011ENDED",
+   "isTidal": false,
+   "message": "No longer a threat.",
+   "severity": "Warning no longer in force",
+   "severityLevel": 4,
+   "timeMessageChanged": "2026-11-23T08:00:00",
+   "timeRaised": "2026-11-23T08:00:00",
+   "timeSeverityChanged": "2026-11-23T08:00:00"
+  },
+  {
+   "floodAreaID": "bad id/../x",
+   "severityLevel": 2,
+   "description": "poisoned"
+  },
+  {
+   "floodAreaID": "999NOLEVEL",
+   "severityLevel": 7,
+   "description": "bad level"
+  }
+ ]
+}

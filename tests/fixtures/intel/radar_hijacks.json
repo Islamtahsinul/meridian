@@ -1,0 +1,245 @@
+{
+ "success": true,
+ "errors": [],
+ "result": {
+  "asn_info": [
+   {
+    "asn": 64496,
+    "org_name": "Example Network 1",
+    "country_code": "RO"
+   },
+   {
+    "asn": 64497,
+    "org_name": "Example Network 2",
+    "country_code": "US"
+   },
+   {
+    "asn": 64498,
+    "org_name": "Example Network 3",
+    "country_code": "MY"
+   },
+   {
+    "asn": 64499,
+    "org_name": "Example Network 4",
+    "country_code": "TR"
+   },
+   {
+    "asn": 64500,
+    "org_name": "Example Network 5",
+    "country_code": "UA"
+   },
+   {
+    "asn": 64501,
+    "org_name": "Example Network 6",
+    "country_code": "MY"
+   },
+   {
+    "asn": 64502,
+    "org_name": "Example Network 7",
+    "country_code": "TR"
+   },
+   {
+    "asn": 64503,
+    "org_name": "",
+    "country_code": "ZZ"
+   }
+  ],
+  "events": [
+   {
+    "duration": 3,
+    "event_type": 0,
+    "hijack_msgs_count": 2,
+    "hijacker_asn": 64497,
+    "hijacker_country": "US",
+    "id": 174251,
+    "is_stale": false,
+    "max_hijack_ts": "2026-11-23T15:27:48.689",
+    "max_msg_ts": "2026-11-23T15:27:51.357",
+    "min_hijack_ts": "2026-11-23T15:27:48.689",
+    "on_going_count": 0,
+    "peer_asns": [
+     64504
+    ],
+    "peer_ip_count": 1,
+    "prefixes": [
+     "192.0.2.0/24",
+     "198.51.100.0/24"
+    ],
+    "tags": [
+     {
+      "name": "irr_new_origin_unknown",
+      "score": 0
+     },
+     {
+      "name": "irr_old_origin_unknown",
+      "score": 0
+     },
+     {
+      "name": "rpki_new_origin_invalid",
+      "score": 8
+     },
+     {
+      "name": "rpki_old_origin_valid",
+      "score": 0
+     }
+    ],
+    "victim_asns": [
+     64496
+    ],
+    "victim_countries": [
+     "GB"
+    ],
+    "confidence_score": 8
+   },
+   {
+    "duration": 278,
+    "event_type": 0,
+    "hijack_msgs_count": 4,
+    "hijacker_asn": 64498,
+    "hijacker_country": "MY",
+    "id": 174249,
+    "is_stale": false,
+    "max_hijack_ts": "2026-11-23T15:14:58.948",
+    "max_msg_ts": "2026-11-23T15:19:36.150",
+    "min_hijack_ts": "2026-11-23T15:14:58.236",
+    "on_going_count": 0,
+    "peer_asns": [
+     64505,
+     64506,
+     64507,
+     64508
+    ],
+    "peer_ip_count": 4,
+    "prefixes": [
+     "203.0.113.0/24"
+    ],
+    "tags": [
+     {
+      "name": "irr_new_origin_invalid",
+      "score": 4
+     },
+     {
+      "name": "irr_old_origin_valid",
+      "score": 0
+     },
+     {
+      "name": "rpki_new_origin_invalid",
+      "score": 8
+     },
+     {
+      "name": "rpki_old_origin_valid",
+      "score": 0
+     }
+    ],
+    "victim_asns": [
+     64501
+    ],
+    "victim_countries": [
+     "MY"
+    ],
+    "confidence_score": 12
+   },
+   {
+    "duration": 48,
+    "event_type": 0,
+    "hijack_msgs_count": 6,
+    "hijacker_asn": 64499,
+    "hijacker_country": "TR",
+    "id": 174240,
+    "is_stale": false,
+    "max_hijack_ts": "2026-11-23T13:04:35.304",
+    "max_msg_ts": "2026-11-23T13:04:46.654",
+    "min_hijack_ts": "2026-11-23T13:03:59.142",
+    "on_going_count": 4,
+    "peer_asns": [
+     64509,
+     64506,
+     64510,
+     64507,
+     64511
+    ],
+    "peer_ip_count": 5,
+    "prefixes": [
+     "2001:db8:3::/48"
+    ],
+    "tags": [
+     {
+      "name": "irr_new_origin_invalid",
+      "score": 4
+     },
+     {
+      "name": "irr_old_origin_valid",
+      "score": 0
+     },
+     {
+      "name": "rpki_new_origin_invalid",
+      "score": 8
+     },
+     {
+      "name": "rpki_old_origin_valid",
+      "score": 0
+     }
+    ],
+    "victim_asns": [
+     64502
+    ],
+    "victim_countries": [
+     "TR"
+    ],
+    "confidence_score": 12
+   },
+   {
+    "duration": 898,
+    "event_type": 0,
+    "hijack_msgs_count": 1,
+    "hijacker_asn": 64500,
+    "hijacker_country": "UA",
+    "id": 174235,
+    "is_stale": false,
+    "max_hijack_ts": "2026-11-23T12:45:02.615",
+    "max_msg_ts": "2026-11-23T13:00:00.276",
+    "min_hijack_ts": "2026-11-23T12:45:02.615",
+    "on_going_count": 0,
+    "peer_asns": [
+     64511
+    ],
+    "peer_ip_count": 1,
+    "prefixes": [
+     "2001:db8:4::/48"
+    ],
+    "tags": [
+     {
+      "name": "irr_new_origin_invalid",
+      "score": 4
+     },
+     {
+      "name": "irr_old_origin_invalid",
+      "score": -2
+     },
+     {
+      "name": "rpki_new_origin_invalid",
+      "score": 8
+     },
+     {
+      "name": "rpki_old_origin_valid",
+      "score": 0
+     }
+    ],
+    "victim_asns": [
+     64503
+    ],
+    "victim_countries": [
+     "ID"
+    ],
+    "confidence_score": 10
+   }
+  ],
+  "total_monitors": 280
+ },
+ "result_info": {
+  "count": 4,
+  "total_count": 4,
+  "page": 1,
+  "per_page": 100
+ }
+}

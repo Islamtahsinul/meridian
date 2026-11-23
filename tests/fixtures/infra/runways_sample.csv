@@ -1,0 +1,5 @@
+"id","airport_ref","airport_ident","length_ft","width_ft","surface","lighted","closed","le_ident","le_latitude_deg","le_longitude_deg","le_elevation_ft","le_heading_degT","le_displaced_threshold_ft","he_ident","he_latitude_deg","he_longitude_deg","he_elevation_ft","he_heading_degT","he_displaced_threshold_ft"
+10,1,"EGLL",12799,164,"ASP",1,0,"09L",51.4775,-0.4850,79,89.6,1007,"27R",51.4776,-0.4332,78,269.7,
+11,1,"EGLL",12008,164,"ASP",1,0,"09R",51.4647,-0.4823,75,89.6,,"27L",51.4650,-0.4340,77,269.7,
+12,4,"GB-0001",1800,60,"Grass",0,0,"07",,,,,,"25",,,,,
+13,4,"GB-0001",900,40,"Turf",0,1,"18",,,,,,"36",,,,,

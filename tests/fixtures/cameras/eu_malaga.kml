@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <Schema name="da_camarasTrafico_1" id="da_camarasTrafico_1">
+            <SimpleField type="string" name="ID"/>
+            <SimpleField type="string" name="NOMBRE"/>
+            <SimpleField type="string" name="DESCRIPCION"/>
+            <SimpleField type="string" name="DIRECCION"/>
+            <SimpleField type="string" name="URL"/>
+            <SimpleField type="string" name="EMAIL"/>
+            <SimpleField type="string" name="CONTACTO"/>
+            <SimpleField type="string" name="HORARIOS"/>
+            <SimpleField type="string" name="PRECIOS"/>
+            <SimpleField type="string" name="TITULARIDAD"/>
+            <SimpleField type="string" name="TARJETAJOVEN"/>
+            <SimpleField type="string" name="ACCESOPMR"/>
+            <SimpleField type="string" name="URLIMAGEN"/>
+        </Schema>
+        <Folder>
+            <name>da_camarasTrafico</name>
+            <Placemark id="da_camarasTrafico.fid--175d4967_1a206858404_c51">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#da_camarasTrafico_1">
+                        <SimpleData name="ID">21611</SimpleData>
+                        <SimpleData name="NOMBRE">TV87-EL BONI - CAMPANILLAS</SimpleData>
+                        <SimpleData name="DESCRIPCION">C/ José Calderón - El Boni</SimpleData>
+                        <SimpleData name="DIRECCION">CALLE JOSÉ CALDERÓN, 45 </SimpleData>
+                        <SimpleData name="URL">https://movilidad.malaga.eu/es/servicios/camaras-de-trafico/distrito-9/tv-87/index.html</SimpleData>
+                        <SimpleData name="TITULARIDAD">MUNICIPAL</SimpleData>
+                        <SimpleData name="TARJETAJOVEN">No</SimpleData>
+                        <SimpleData name="ACCESOPMR">No</SimpleData>
+                        <SimpleData name="URLIMAGEN">https://ctraficomovilidad.malaga.eu/recursos/movilidad/camaras_trafico/TV-87.jpg</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-4.539062997820292,36.72406291352086</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="da_camarasTrafico.fid--175d4967_1a206858404_c52">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#da_camarasTrafico_1">
+                        <SimpleData name="ID">75066</SimpleData>
+                        <SimpleData name="NOMBRE">TV100-JOSÉ CALDERÓN - JUNTA DE DISTRITO CAMPANILLAS</SimpleData>
+                        <SimpleData name="DESCRIPCION">José Calderón - Junta De Distrito Campanillas</SimpleData>
+                        <SimpleData name="DIRECCION">CALLE JOSÉ CALDERÓN, 174 </SimpleData>
+                        <SimpleData name="URL">https://movilidad.malaga.eu/es/servicios/camaras-de-trafico/distrito-9/tv-100/index.html</SimpleData>
+                        <SimpleData name="TITULARIDAD">MUNICIPAL</SimpleData>
+                        <SimpleData name="TARJETAJOVEN">No</SimpleData>
+                        <SimpleData name="ACCESOPMR">No</SimpleData>
+                        <SimpleData name="URLIMAGEN">https://ctraficomovilidad.malaga.eu/recursos/movilidad/camaras_trafico/TV-100.jpg</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-4.544862290941862,36.72806421666882</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="da_camarasTrafico.fid--175d4967_1a206858404_c53">
+                <ExtendedData>
+                    <SchemaData schemaUrl="#da_camarasTrafico_1">
+                        <SimpleData name="ID">75086</SimpleData>
+                        <SimpleData name="NOMBRE">TV120-HERMANOS LUMIERE - LICURGO</SimpleData>
+                        <SimpleData name="DESCRIPCION">Hermanos Lumiere - Licurgo</SimpleData>
+                        <SimpleData name="DIRECCION">CALLE HERMANOS LUMIÈRE, 14 </SimpleData>
+                        <SimpleData name="URL">https://movilidad.malaga.eu/es/servicios/camaras-de-trafico/distrito-7/tv-120/index.html</SimpleData>
+                        <SimpleData name="TITULARIDAD">DGT</SimpleData>
+                        <SimpleData name="TARJETAJOVEN">No</SimpleData>
+                        <SimpleData name="ACCESOPMR">No</SimpleData>
+                        <SimpleData name="URLIMAGEN">https://ctraficomovilidad.malaga.eu/recursos/movilidad/camaras_trafico/TV-120.jpg</SimpleData>
+                    </SchemaData>
+                </ExtendedData>
+                <Point>
+                    <coordinates>-4.4627101617254334,36.69370759993173</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

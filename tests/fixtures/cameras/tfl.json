@@ -1,0 +1,137 @@
+[
+ {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "JamCams_00002.00865",
+  "url": "/Place/JamCams_00002.00865",
+  "commonName": "A406 Billet Upass E",
+  "placeType": "JamCam",
+  "additionalProperties": [
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "available",
+    "sourceSystemKey": "JamCams",
+    "value": "true",
+    "modified": "2026-11-17T14:46:23.567Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "imageUrl",
+    "sourceSystemKey": "JamCams",
+    "value": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00865.jpg",
+    "modified": "2026-11-17T14:46:23.567Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "videoUrl",
+    "sourceSystemKey": "JamCams",
+    "value": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00865.mp4",
+    "modified": "2026-11-17T14:46:23.567Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "cameraView",
+    "key": "view",
+    "sourceSystemKey": "JamCams",
+    "value": "West",
+    "modified": "2026-11-17T14:46:23.567Z"
+   }
+  ],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.60067,
+  "lon": -0.01594
+ },
+ {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "JamCams_00001.02151",
+  "url": "/Place/JamCams_00001.02151",
+  "commonName": "Romford Rd / Tennyson Rd",
+  "placeType": "JamCam",
+  "additionalProperties": [
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "available",
+    "sourceSystemKey": "JamCams",
+    "value": "true",
+    "modified": "2026-11-19T06:48:21.217Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "imageUrl",
+    "sourceSystemKey": "JamCams",
+    "value": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.02151.jpg",
+    "modified": "2026-11-19T06:48:21.217Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "videoUrl",
+    "sourceSystemKey": "JamCams",
+    "value": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.02151.mp4",
+    "modified": "2026-11-19T06:48:21.217Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "cameraView",
+    "key": "view",
+    "sourceSystemKey": "JamCams",
+    "value": "ZOOM WEST-The Grove",
+    "modified": "2026-11-19T06:48:21.217Z"
+   }
+  ],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.5421,
+  "lon": 0.00524
+ },
+ {
+  "$type": "Tfl.Api.Presentation.Entities.Place, Tfl.Api.Presentation.Entities",
+  "id": "JamCams_00001.06511",
+  "url": "/Place/JamCams_00001.06511",
+  "commonName": "Victoria St/Wilton Rd",
+  "placeType": "JamCam",
+  "additionalProperties": [
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "available",
+    "sourceSystemKey": "JamCams",
+    "value": "false",
+    "modified": "2026-11-22T08:51:49.357Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "imageUrl",
+    "sourceSystemKey": "JamCams",
+    "value": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.06511.jpg",
+    "modified": "2026-11-22T08:51:49.357Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "payload",
+    "key": "videoUrl",
+    "sourceSystemKey": "JamCams",
+    "value": "https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.06511.mp4",
+    "modified": "2026-11-22T08:51:49.357Z"
+   },
+   {
+    "$type": "Tfl.Api.Presentation.Entities.AdditionalProperties, Tfl.Api.Presentation.Entities",
+    "category": "cameraView",
+    "key": "view",
+    "sourceSystemKey": "JamCams",
+    "value": "Zoom - Victoria station",
+    "modified": "2026-11-22T08:51:49.357Z"
+   }
+  ],
+  "children": [],
+  "childrenUrls": [],
+  "lat": 51.4963,
+  "lon": -0.14243
+ }
+]

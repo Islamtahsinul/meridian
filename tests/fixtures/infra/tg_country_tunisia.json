@@ -1,0 +1,4 @@
+{"id":"tunisia","name":"Tunisia","cables":[
+ {"id":"alpha","name":"Alpha Cable","rfs_year":2001,"is_planned":false,"landing_points":["marseille-france","bizerte-tunisia"]},
+ {"id":"gamma","name":"Gamma Planned","rfs_year":2028,"is_planned":true,"landing_points":["genoa-italy","bizerte-tunisia"]}],
+ "landing_points":["marseille-france","bizerte-tunisia","genoa-italy"],"landing_points_in_country":["bizerte-tunisia"]}

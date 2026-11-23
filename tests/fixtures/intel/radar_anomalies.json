@@ -1,0 +1,164 @@
+{
+ "success": true,
+ "errors": [],
+ "result": {
+  "trafficAnomalies": [
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "b54d8574-53cf-5c91-adda-8e1dd0c0edc3",
+    "type": "LOCATION",
+    "status": "TP",
+    "startDate": "2026-11-23T00:30:00Z",
+    "endDate": "2026-11-23T02:30:00Z",
+    "locationDetails": {
+     "code": "CG",
+     "name": "Congo"
+    },
+    "asnDetails": null,
+    "originDetails": null,
+    "outageId": null
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "ed6b5420-cd8b-5392-b3bb-d3703221243e",
+    "type": "LOCATION",
+    "status": "VERIFIED",
+    "startDate": "2026-11-22T22:30:00Z",
+    "endDate": "2026-11-22T23:15:00Z",
+    "locationDetails": {
+     "code": "GA",
+     "name": "Gabon"
+    },
+    "asnDetails": null,
+    "originDetails": null,
+    "outageId": null
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "30161b27-ace5-56e7-aa8d-d56915d9da09",
+    "type": "AS",
+    "status": "TP",
+    "startDate": "2026-11-22T11:45:00Z",
+    "endDate": "2026-11-22T13:30:00Z",
+    "locationDetails": null,
+    "asnDetails": {
+     "asn": "65545",
+     "name": "EXAMPLE-NETWORK-17",
+     "location": {
+      "code": "CM",
+      "name": "Cameroon"
+     }
+    },
+    "originDetails": null,
+    "outageId": null
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "0dc438ca-e322-5bfc-b077-ec279f201d7b",
+    "type": "LOCATION",
+    "status": "VERIFIED",
+    "startDate": "2026-11-20T23:00:00Z",
+    "endDate": "2026-11-21T03:15:00Z",
+    "locationDetails": {
+     "code": "GF",
+     "name": "French Guiana"
+    },
+    "asnDetails": null,
+    "originDetails": null,
+    "outageId": "1753"
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "a748cd2b-e86b-512d-8a1c-d7e44229e2f4",
+    "type": "LOCATION",
+    "status": "VERIFIED",
+    "startDate": "2026-11-20T12:30:00Z",
+    "endDate": "2026-11-20T14:15:00Z",
+    "locationDetails": {
+     "code": "CG",
+     "name": "Congo"
+    },
+    "asnDetails": null,
+    "originDetails": null,
+    "outageId": null
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "693186bf-8906-54f0-bc46-7fd838e65c45",
+    "type": "AS",
+    "status": "VERIFIED",
+    "startDate": "2026-11-18T22:00:00Z",
+    "endDate": "2026-11-18T22:00:00Z",
+    "locationDetails": null,
+    "asnDetails": {
+     "asn": "65544",
+     "name": "EXAMPLE-NETWORK-16",
+     "location": {
+      "code": "CH",
+      "name": "Switzerland"
+     }
+    },
+    "originDetails": null,
+    "outageId": "1752"
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "d2353231-0faf-5bc5-b686-1f36e4ef3940",
+    "type": "LOCATION",
+    "status": "TP",
+    "startDate": "2026-11-18T12:30:00Z",
+    "endDate": "2026-11-20T08:00:00Z",
+    "locationDetails": {
+     "code": "PK",
+     "name": "Pakistan"
+    },
+    "asnDetails": null,
+    "originDetails": null,
+    "outageId": "1751"
+   },
+   {
+    "visibleInDataSources": [
+     "HTTP",
+     "NET"
+    ],
+    "uuid": "5817bbe5-ae53-53ba-b9fb-0b6cd23627df",
+    "type": "AS",
+    "status": "TP",
+    "startDate": "2026-11-17T00:15:00Z",
+    "endDate": "2026-11-17T00:15:00Z",
+    "locationDetails": null,
+    "asnDetails": {
+     "asn": "65546",
+     "name": "EXAMPLE-NETWORK-18",
+     "location": {
+      "code": "MY",
+      "name": "Malaysia"
+     }
+    },
+    "originDetails": null,
+    "outageId": null
+   }
+  ]
+ }
+}

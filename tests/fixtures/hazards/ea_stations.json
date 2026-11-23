@@ -1,0 +1,157 @@
+{
+ "items": [
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/48109",
+   "easting": 158564,
+   "gridReference": "SW5856437935",
+   "label": "ANGARRACK",
+   "lat": 50.19,
+   "long": -5.4,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/48109-level-stage-i-15_min-m",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "m"
+    }
+   ],
+   "northing": 37935,
+   "notation": "48109",
+   "stationReference": "48109"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47133",
+   "RLOIid": "3187",
+   "catchmentName": "Tamar",
+   "dateOpened": "1972-06-21",
+   "easting": 229050,
+   "label": "Crowford Bridge",
+   "lat": 50.72,
+   "long": -3.5,
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/47133-level-downstream_stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Downstream Stage",
+     "unitName": "mASD"
+    },
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/47133-level-stage-i-15_min-mASD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "mASD"
+    }
+   ],
+   "northing": 99100,
+   "notation": "47133",
+   "riverName": "River Tamar",
+   "stageScale": {
+    "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47133/stageScale",
+    "highestRecent": {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47133/stageScale/highestRecent",
+     "dateTime": "2012-12-22T13:15:00",
+     "value": 2.249
+    },
+    "maxOnRecord": {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47133/stageScale/maxOnRecord",
+     "dateTime": "1999-12-19T01:15:00",
+     "value": 2.425
+    },
+    "minOnRecord": {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/47133/stageScale/minOnRecord",
+     "dateTime": "1975-08-04T15:15:00",
+     "value": 0.012
+    },
+    "scaleMax": 3,
+    "typicalRangeHigh": 1.4,
+    "typicalRangeLow": 0.077
+   },
+   "stationReference": "47133",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusActive",
+   "town": "Whitstone",
+   "wiskiID": "SX29F067"
+  },
+  {
+   "@id": "http://environment.data.gov.uk/flood-monitoring/id/stations/E70024",
+   "RLOIid": [
+    "8061",
+    "8062"
+   ],
+   "label": "Exmouth Dock",
+   "lat": [
+    50.62,
+    50.6201
+   ],
+   "long": -3.48,
+   "notation": "E70024",
+   "stationReference": "E70024",
+   "town": "Exmouth",
+   "riverName": "River Exe",
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/E70024-level-tidal_level-i-15_min-mAOD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Tidal Level",
+     "unitName": "mAOD"
+    }
+   ]
+  },
+  {
+   "label": "Some borehole",
+   "lat": 50.7,
+   "long": -3.5,
+   "stationReference": "GW1",
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/GW1-level-groundwater-i-15_min-mAOD",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Groundwater",
+     "unitName": "mAOD"
+    }
+   ]
+  },
+  {
+   "label": "Closed gauge",
+   "lat": 50.7,
+   "long": -3.5,
+   "stationReference": "CL1",
+   "status": "http://environment.data.gov.uk/flood-monitoring/def/core/statusClosed",
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/CL1-level-stage-i-15_min-m",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "m"
+    }
+   ]
+  },
+  {
+   "label": "Far away",
+   "lat": 54.5,
+   "long": -1.5,
+   "stationReference": "FAR1",
+   "measures": [
+    {
+     "@id": "http://environment.data.gov.uk/flood-monitoring/id/measures/FAR1-level-stage-i-15_min-m",
+     "parameter": "level",
+     "parameterName": "Water Level",
+     "period": 900,
+     "qualifier": "Stage",
+     "unitName": "m"
+    }
+   ]
+  }
+ ]
+}

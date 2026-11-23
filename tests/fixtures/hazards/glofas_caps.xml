@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding="UTF-8" standalone="no" ?>
+<WMS_Capabilities version="1.3.0"  xmlns="http://www.opengis.net/wms"   xmlns:sld="http://www.opengis.net/sld"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xmlns:ms="http://mapserver.gis.umn.edu/mapserver"   xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd  http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd  http://mapserver.gis.umn.edu/mapserver https://ows.globalfloods.eu/glofas-ows/ows.py?service=WMS&amp;version=1.3.0&amp;request=GetSchemaExtension">
+<Service>
+  <Name>WMS</Name>
+  <Title>GLOFAS WMS</Title>
+  <Abstract>GLOFAS WMS</Abstract>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/>
+  <ContactInformation>
+  </ContactInformation>
+  <MaxWidth>6144</MaxWidth>
+  <MaxHeight>6144</MaxHeight>
+</Service>
+
+<Capability>
+  <Request>
+    <GetCapabilities>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetCapabilities>
+    <GetMap>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/png; mode=8bit</Format>
+      <Format>image/vnd.jpeg-png</Format>
+      <Format>image/vnd.jpeg-png8</Format>
+      <Format>application/x-pdf</Format>
+      <Format>image/svg+xml</Format>
+      <Format>image/tiff</Format>
+      <Format>application/vnd.google-earth.kml+xml</Format>
+      <Format>application/vnd.google-earth.kmz</Format>
+      <Format>application/vnd.mapbox-vector-tile</Format>
+      <Format>application/x-protobuf</Format>
+      <Format>application/json</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetMap>
+    <GetFeatureInfo>
+      <Format>text/html</Format>
+      <Format>application/vnd.ogc.gml</Format>
+      <Format>text/plain</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Post>
+        </HTTP>
+      </DCPType>
+    </GetFeatureInfo>
+    <sld:DescribeLayer>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Post>
+        </HTTP>
+      </DCPType>
+    </sld:DescribeLayer>
+    <sld:GetLegendGraphic>
+      <Format>image/png</Format>
+      <Format>image/jpeg</Format>
+      <Format>image/png; mode=8bit</Format>
+      <Format>image/vnd.jpeg-png</Format>
+      <Format>image/vnd.jpeg-png8</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Post>
+        </HTTP>
+      </DCPType>
+    </sld:GetLegendGraphic>
+    <ms:GetStyles>
+      <Format>text/xml</Format>
+      <DCPType>
+        <HTTP>
+          <Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Get>
+          <Post><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?"/></Post>
+        </HTTP>
+      </DCPType>
+    </ms:GetStyles>
+  </Request>
+  <Exception>
+    <Format>XML</Format>
+    <Format>INIMAGE</Format>
+    <Format>BLANK</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization SupportSLD="1" UserLayer="0" UserStyle="1" RemoteWFS="0" InlineFeature="0" RemoteWCS="0"/>
+  <Layer><Title>GLOFAS</Title><Layer queryable="0" opaque="0" cascaded="0">
+        <Name>sumAL41EGE</Name>
+        <Title>Flood summary for days 1-3</Title>
+        <Abstract>The flood summary map combines the 2-, 5- and 20-year exceedance probabilities into a category-based information. It shows where the ENS-max (maximum of the ensemble mean discharge) for forecast days 1-3 is &gt;20 year (purple) / 5-20  year  (red) / 2-5  year  (orange). Yellow indicates where the ENS-max is below the 2-year return period value, but there is noticeable probability (&gt;20%) for exceeding the 2-year return period level.</Abstract>
+        <KeywordList>
+            <Keyword>queryable=false</Keyword>
+            <Keyword>order=5</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>-180.000000</westBoundLongitude>
+            <eastBoundLongitude>180.000000</eastBoundLongitude>
+            <southBoundLatitude>-85.060000</southBoundLatitude>
+            <northBoundLatitude>85.060000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:900913"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="-85.060000" miny="-180.000000" maxx="85.060000" maxy="180.000000" />
+        <BoundingBox CRS="EPSG:66666"
+                    minx="-1.05382e+07" miny="-1.23887e+07" maxx="1.27317e+07" maxy="1.17697e+07" />
+        <Dimension name="time" units="ISO8601" default="2026-11-23T00:00Z" nearestValue="0">2019-07-01T00:00Z/2026-11-23T00:00Z/PT24H</Dimension>
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?request=GetMetadata&amp;layer=sumAL41EGE"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="338" height="2670">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=sumAL41EGE&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+<Layer queryable="0" opaque="0" cascaded="0">
+        <Name>sumAL42EGE</Name>
+        <Title>Flood summary for days 4-10</Title>
+        <Abstract>The flood summary map combines the 2-, 5- and 20-year exceedance probabilities into a category-based information. It shows where the ENS-max (maximum of the ensemble mean discharge) for forecast days 4-10 is &gt;20 year (purple) / 5-20  year  (red) / 2-5  year  (orange). Yellow indicates where the ENS-max is below the 2-year return period value, but there is noticeable probability (&gt;20%) for exceeding the 2-year return period level.</Abstract>
+        <KeywordList>
+            <Keyword>queryable=false</Keyword>
+            <Keyword>order=6</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>-180.000000</westBoundLongitude>
+            <eastBoundLongitude>180.000000</eastBoundLongitude>
+            <southBoundLatitude>-85.060000</southBoundLatitude>
+            <northBoundLatitude>85.060000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:900913"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="-85.060000" miny="-180.000000" maxx="85.060000" maxy="180.000000" />
+        <BoundingBox CRS="EPSG:66666"
+                    minx="-1.05382e+07" miny="-1.23887e+07" maxx="1.27317e+07" maxy="1.17697e+07" />
+        <Dimension name="time" units="ISO8601" default="2026-11-23T00:00Z" nearestValue="0">2019-07-01T00:00Z/2026-11-23T00:00Z/PT24H</Dimension>
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?request=GetMetadata&amp;layer=sumAL42EGE"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="338" height="2670">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=sumAL42EGE&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+<Layer queryable="0" opaque="0" cascaded="0">
+        <Name>sumAL43EGE</Name>
+        <Title>Flood summary for days 11-15</Title>
+        <Abstract>The flood summary map combines the 2-, 5- and 20-year exceedance probabilities into a category-based information. It shows where the ENS-max (maximum of the ensemble mean discharge) for forecast days 11-30 is &gt;20 year (purple) / 5-20  year  (red) / 2-5  year  (orange). Yellow indicates where the ENS-max is below the 2-year return period value, but there is noticeable probability (&gt;20%) for exceeding the 2-year return period level.</Abstract>
+        <KeywordList>
+            <Keyword>queryable=false</Keyword>
+            <Keyword>order=7</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>-180.000000</westBoundLongitude>
+            <eastBoundLongitude>180.000000</eastBoundLongitude>
+            <southBoundLatitude>-85.060000</southBoundLatitude>
+            <northBoundLatitude>85.060000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:900913"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="-85.060000" miny="-180.000000" maxx="85.060000" maxy="180.000000" />
+        <BoundingBox CRS="EPSG:66666"
+                    minx="-1.05382e+07" miny="-1.23887e+07" maxx="1.27317e+07" maxy="1.17697e+07" />
+        <Dimension name="time" units="ISO8601" default="2026-11-23T00:00Z" nearestValue="0">2019-07-01T00:00Z/2026-11-23T00:00Z/PT24H</Dimension>
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?request=GetMetadata&amp;layer=sumAL43EGE"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="338" height="2670">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=sumAL43EGE&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+<Layer queryable="0" opaque="0" cascaded="0">
+        <Name>reportingPoints</Name>
+        <Title>Reporting Points</Title>
+        <Abstract>Reporting point where the forecasted probability to exceed a 20 year (purple), 5 year (red), 2 year (yellow) return period is &gt; 20 %. Numbers denote the percentage of ensemble members exceeding the specific return period. Shape denotes rising (upward triangle), decreasing (downward triangle), or stagnant (circle) trend of the ensemble mean discharge within the forecast horizon.</Abstract>
+        <KeywordList>
+            <Keyword>internal_layer=false</Keyword>
+            <Keyword>queryable=true</Keyword>
+            <Keyword>order=8</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>-180.000000</westBoundLongitude>
+            <eastBoundLongitude>180.000000</eastBoundLongitude>
+            <southBoundLatitude>-85.060000</southBoundLatitude>
+            <northBoundLatitude>85.060000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:900913"
+                    minx="-2.00375e+07" miny="-2.0049e+07" maxx="2.00375e+07" maxy="2.0049e+07" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="-85.060000" miny="-180.000000" maxx="85.060000" maxy="180.000000" />
+        <BoundingBox CRS="EPSG:66666"
+                    minx="-1.05382e+07" miny="-1.23887e+07" maxx="1.27317e+07" maxy="1.17697e+07" />
+        <Dimension name="time" units="ISO8601" default="2026-11-23T00:00Z" nearestValue="0">2011-01-01T00:00Z/2026-11-23T00:00Z/PT24H</Dimension>
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?request=GetMetadata&amp;layer=reportingPoints"/>
+        </MetadataURL>
+      </Layer>
+<Layer queryable="0" opaque="0" cascaded="0">
+        <Name>AccRainEGE</Name>
+        <Title>Accumulated Precipitation</Title>
+        <Abstract>Amount of accumulated preciptation over the first 10 days of the 30-day forecast horizon, computed as the mean of the ECMWF ensemble forecast.</Abstract>
+        <KeywordList>
+            <Keyword>queryable=false</Keyword>
+            <Keyword>order=1</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+            <westBoundLongitude>-180.000000</westBoundLongitude>
+            <eastBoundLongitude>180.000000</eastBoundLongitude>
+            <southBoundLatitude>-90.000000</southBoundLatitude>
+            <northBoundLatitude>90.000000</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:3857"
+                    minx="-2.00375e+07" miny="-2.00375e+07" maxx="2.00375e+07" maxy="2.00375e+07" />
+        <BoundingBox CRS="EPSG:900913"
+                    minx="-2.00375e+07" miny="-2.00375e+07" maxx="2.00375e+07" maxy="2.00375e+07" />
+        <BoundingBox CRS="EPSG:4326"
+                    minx="-90.000000" miny="-180.000000" maxx="90.000000" maxy="180.000000" />
+        <BoundingBox CRS="EPSG:66666"
+                    minx="-1e+15" miny="-1e+15" maxx="1e+15" maxy="1e+15" />
+        <Dimension name="time" units="ISO8601" default="2026-11-23T00:00Z" nearestValue="0">2011-01-01T00:00Z/2026-11-23T00:00Z/PT24H</Dimension>
+        <MetadataURL type="TC211">
+          <Format>text/xml</Format>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?request=GetMetadata&amp;layer=AccRainEGE"/>
+        </MetadataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>default</Title>
+          <LegendURL width="279" height="210">
+             <Format>image/png</Format>
+             <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://ows.globalfloods.eu/glofas-ows/ows.py?version=1.3.0&amp;service=WMS&amp;request=GetLegendGraphic&amp;sld_version=1.1.0&amp;layer=AccRainEGE&amp;format=image/png&amp;STYLE=default"/>
+          </LegendURL>
+        </Style>
+      </Layer></Layer></Capability></WMS_Capabilities>

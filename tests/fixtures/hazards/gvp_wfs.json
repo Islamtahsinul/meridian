@@ -1,0 +1,71 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "Smithsonian_VOTW_Holocene_Volcanoes.fid-bc1c4cb_1a2051d0128_-2d2a",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.999,
+     37.748
+    ]
+   },
+   "geometry_name": "GeoLocation",
+   "properties": {
+    "Volcano_Number": 211060,
+    "Volcano_Name": "Etna",
+    "Volcanic_Landform": "Composite",
+    "Primary_Volcano_Type": "Stratovolcano(es)",
+    "Last_Eruption_Year": 2026,
+    "Country": "Italy",
+    "Region": "European Volcanic Regions",
+    "Subregion": "Sicily Volcanic Province",
+    "Geological_Summary": "Placeholder summary for the Etna test record.",
+    "Latitude": 37.748,
+    "Longitude": 14.999,
+    "Elevation": 3357,
+    "Tectonic_Setting": "Subduction zone / Continental crust (> 25 km)",
+    "Geologic_Epoch": "Holocene",
+    "Evidence_Category": "Eruption Observed",
+    "Primary_Photo_Link": "https://volcano.si.edu/gallery/photos/GVP-00001.jpg",
+    "Primary_Photo_Caption": "Placeholder caption for the Etna test record.",
+    "Primary_Photo_Credit": "Placeholder credit.",
+    "Major_Rock_Type": "Trachybasalt / Tephrite Basanite"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "Smithsonian_VOTW_Holocene_Volcanoes.fid-bc1c4cb_1a2051d0128_-2a11",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -155.287,
+     19.421
+    ]
+   },
+   "geometry_name": "GeoLocation",
+   "properties": {
+    "Volcano_Number": 332010,
+    "Volcano_Name": "Kilauea",
+    "Volcanic_Landform": "Shield",
+    "Primary_Volcano_Type": "Shield",
+    "Last_Eruption_Year": 2026,
+    "Country": "United States",
+    "Region": "Eastern Pacific Volcanic Regions",
+    "Subregion": "Hawaiian-Emperor Hotspot Volcano Group",
+    "Geological_Summary": "Placeholder summary for the Kilauea test record.",
+    "Latitude": 19.421,
+    "Longitude": -155.287,
+    "Elevation": 1222,
+    "Tectonic_Setting": "Intraplate / Oceanic crust (< 15 km)",
+    "Geologic_Epoch": "Holocene",
+    "Evidence_Category": "Eruption Observed",
+    "Primary_Photo_Link": "https://volcano.si.edu/gallery/photos/GVP-00002.jpg",
+    "Primary_Photo_Caption": "Placeholder caption for the Kilauea test record.",
+    "Primary_Photo_Credit": "Placeholder credit.",
+    "Major_Rock_Type": "Basalt / Picro-Basalt"
+   }
+  }
+ ]
+}

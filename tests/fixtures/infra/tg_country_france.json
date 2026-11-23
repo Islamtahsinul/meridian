@@ -1,0 +1,4 @@
+{"id":"france","name":"France","cables":[
+ {"id":"alpha","name":"Alpha Cable","rfs_year":2001,"is_planned":false,"landing_points":["marseille-france","bizerte-tunisia"]},
+ {"id":"beta","name":"Beta Link","rfs_year":2015,"is_planned":false,"landing_points":["marseille-france","genoa-italy"]}],
+ "landing_points":["marseille-france","bizerte-tunisia","genoa-italy"],"landing_points_in_country":["marseille-france"]}

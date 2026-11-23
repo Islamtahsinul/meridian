@@ -1,0 +1,4 @@
+{"model": "qwen3:8b", "created_at": "2026-11-22T10:00:00Z",
+ "message": {"role": "assistant", "content": "<think>I should search first.</think>",
+             "tool_calls": [{"function": {"name": "search_entities", "arguments": {"query": "Heathrow"}}}]},
+ "done": true, "done_reason": "stop", "prompt_eval_count": 1500, "eval_count": 40}

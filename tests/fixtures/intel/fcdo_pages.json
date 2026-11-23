@@ -1,0 +1,198 @@
+{
+ "sudan": {
+  "title": "Sudan travel advice",
+  "public_updated_at": "2026-05-11T16:07:13+01:00",
+  "details": {
+   "alert_status": [
+    "avoid_all_travel_to_parts"
+   ],
+   "change_description": "Updated information on operations in Sudanese airports ('Safety and security' page).",
+   "country": {
+    "name": "Sudan",
+    "slug": "sudan",
+    "synonyms": [
+     "Sahel"
+    ]
+   },
+   "updated_at": "2026-10-07T10:14:42Z",
+   "reviewed_at": "2026-05-11T15:07:13Z",
+   "change_history": [
+    {
+     "note": "Updated information on operations in Sudanese airports ('Safety and security' page).",
+     "public_timestamp": "2026-05-11T15:07:13Z"
+    },
+    {
+     "note": "Updated information on operations in Sudanese airports ('Safety and security' page).\r\n\r\n\r\n",
+     "public_timestamp": "2026-05-07T13:25:50Z"
+    },
+    {
+     "note": "Updated information about operations in Sudanese airports (‘Warnings and insurance’ and ‘Safety and security’ pages).",
+     "public_timestamp": "2026-02-26T11:44:14Z"
+    }
+   ],
+   "parts": [
+    {
+     "slug": "warnings-and-insurance",
+     "title": "Warnings and insurance",
+     "body": "\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>Your travel insurance could be invalidated if you travel against advice from the Foreign, Commonwealth &amp; Development Office (FCDO). </p>\n</div>\n\n<h2 id=\"areas-where-fcdo-advises-against-travel\">Areas where <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against travel</h2>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to Sudan because of the ongoing military conflict in Khartoum and other parts of the country. This does not include the Hala’ib Triangle and the Bir Tawil Trapezoid where <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all but essential travel.</p>\n\n<p>There have been several ceasefires, but these have been regularly broken.  </p>\n\n<p>Monitor travel advice and other media reports for the latest information. </p>\n\n<p>Find out more about <a href=\"/foreign-travel-advice/sudan/safety-and-security\">safety and security</a> in Sudan. </p>\n\n<h3 id=\"get-help-in-sudan\">"
+    }
+   ]
+  }
+ },
+ "chad": {
+  "title": "Chad travel advice",
+  "public_updated_at": "2026-11-04T14:33:29+00:00",
+  "details": {
+   "alert_status": [
+    "avoid_all_travel_to_parts"
+   ],
+   "change_description": "This travel advice has been reviewed for accuracy with changes made throughout, including updated information about applying for a visa, terrorism in Chad, terrorist kidnapping, political situation, robbery, protecting yourself and your belongings, Ramadan, driving standards and security, travelling outside N'Djamena, regional risks, health risks you may face in Chad, including Dengue and emergency numbers if your require police, ambulance or fire services ('Entry requirements', 'Safety and security', 'Regional risks', 'Health' and 'Getting help' pages).",
+   "country": {
+    "name": "Chad",
+    "slug": "chad",
+    "synonyms": [
+     "Sahel"
+    ]
+   },
+   "updated_at": "2026-11-04T14:33:29Z",
+   "reviewed_at": "2026-11-04T14:33:29Z",
+   "change_history": [
+    {
+     "note": "This travel advice has been reviewed for accuracy with changes made throughout, including updated information about applying for a visa, terrorism in Chad, terrorist kidnapping, political situation, robbery, protecting yourself and your belongings, Ramadan, driving standards and security, travelling outside N'Djamena, regional risks, health risks you may face in Chad, including Dengue and emergency numbers if your require police, ambulance or fire services ('Entry requirements', 'Safety and security', 'Regional risks', 'Health' and 'Getting help' pages).",
+     "public_timestamp": "2026-11-04T14:33:29Z"
+    },
+    {
+     "note": "Updated information about health risks you’ll face in Chad (‘Health’ page).",
+     "public_timestamp": "2026-08-06T11:06:47Z"
+    },
+    {
+     "note": "New information about border security ('Regional risks' page).",
+     "public_timestamp": "2026-05-15T14:35:35Z"
+    }
+   ],
+   "parts": [
+    {
+     "slug": "warnings-and-insurance",
+     "title": "Warnings and insurance",
+     "body": "\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>Your travel insurance could be invalidated if you travel against advice from the Foreign, Commonwealth &amp; Development Office (FCDO).</p>\n</div>\n\n<h2 id=\"areas-where-fcdo-advises-against-travel\">Areas where <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against travel</h2>\n\n<h3 id=\"borkou-ennedi-ouest-ennedi-est-and-tibesti-provinces\">Borkou, Ennedi Ouest, Ennedi Est and Tibesti provinces</h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to the northern provinces of Chad:</p>\n\n<ul>\n  <li>Borkou Province</li>\n  <li>Ennedi Ouest Province</li>\n  <li>Ennedi Est Province</li>\n  <li>Tibesti Province</li>\n</ul>\n\n<h3 id=\"kanem-province-including-nokou\">Kanem Province, including Nokou</h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to the western part of Kanem Province, including the town of Nokou.</p>\n\n<h3 id=\"lake-chad-region\">Lake Chad region</h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to the Lake Chad region.</p>\n\n<h3 id=\"within-30km-of-all-chads-other-borders\">Within 30km of all Chad’s other borders  </h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to within 30km of all of Chad’s other borders.   </p>\n\n<h3 id=\"the-rest-of-chad\">The rest of Chad</h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all but essential travel to the rest of Chad, including the capital, N’Djamena.</p>\n\n<p>Find out more about <a href=\"/foreign-travel-advice/chad/regional-risks\">why <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against travel</a>.</p>\n\n<h2 id=\"before-you-travel\">"
+    }
+   ]
+  }
+ },
+ "djibouti": {
+  "title": "Djibouti travel advice",
+  "public_updated_at": "2026-07-27T15:03:02+01:00",
+  "details": {
+   "alert_status": [
+    "avoid_all_travel_to_parts"
+   ],
+   "change_description": "New information about military activity in the Red Sea area ('Regional risks’ page). ",
+   "country": {
+    "name": "Djibouti",
+    "slug": "djibouti",
+    "synonyms": []
+   },
+   "updated_at": "2026-10-07T10:32:20Z",
+   "reviewed_at": "2026-07-27T14:03:02Z",
+   "change_history": [
+    {
+     "note": "New information about military activity in the Red Sea area ('Regional risks’ page). ",
+     "public_timestamp": "2026-07-27T14:03:02Z"
+    },
+    {
+     "note": "Removal of  information about presidential elections taking place on 10 April ('Warnings and insurance' page).",
+     "public_timestamp": "2026-06-17T08:03:01Z"
+    },
+    {
+     "note": "Addition of information about presidential elections taking place on 10 April ('Warnings and insurance' page).",
+     "public_timestamp": "2026-04-07T15:25:50Z"
+    }
+   ],
+   "parts": [
+    {
+     "slug": "warnings-and-insurance",
+     "title": "Warnings and insurance",
+     "body": "\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>Your travel insurance could be invalidated if you travel against advice from the Foreign, Commonwealth &amp; Development Office (FCDO). </p>\n</div>\n\n<h2 id=\"areas-where-fcdo-advises-against-travel\">Areas where <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against travel</h2>\n\n<h3 id=\"djibouti-eritrea-border\">Djibouti-Eritrea border</h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to the Djibouti-Eritrea border.</p>\n\n<h2 id=\"before-you-travel\">"
+    }
+   ]
+  }
+ },
+ "france": {
+  "title": "France travel advice",
+  "public_updated_at": "2026-10-22T17:57:33+01:00",
+  "details": {
+   "alert_status": [],
+   "change_description": "Updated information about demonstrations (‘Warnings and insurance’ page).",
+   "country": {
+    "name": "France",
+    "slug": "france",
+    "synonyms": [
+     "Paris",
+     "Corsica"
+    ]
+   },
+   "updated_at": "2026-10-22T16:57:33Z",
+   "reviewed_at": "2026-10-22T16:57:33Z",
+   "change_history": [
+    {
+     "note": "Updated information about demonstrations (‘Warnings and insurance’ page).",
+     "public_timestamp": "2026-10-22T16:57:33Z"
+    },
+    {
+     "note": "Updated information on local curfews (‘Warnings and insurance’ page)",
+     "public_timestamp": "2026-10-19T17:40:21Z"
+    },
+    {
+     "note": "Updated information on European Entry-Exit System (EES) (‘Entry requirements’ page).  ",
+     "public_timestamp": "2026-08-11T09:17:02Z"
+    }
+   ],
+   "parts": [
+    {
+     "slug": "warnings-and-insurance",
+     "title": "Warnings and insurance",
+     "body": "<div class=\"call-to-action\">\n  <h2 id=\"demonstrations\">Demonstrations</h2>\n\n  <p>There is an increased likelihood of demonstrations, political gatherings and marches taking place across France, sometimes at short notice.</p>\n\n  <p>Whilst most demonstrations are peaceful, you should remain aware of your surroundings. Stay away from areas with large crowds or a significant police presence, and follow the advice of police and local authorities.</p>\n\n  <p>Demonstrations may disrupt local transport services and authorities may impose public safety measures, including partial and localised curfews in some areas. Monitor local media for the latest information about measures in your area.</p>\n</div>\n\n<h2 id=\"before-you-travel\">"
+    }
+   ]
+  }
+ },
+ "ukraine": {
+  "title": "Ukraine travel advice",
+  "public_updated_at": "2026-10-02T09:30:25+01:00",
+  "details": {
+   "alert_status": [
+    "avoid_all_travel_to_parts",
+    "avoid_all_but_essential_travel_to_parts"
+   ],
+   "change_description": "Updated information about the Russian invasion of Ukraine ('Warnings and insurance' page).",
+   "country": {
+    "name": "Ukraine",
+    "slug": "ukraine",
+    "synonyms": []
+   },
+   "updated_at": "2026-10-30T13:01:27Z",
+   "reviewed_at": "2026-10-02T08:30:25Z",
+   "change_history": [
+    {
+     "note": "Updated information about the Russian invasion of Ukraine ('Warnings and insurance' page).",
+     "public_timestamp": "2026-10-02T08:30:25Z"
+    },
+    {
+     "note": "Updated information about Russian invasion of Ukraine ('Warnings and insurance' page).",
+     "public_timestamp": "2026-09-15T14:41:54Z"
+    },
+    {
+     "note": "Updated information about the Russian invasion of Ukraine (‘Warnings and insurance’ page). ",
+     "public_timestamp": "2026-08-14T14:37:09Z"
+    }
+   ],
+   "parts": [
+    {
+     "slug": "warnings-and-insurance",
+     "title": "Warnings and insurance",
+     "body": "\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>Your travel insurance could be invalidated if you travel against advice from the Foreign, Commonwealth and Development Office (FCDO).</p>\n</div>\n\n<h2 id=\"areas-where-fcdo-advises-against-travel\">Areas where <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against travel </h2>\n\n<h3 id=\"crimea\">Crimea  </h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to Crimea.</p>\n\n<h3 id=\"border-with-belarus-\">Border with Belarus  </h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to within 50km of the border with Belarus in the following regions: </p>\n\n<ul>\n  <li>\n    <p>Volyn </p>\n  </li>\n  <li>\n    <p>Rivne </p>\n  </li>\n  <li>\n    <p>Zhytomyr </p>\n  </li>\n</ul>\n\n<p>This is due to the ongoing presence of Russian and Belarusian military and security personnel on the Belarusian side of the border. </p>\n\n<h3 id=\"all-other-regions-of-ukraine\">All other regions of Ukraine </h3>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all travel to all other regions of Ukraine (with the exception of some Western regions; see below).</p>\n\n<h2 id=\"areas-where-fcdo-advises-against-all-but-essential-travel\">Areas where <abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all but essential travel</h2>\n\n<p><abbr title=\"Foreign, Commonwealth &amp; Development Office\">FCDO</abbr> advises against all but essential travel to the following regions in western Ukraine: </p>\n\n<h3 id=\"all-parts\">All parts: </h3>\n\n<ul>\n  <li>Zakarpattia  </li>\n  <li>Ivano-Frankivsk </li>\n  <li>Ternopil </li>\n  <li>Chernivtsi </li>\n  <li>Lviv </li>\n</ul>\n\n<h3 id=\"parts-further-than-50km-from-the-border-with-belarus\">Parts further than 50km from the border with Belarus:</h3>\n<p>(see Border with Belarus above)</p>\n\n<ul>\n  <li>Volyn </li>\n  <li>Rivne </li>\n  <li>Zhytomyr</li>\n</ul>\n\n<h2 id=\"russian-invasion-of-ukraine\">"
+    }
+   ]
+  }
+ }
+}

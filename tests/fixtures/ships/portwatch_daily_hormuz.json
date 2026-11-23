@@ -1,0 +1,222 @@
+{
+ "objectIdFieldName": "ObjectId",
+ "features": [
+  {
+   "attributes": {
+    "date": "2026-11-01",
+    "portid": "chokepoint6",
+    "n_total": 1,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 0,
+    "n_general_cargo": 0,
+    "n_roro": 0,
+    "n_cargo": 0,
+    "capacity": 0
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-02",
+    "portid": "chokepoint6",
+    "n_total": 2,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 0,
+    "n_general_cargo": 1,
+    "n_roro": 0,
+    "n_cargo": 1,
+    "capacity": 0
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-03",
+    "portid": "chokepoint6",
+    "n_total": 4,
+    "n_tanker": 2,
+    "n_container": 0,
+    "n_dry_bulk": 1,
+    "n_general_cargo": 1,
+    "n_roro": 0,
+    "n_cargo": 2,
+    "capacity": 74839
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-04",
+    "portid": "chokepoint6",
+    "n_total": 5,
+    "n_tanker": 0,
+    "n_container": 1,
+    "n_dry_bulk": 2,
+    "n_general_cargo": 2,
+    "n_roro": 0,
+    "n_cargo": 5,
+    "capacity": 97939
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-05",
+    "portid": "chokepoint6",
+    "n_total": 5,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 4,
+    "n_general_cargo": 0,
+    "n_roro": 0,
+    "n_cargo": 4,
+    "capacity": 168171
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-06",
+    "portid": "chokepoint6",
+    "n_total": 6,
+    "n_tanker": 1,
+    "n_container": 1,
+    "n_dry_bulk": 2,
+    "n_general_cargo": 2,
+    "n_roro": 0,
+    "n_cargo": 5,
+    "capacity": 94508
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-07",
+    "portid": "chokepoint6",
+    "n_total": 2,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 1,
+    "n_general_cargo": 0,
+    "n_roro": 0,
+    "n_cargo": 1,
+    "capacity": 0
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-08",
+    "portid": "chokepoint6",
+    "n_total": 3,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 1,
+    "n_general_cargo": 1,
+    "n_roro": 0,
+    "n_cargo": 2,
+    "capacity": 792
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-09",
+    "portid": "chokepoint6",
+    "n_total": 6,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 2,
+    "n_general_cargo": 3,
+    "n_roro": 0,
+    "n_cargo": 5,
+    "capacity": 147259
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-10",
+    "portid": "chokepoint6",
+    "n_total": 1,
+    "n_tanker": 0,
+    "n_container": 0,
+    "n_dry_bulk": 0,
+    "n_general_cargo": 1,
+    "n_roro": 0,
+    "n_cargo": 1,
+    "capacity": 0
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-11",
+    "portid": "chokepoint6",
+    "n_total": 4,
+    "n_tanker": 1,
+    "n_container": 1,
+    "n_dry_bulk": 2,
+    "n_general_cargo": 0,
+    "n_roro": 0,
+    "n_cargo": 3,
+    "capacity": 33562
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-12",
+    "portid": "chokepoint6",
+    "n_total": 1,
+    "n_tanker": 1,
+    "n_container": 0,
+    "n_dry_bulk": 0,
+    "n_general_cargo": 0,
+    "n_roro": 0,
+    "n_cargo": 0,
+    "capacity": 32117
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-13",
+    "portid": "chokepoint6",
+    "n_total": 1,
+    "n_tanker": 0,
+    "n_container": 0,
+    "n_dry_bulk": 0,
+    "n_general_cargo": 1,
+    "n_roro": 0,
+    "n_cargo": 1,
+    "capacity": 2169
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-14",
+    "portid": "chokepoint6",
+    "n_total": 1,
+    "n_tanker": 0,
+    "n_container": 0,
+    "n_dry_bulk": 1,
+    "n_general_cargo": 0,
+    "n_roro": 0,
+    "n_cargo": 1,
+    "capacity": 0
+   }
+  },
+  {
+   "attributes": {
+    "date": "2026-11-15",
+    "portid": "chokepoint6",
+    "n_total": 2,
+    "n_tanker": 0,
+    "n_container": 1,
+    "n_dry_bulk": 0,
+    "n_general_cargo": 1,
+    "n_roro": 0,
+    "n_cargo": 2,
+    "capacity": 4297
+   }
+  },
+  {
+   "attributes": {
+    "date": "not a date",
+    "portid": "chokepoint6",
+    "n_total": 3
+   }
+  }
+ ]
+}

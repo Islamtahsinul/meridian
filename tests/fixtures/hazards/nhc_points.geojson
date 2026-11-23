@@ -1,0 +1,5 @@
+{"type": "FeatureCollection", "features": [
+ {"type": "Feature", "properties": {"tau": 0, "maxwind": 105, "gust": 130, "stormtype": "HU", "fldatelbl": "5:00 PM AST Mon"}, "geometry": {"type": "Point", "coordinates": [-71.2, 24.6]}},
+ {"type": "Feature", "properties": {"tau": 12, "maxwind": 110, "gust": 135, "stormtype": "HU", "fldatelbl": "2:00 AM AST Tue"}, "geometry": {"type": "Point", "coordinates": [-72.1, 25.6]}},
+ {"type": "Feature", "properties": {"tau": 24, "maxwind": 100, "gust": 120, "stormtype": "HU", "fldatelbl": "2:00 PM AST Tue"}, "geometry": {"type": "Point", "coordinates": [-73.2, 27.1]}}
+]}

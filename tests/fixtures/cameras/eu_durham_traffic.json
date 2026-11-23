@@ -1,0 +1,134 @@
+{
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "name": "Camera",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Camera_Nam",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Camera_Des",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Page_id",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Status",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Camera_Vie",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Link",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Camera_Typ",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Camera_Are",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "Cam_Link",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "name": "USS_Camera_Number",
+   "type": "esriFieldTypeString"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1,
+    "Camera": "Site 1",
+    "Camera_Nam": "Framwellgate Peth",
+    "Camera_Des": "CCTV camera mounted onto existing street lighting column number 332. Grid ref 426696 543361",
+    "Page_id": "6134",
+    "Status": "Live",
+    "Camera_Vie": "View towards the City Centre",
+    "Link": "https://www.durham.gov.uk/article/6134",
+    "Camera_Typ": "Traffic",
+    "Camera_Are": "Durham",
+    "Cam_Link": "https://dcc.ussgroup.co.uk/i_dutmc_24.html",
+    "USS_Camera_Number": "Dutmc_24"
+   },
+   "geometry": {
+    "x": -1.5864373502715836,
+    "y": 54.78445548253103
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 2,
+    "Camera": "Site 2",
+    "Camera_Nam": "Milburngate Roundabout",
+    "Camera_Des": "CCTV camera mounted onto existing street lighting column number 800. Grid ref 427156 542663",
+    "Page_id": "6135",
+    "Status": "Live",
+    "Camera_Vie": "View towards Milburngate Bridge",
+    "Link": "https://www.durham.gov.uk/article/6135",
+    "Camera_Typ": "Traffic",
+    "Camera_Are": "Durham",
+    "Cam_Link": "https://dcc.ussgroup.co.uk/i_dutmc_37.html",
+    "USS_Camera_Number": "Dutmc_37"
+   },
+   "geometry": {
+    "x": -1.5793497567309394,
+    "y": 54.77815861303248
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 28,
+    "Camera": "BA1",
+    "Camera_Nam": "High Bondgate",
+    "Camera_Des": "High Bondgate",
+    "Page_id": "7856",
+    "Status": "Live",
+    "Camera_Vie": "High Bondgate",
+    "Link": "https://www.durham.gov.uk/article/7856/High-Bondgate",
+    "Camera_Typ": "Traffic",
+    "Camera_Are": "Bishop Auckland",
+    "Cam_Link": "https://dcc.ussgroup.co.uk/i_dutmc_32.html",
+    "USS_Camera_Number": "Dutmc_32"
+   },
+   "geometry": {
+    "x": -1.6782723909160657,
+    "y": 54.66495768825041
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 6,
+    "Camera": "Site 7",
+    "Camera_Nam": "Gilesgate",
+    "Camera_Des": "CCTV camera mounted onto existing street lighting column number 585. Grid ref 428695 542787",
+    "Page_id": "6140",
+    "Status": "Not working",
+    "Camera_Vie": "View towards the City Centre",
+    "Link": "https://www.durham.gov.uk/article/6140",
+    "Camera_Typ": "Traffic",
+    "Camera_Are": "Durham",
+    "Cam_Link": "https://dcc.ussgroup.co.uk/i_dutmc_22.html",
+    "USS_Camera_Number": "Dutmc_22"
+   },
+   "geometry": {
+    "x": -1.5554122918920974,
+    "y": 54.77918768758909
+   }
+  }
+ ]
+}

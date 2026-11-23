@@ -1,0 +1,58 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "coordinates": [
+     -96.7,
+     44.2
+    ],
+    "type": "Point"
+   },
+   "id": "CSDTST",
+   "properties": {
+    "cameras": [
+     {
+      "updateTime": 1795431600,
+      "description": "Testville, along I-99 @ MP 99 looking north",
+      "image": "https://sd.cdn.iteris-atis.com/camera_images/CSDTST/0/latest.jpg",
+      "name": "Camera Looking North",
+      "id": "0"
+     },
+     {
+      "updateTime": 1795431600,
+      "image": "https://sd.cdn.iteris-atis.com/camera_images/CSDTST/1/latest.jpg",
+      "description": "Testville, along I-99 @ MP 99 looking south",
+      "name": "Camera Looking South",
+      "id": "1"
+     },
+     {
+      "id": "2",
+      "updateTime": 1795431600,
+      "name": "Bridge View",
+      "image": "https://sd.cdn.iteris-atis.com/camera_images/CSDTST/2/latest.jpg",
+      "description": "Testville, along I-99 @ MP 99 bridge"
+     },
+     {
+      "updateTime": 1795431600,
+      "name": "Camera Looking North Zoom",
+      "image": "https://sd.cdn.iteris-atis.com/camera_images/CSDTST/3/latest.jpg",
+      "description": "Testville, along I-99 @ MP 99 zoom looking north",
+      "id": "3"
+     },
+     {
+      "image": "https://sd.cdn.iteris-atis.com/camera_images/CSDTST/4/latest.jpg",
+      "description": "Testville, along I-99 @ MP 99 zoom looking south",
+      "name": "Camera Looking South Zoom",
+      "updateTime": 1795431600,
+      "id": "4"
+     }
+    ],
+    "name": "Testville South",
+    "mrm": "99",
+    "route": "I-99"
+   }
+  }
+ ]
+}

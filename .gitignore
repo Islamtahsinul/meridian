@@ -1,0 +1,11 @@
+# Local data, caches, logs and secrets never go into git
+/data/
+.env
+*.pyc
+__pycache__/
+*.log
+/tmp/
+.shots/
+/data-dev/
+.env.*
+!.env.example

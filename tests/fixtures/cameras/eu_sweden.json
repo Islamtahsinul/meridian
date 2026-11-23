@@ -1,0 +1,21 @@
+{"RESPONSE": {"RESULT": [{"Camera": [
+  {"Active": true, "CountyNo": [1], "Deleted": false, "Description": "Kameran visar trafiken norrut", "Direction": 350,
+   "Geometry": {"SWEREF99TM": "POINT (672356.5 6579803.4)", "WGS84": "POINT (18.0084512 59.32411)"},
+   "HasFullSizePhoto": true, "HasSketchImage": false, "Id": "SE_STA_CAMERA_Orion_1000001", "Location": "Essingeleden",
+   "ModifiedTime": "2026-11-23T11:30:02.000+01:00", "Name": "E4 Essingeleden norrut", "PhotoTime": "2026-11-23T11:29:40.000+01:00",
+   "PhotoUrl": "https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_1000001.Jpeg", "Status": "Aktiv",
+   "Type": "Trafikflödeskamera"},
+  {"Active": true, "CountyNo": [23], "Deleted": false, "Description": "Väglagskamera vid vägväderstation", "Direction": 90,
+   "Geometry": {"WGS84": "POINT (13.1216 63.4089)"}, "HasFullSizePhoto": true, "Id": "SE_STA_CAMERA_Orion_1000002",
+   "Location": "Storlien", "Name": "Storlien", "PhotoUrl": "https://api.trafikinfo.trafikverket.se/v1/Images/RoadConditionCamera_1000002.Jpeg",
+   "PhotoUrlFullsize": "https://api.trafikinfo.trafikverket.se/v1/Images/RoadConditionCamera_1000002.Jpeg?type=fullsize",
+   "Type": "Väglagskamera"},
+  {"Active": true, "CountyNo": [12], "Deleted": false, "Geometry": {"WGS84": "POINT (12.8483 56.0434)"}, "HasFullSizePhoto": false,
+   "Id": "SE_STA_CAMERA_Orion_1000003", "Name": "Öresundsbron, påfart", "PhotoUrl": "https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_1000003.Jpeg",
+   "Type": "Trafikflödeskamera"},
+  {"Active": false, "CountyNo": [14], "Deleted": false, "Geometry": {"WGS84": "POINT (11.97 57.70)"}, "Id": "SE_STA_CAMERA_Orion_1000004",
+   "Name": "Tingstadstunneln", "PhotoUrl": "https://api.trafikinfo.trafikverket.se/v1/Images/TrafficFlowCamera_1000004.Jpeg",
+   "Type": "Trafikflödeskamera"},
+  {"Active": true, "CountyNo": [25], "Deleted": false, "Id": "SE_STA_CAMERA_Orion_1000005", "Name": "Utan position",
+   "PhotoUrl": "https://api.trafikinfo.trafikverket.se/v1/Images/RoadConditionCamera_1000005.Jpeg", "Type": "Väglagskamera"}
+]}]}}

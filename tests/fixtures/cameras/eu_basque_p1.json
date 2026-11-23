@@ -1,0 +1,40 @@
+{
+ "totalItems": 5,
+ "totalPages": 2,
+ "currentPage": 1,
+ "cameras": [
+  {
+   "cameraId": "77",
+   "sourceId": "2",
+   "cameraName": "CCTV 300 - Cámara DOMO nudo Kukularra",
+   "urlImage": "http://www.bizkaimove.com/camaras/cam1.jpg",
+   "latitude": "4794665.86",
+   "longitude": "503178.8",
+   "road": "BI-637",
+   "kilometer": "008+500",
+   "address": "Kurtzes"
+  },
+  {
+   "cameraId": "4",
+   "sourceId": "2",
+   "cameraName": "DOMO 96 - El Gallo",
+   "urlImage": "http://www.bizkaimove.com/camaras/cam86.jpg",
+   "latitude": "4786318.15",
+   "longitude": "514398.58",
+   "road": "A8",
+   "kilometer": "105+700",
+   "address": "Donostia"
+  },
+  {
+   "cameraId": "159",
+   "sourceId": "2",
+   "cameraName": "ELG_DOM_001D (ELGCME037) PK 105+720",
+   "urlImage": "http://www.bizkaimove.com/camaras/cam86.jpg?t=8760213",
+   "latitude": "4786319.63",
+   "longitude": "514395.94",
+   "road": "AP-8",
+   "kilometer": "105+720",
+   "address": "DONOSTIA"
+  }
+ ]
+}

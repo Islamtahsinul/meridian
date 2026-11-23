@@ -1,0 +1,10 @@
+Change,Country,Location,Name,NameWoDiacritics,Subdivision,Status,Function,Date,IATA,Coordinates,Remarks
+,GB,SOU,Southampton,Southampton,HAM,AI,12345---,9501,SOU,,
+,GB,FXT,Felixstowe,Felixstowe,SFK,AI,123-----,9501,,5157N 00121E,
+,GB,LON,London,London,LND,AI,12345---,9501,LON,5130N 00008W,
+,GB,ZZZ,No Coordinates Port,No Coordinates Port,,RL,1-------,9501,,,
+,GB,RAI,Rail Only,Rail Only,,RL,-2------,9501,,5130N 00100W,
+X,GB,OLD,Removed Port,Removed Port,,XX,1-------,9501,,5000N 00100W,
+,BR,SSZ,Santos,Santos,SP,AI,1234----,9501,SSZ,2357S 04620W,
+,NZ,WLG,Wellington,Wellington,WGN,AI,1234----,9501,WLG,4117S 17447E,
+,EE,KKM,Kakumäe,Kakumae,37,AA,1-------,1007,,5925N 02441E,

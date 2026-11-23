@@ -1,0 +1,30 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "FACILITYID": "21",
+    "ESRI_OID": 1,
+    "photo": "https://ww5.yorkmaps.ca/webtrafficimages/loc21.jpg",
+    "url": "https://ww5.yorkmaps.ca/webtrafficimages/location21.html",
+    "cameralocation": "Highway 7 and Leslie Street"
+   },
+   "geometry": {
+    "x": -79.38230940047303,
+    "y": 43.84438561894178
+   }
+  },
+  {
+   "attributes": {
+    "FACILITYID": "23",
+    "ESRI_OID": 2,
+    "photo": "https://ww5.yorkmaps.ca/webtrafficimages/loc23.jpg",
+    "url": "https://ww5.yorkmaps.ca/webtrafficimages/location23.html",
+    "cameralocation": "Yonge Street and Eagle Street"
+   },
+   "geometry": {
+    "x": -79.47816244992754,
+    "y": 44.045444649606054
+   }
+  }
+ ]
+}

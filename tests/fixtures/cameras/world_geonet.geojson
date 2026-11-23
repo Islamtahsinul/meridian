@@ -1,0 +1,165 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "Code": "CHTB",
+    "Network": "BC",
+    "External": "BC",
+    "Name": "Christchurch Telecom Building",
+    "Location": "01",
+    "Label": "Christchurch looking East",
+    "Start": "2011-11-28T00:00:00Z",
+    "End": "2019-02-24T21:00:00Z",
+    "SensorType": "Camera"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     172.63544,
+     -43.53162
+    ]
+   },
+   "sensors": [
+    {
+     "type": "Camera",
+     "Start": "2011-11-28T00:00:03Z",
+     "End": "2019-02-24T21:00:00Z"
+    }
+   ]
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Code": "DISC",
+    "Network": "VC",
+    "External": "VC",
+    "Name": "Discovery Lodge",
+    "Location": "01",
+    "Label": "Ruapehu from North",
+    "Start": "2020-07-28T02:20:00Z",
+    "End": "9999-01-01T00:00:00Z",
+    "SensorType": "Camera"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     175.48055,
+     -39.16732
+    ]
+   },
+   "sensors": [
+    {
+     "type": "Camera",
+     "Start": "2020-07-28T02:20:00Z",
+     "End": "2021-02-04T21:10:00Z"
+    },
+    {
+     "type": "Camera",
+     "Start": "2021-02-05T04:54:00Z",
+     "End": "2026-04-23T21:10:01Z"
+    },
+    {
+     "type": "Camera",
+     "Start": "2026-04-24T01:59:59Z",
+     "End": "9999-01-01T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Code": "DISC",
+    "Network": "VC",
+    "External": "VC",
+    "Name": "Discovery Lodge",
+    "Location": "02",
+    "Label": "Ngauruhoe from West",
+    "Start": "2020-07-28T02:20:00Z",
+    "End": "9999-01-01T00:00:00Z",
+    "SensorType": "Camera"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     175.48055,
+     -39.16732
+    ]
+   },
+   "sensors": [
+    {
+     "type": "Camera",
+     "Start": "2020-07-28T23:40:00Z",
+     "End": "2022-10-19T21:10:01Z"
+    },
+    {
+     "type": "Camera",
+     "Start": "2022-10-19T22:29:59Z",
+     "End": "2026-04-23T21:10:01Z"
+    },
+    {
+     "type": "Camera",
+     "Start": "2026-04-24T01:59:59Z",
+     "End": "9999-01-01T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Code": "KMTP",
+    "Network": "VC",
+    "External": "VC",
+    "Name": "Kaimanawa Tai Ping",
+    "Location": "02",
+    "Label": "Ruapehu from East",
+    "Start": "2009-03-03T02:00:00Z",
+    "End": "9999-01-01T00:00:00Z",
+    "SensorType": "Camera"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     175.7663,
+     -39.29642
+    ]
+   },
+   "sensors": [
+    {
+     "type": "Camera",
+     "Start": "2026-04-30T02:29:59Z",
+     "End": "9999-01-01T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "Code": "WHOH",
+    "Network": "VC",
+    "External": "VC",
+    "Name": "Whakatane Observatory Hill",
+    "Location": "01",
+    "Label": "Whakaari/White Island from Whakatāne",
+    "Start": "2006-02-24T14:00:00Z",
+    "End": "9999-01-01T00:00:00Z",
+    "SensorType": "Camera"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     177.000764155,
+     -37.956903132
+    ]
+   },
+   "sensors": [
+    {
+     "type": "Camera",
+     "Start": "2006-02-24T14:00:00Z",
+     "End": "2018-04-19T00:00:00Z"
+    }
+   ]
+  }
+ ]
+}

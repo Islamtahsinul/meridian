@@ -1,0 +1,9 @@
+{"id": "msg_01ToolUse", "type": "message", "role": "assistant", "model": "claude-opus-5-5",
+ "content": [
+  {"type": "thinking", "thinking": "Looking up Heathrow and the cameras near it.", "signature": "EqQBCkYIBhgCKkA-fixture-signature-1"},
+  {"type": "tool_use", "id": "toolu_01A", "name": "search_entities", "input": {"query": "Heathrow", "limit": 5}},
+  {"type": "tool_use", "id": "toolu_01B", "name": "fly_to", "input": {"lat": 51.47, "lon": -0.4543, "zoom": 12}},
+  {"type": "tool_use", "id": "toolu_01C", "name": "set_layers", "input": {"on": ["cameras"]}}
+ ],
+ "stop_reason": "tool_use", "stop_sequence": null,
+ "usage": {"input_tokens": 3210, "output_tokens": 180, "cache_creation_input_tokens": 2900, "cache_read_input_tokens": 0}}

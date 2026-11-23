@@ -1,0 +1,35 @@
+[
+ {
+  "id": "6",
+  "image_view": "https://511la.org/map/Cctv/b34.C3--1",
+  "the_geom": {
+   "type": "Point",
+   "coordinates": [
+    -90.805402624954,
+    30.153099280968
+   ]
+  }
+ },
+ {
+  "id": "67",
+  "image_view": "https://511la.org/map/Cctv/269--1",
+  "the_geom": {
+   "type": "Point",
+   "coordinates": [
+    -91.080819300491,
+    30.431475094096
+   ]
+  }
+ },
+ {
+  "id": "116",
+  "image_view": "https://511la.org/map/Cctv/135--1",
+  "the_geom": {
+   "type": "Point",
+   "coordinates": [
+    -91.089016874876,
+    30.442935339812
+   ]
+  }
+ }
+]

@@ -1,0 +1,7 @@
+id,relid,year,type_of_violence,conflict_name,dyad_name,side_a,side_b,where_prec,latitude,longitude,country,best,high,low
+1,a,2024,1,Russia - Ukraine,Government of Russia - Government of Ukraine,Government of Russia,Government of Ukraine,1,48.02,37.80,Ukraine,12,15,10
+2,b,2024,1,Russia - Ukraine,Government of Russia - Government of Ukraine,Government of Russia,Government of Ukraine,1,48.10,37.70,Ukraine,30,40,20
+3,c,2023,3,Sudan: Government,Government of Sudan - civilians,Government of Sudan,Civilians,2,13.63,25.35,Sudan,7,9,7
+4,d,2023,2,RSF - SAF,RSF - SAF,RSF,SAF,6,15.0,30.0,Sudan,100,120,90
+5,e,2025,2,Fulani - Dogon,Fulani - Dogon,Fulani,Dogon,1,14.35,-3.6,Mali,4,4,4
+1,a,2024,1,Russia - Ukraine,Government of Russia - Government of Ukraine,Government of Russia,Government of Ukraine,1,48.02,37.80,Ukraine,12,15,10

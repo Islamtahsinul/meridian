@@ -1,0 +1,223 @@
+{
+ "type": "Feature",
+ "properties": {
+  "mag": 6.8,
+  "place": "105 km NE of Lospalos, Timor Leste",
+  "time": 1795254129120,
+  "updated": 1795344403086,
+  "tz": null,
+  "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij",
+  "felt": 41,
+  "cdi": 3.6,
+  "mmi": 5.298,
+  "alert": "green",
+  "status": "reviewed",
+  "tsunami": 0,
+  "sig": 726,
+  "net": "us",
+  "code": "6000ucij",
+  "ids": ",us6000ucij,",
+  "sources": ",us,",
+  "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+  "nst": 106,
+  "dmin": 6.186,
+  "rms": 1.13,
+  "gap": 21,
+  "magType": "mww",
+  "type": "earthquake",
+  "title": "M 6.8 - 105 km NE of Lospalos, Timor Leste",
+  "products": {
+   "losspager": [
+    {
+     "properties": {
+      "alertlevel": "green",
+      "depth": "132.1",
+      "eventsource": "us",
+      "eventsourcecode": "6000ucij",
+      "eventtime": "2026-11-21T16:42:09.000Z",
+      "latitude": "-7.7324",
+      "longitude": "127.5407",
+      "magnitude": "6.8",
+      "maxmmi": "5",
+      "pdl-client-version": "Version 3.5.4 2026-01-22",
+      "release": "false",
+      "review-status": "automatic"
+     },
+     "contents": {}
+    }
+   ],
+   "shakemap": [
+    {
+     "properties": {
+      "depth": "132.1",
+      "event-description": "USGS NEIC ShakeMap",
+      "event-type": "ACTUAL",
+      "eventsource": "us",
+      "eventsourcecode": "6000ucij",
+      "eventtime": "2026-11-21T09:42:09.120Z",
+      "gmice": "WGRW12",
+      "latitude": "-7.7324",
+      "longitude": "127.5407",
+      "magnitude": "6.8",
+      "map-status": "automatic",
+      "maximum-latitude": "-6.817",
+      "maximum-longitude": "128.468",
+      "maxmmi": "5.298",
+      "maxmmi-grid": "5.298",
+      "maxpga": "0.123",
+      "maxpga-grid": "0.126",
+      "maxpgv": "7.321",
+      "maxpgv-grid": "7.321",
+      "maxpsa03": "0.247",
+      "maxpsa03-grid": "0.257",
+      "maxpsa10": "0.099",
+      "maxpsa10-grid": "0.099",
+      "maxpsa30": "0.02",
+      "maxpsa30-grid": "0.02",
+      "minimum-latitude": "-8.651",
+      "minimum-longitude": "126.617",
+      "pdl-client-version": "Version 3.6.0 2026-08-20",
+      "process-timestamp": "2026-11-22T09:45:23Z",
+      "review-status": "automatic",
+      "reviewed-origin": "True",
+      "shakemap-code-version": "4.5.0",
+      "version": "5"
+     },
+     "contents": {
+      "download/intensity.jpg": {
+       "contentType": "image/jpeg",
+       "lastModified": 1795340764000,
+       "length": 96378,
+       "url": "https://earthquake.usgs.gov/pdl/products/urn:usgs-product:us:shakemap:us6000ucij:1795340768071/contents/download/intensity.jpg",
+       "sha256": "dAAvBDURL4Bpsxb040qD3CJ9FOdPEN08gb+N9LHpk6o="
+      }
+     }
+    }
+   ],
+   "dyfi": [
+    {
+     "properties": {
+      "depth": "132.055",
+      "eventsource": "us",
+      "eventsourcecode": "6000ucij",
+      "eventtime": "2026-11-21T09:42:09.000Z",
+      "latitude": "-7.7324",
+      "longitude": "127.5407",
+      "magnitude": "6.8",
+      "maxmmi": "3.6",
+      "num-responses": "41",
+      "numResp": "41",
+      "pdl-client-version": "Version 3.5.4 2026-01-22"
+     },
+     "contents": {}
+    }
+   ],
+   "moment-tensor": [
+    {
+     "properties": {
+      "beachball-source": "us",
+      "depth": "103.1",
+      "derived-depth": "100.5",
+      "derived-eventtime": "2026-11-21T09:42:15.100Z",
+      "derived-latitude": "-7.9745",
+      "derived-longitude": "127.5257",
+      "derived-magnitude": "6.8",
+      "derived-magnitude-type": "Mww",
+      "evaluation-status": "confirmed",
+      "eventParametersPublicID": "quakeml:us.anss.org/eventparameters/6000ucij/1795261633",
+      "eventsource": "us",
+      "eventsourcecode": "6000ucij",
+      "eventtime": "2026-11-21T09:42:06.500Z",
+      "latitude": "-7.6745",
+      "longitude": "127.5257",
+      "n-axis-azimuth": "301",
+      "n-axis-length": "9.40766E+17",
+      "n-axis-plunge": "4",
+      "nodal-plane-1-dip": "65.46",
+      "nodal-plane-1-rake": "86.09",
+      "nodal-plane-1-strike": "299.04",
+      "nodal-plane-2-dip": "24.83",
+      "nodal-plane-2-rake": "98.49",
+      "nodal-plane-2-strike": "128.38",
+      "p-axis-azimuth": "32",
+      "p-axis-length": "-2.12655E+19",
+      "p-axis-plunge": "20",
+      "pdl-client-version": "Version 3.6.0 2026-08-20",
+      "percent-double-couple": "0.9115",
+      "quakeml-publicid": "quakeml:us.anss.org/focalmechanism/6000ucij/mww",
+      "review-status": "reviewed",
+      "scalar-moment": "2.08E+19",
+      "sourcetime-decaytime": "1",
+      "sourcetime-duration": "3",
+      "sourcetime-risetime": "2",
+      "sourcetime-type": "triangle",
+      "t-axis-azimuth": "201",
+      "t-axis-length": "2.03247E+19",
+      "t-axis-plunge": "69",
+      "tensor-mpp": "-4.218E+18",
+      "tensor-mrp": "6.157E+18",
+      "tensor-mrr": "1.5211E+19",
+      "tensor-mrt": "-1.2123E+19",
+      "tensor-mtp": "7.951E+18",
+      "tensor-mtt": "-1.0993E+19"
+     },
+     "contents": {}
+    }
+   ],
+   "origin": [
+    {
+     "properties": {
+      "azimuthal-gap": "21",
+      "depth": "132.055",
+      "depth-type": "from location",
+      "error-ellipse-azimuth": "176",
+      "error-ellipse-intermediate": "10191",
+      "error-ellipse-major": "12498",
+      "error-ellipse-minor": "7433",
+      "error-ellipse-plunge": "8",
+      "error-ellipse-rotation": "247",
+      "evaluation-status": "preliminary",
+      "event-type": "earthquake",
+      "eventParametersPublicID": "quakeml:us.anss.org/eventparameters/6000ucij/1795261633",
+      "eventsource": "us",
+      "eventsourcecode": "6000ucij",
+      "eventtime": "2026-11-21T09:42:09.120Z",
+      "eventtime-error": "2.28",
+      "horizontal-error": "7.26",
+      "latitude": "-7.7324",
+      "latitude-error": "0.0733",
+      "longitude": "127.5407",
+      "longitude-error": "0.0588",
+      "magnitude": "6.8",
+      "magnitude-error": "0.033",
+      "magnitude-num-stations-used": "87",
+      "magnitude-source": "us",
+      "magnitude-type": "mww",
+      "minimum-distance": "6.186",
+      "num-phases-used": "107",
+      "num-stations-used": "106",
+      "origin-source": "us",
+      "pdl-client-version": "Version 3.6.0 2026-08-20",
+      "quakeml-magnitude-publicid": "quakeml:us.anss.org/magnitude/6000ucij/mww",
+      "quakeml-origin-publicid": "quakeml:us.anss.org/origin/6000ucij",
+      "quakeml-publicid": "quakeml:us.anss.org/event/6000ucij",
+      "review-status": "reviewed",
+      "standard-error": "1.13",
+      "title": "105 km NE of Lospalos, Timor Leste",
+      "vertical-error": "5.297"
+     },
+     "contents": {}
+    }
+   ]
+  }
+ },
+ "geometry": {
+  "type": "Point",
+  "coordinates": [
+   127.5407,
+   -7.7324,
+   132.055
+  ]
+ },
+ "id": "us6000ucij"
+}

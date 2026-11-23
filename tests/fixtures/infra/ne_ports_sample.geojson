@@ -1,0 +1,5 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"scalerank":3,"featurecla":"Port","name":"Southampton","website":"www.example.org","natlscale":75,"ne_id":1},"geometry":{"type":"Point","coordinates":[-1.40,50.90]}},
+{"type":"Feature","properties":{"scalerank":6,"featurecla":"Port","name":"Port of Santos","website":"","natlscale":20,"ne_id":2},"geometry":{"type":"Point","coordinates":[-46.30,-23.95]}},
+{"type":"Feature","properties":{"scalerank":8,"featurecla":"Port","name":"Nowhere Harbour","website":"","natlscale":5,"ne_id":3},"geometry":{"type":"Point","coordinates":[10.0,10.0]}}
+]}

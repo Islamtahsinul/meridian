@@ -1,0 +1,109 @@
+/* Timeline replay: the time bar docked above the status bar (web/js/layers/timeline.js).
+   While it is open the app grid gains a row between the map and the status bar, so the map,
+   cards, drawers and map controls all move up with it and nothing is covered. */
+
+#app.timeline-open {
+  grid-template-rows: 52px 1fr auto 26px;
+  grid-template-areas: "top top" "left map" "timeline timeline" "bottom bottom";
+}
+#app.timeline-open ~ .toasts { bottom: 122px; }
+
+.timeline-bar {
+  grid-area: timeline;
+  position: relative;
+  z-index: 15;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 12px 5px;
+  background: var(--ink-1);
+  border-top: 1px solid var(--ink-3);
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
+
+/* ---------------------------------------------------------------- controls */
+.timeline-left { display: flex; align-items: center; gap: 8px; }
+.timeline-play {
+  width: 36px; height: 36px; min-width: 36px; padding: 0; border-radius: 50%;
+  border: 1px solid var(--ink-4); background: var(--ink-2); color: var(--paper);
+}
+.timeline-play svg { width: 18px; height: 18px; }
+.timeline-play svg path { fill: currentColor; stroke: none; }
+.timeline-play:hover { border-color: var(--amber); color: var(--paper); }
+.timeline-bar.playing .timeline-play { border-color: var(--amber); color: var(--amber); }
+.timeline-speeds button { height: 28px; padding: 0 8px; font-size: 12.5px; white-space: nowrap; }
+.timeline-speeds button[aria-checked="true"] { background: var(--ink-3); color: var(--paper); }
+.timeline-steps { display: flex; gap: 2px; }
+.timeline-step { height: 28px; min-width: 0; padding: 0 7px; font-size: 12.5px; font-stretch: semi-condensed; white-space: nowrap; }
+
+/* ---------------------------------------------------------------- the track */
+.timeline-main { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 8px; min-width: 0; }
+.timeline-rowlabels { position: relative; width: 44px; height: 48px; font-size: 10.5px; line-height: 10px; color: var(--paper-faint); text-align: right; }
+.timeline-rowlabels span { position: absolute; right: 0; }
+.timeline-rowlabels span:nth-child(1) { top: 8px; }
+.timeline-rowlabels span:nth-child(2) { top: 28px; }
+.timeline-rowlabels span:nth-child(3) { top: 38px; }
+.timeline-trackwrap { min-width: 0; }
+.timeline-track { position: relative; height: 48px; cursor: pointer; border-radius: 3px; touch-action: none; }
+.timeline-track:focus { outline: none; }
+.timeline-track:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+.timeline-bar.dragging .timeline-track { cursor: grabbing; }
+.timeline-svg { display: block; width: 100%; height: 48px; overflow: visible; }
+.timeline-base { stroke: var(--ink-4); stroke-width: 1; }
+.timeline-gridline { stroke: var(--ink-2); stroke-width: 1; }
+.timeline-gridday { stroke: var(--ink-3); stroke-width: 1; }
+.timeline-cap { fill: var(--paper); }
+.timeline-hist path { transition: opacity .12s; }
+.timeline-ticks { position: relative; height: 14px; margin-top: 1px; font-size: 11px; line-height: 14px; color: var(--paper-faint); }
+.timeline-ticks span { position: absolute; top: 0; transform: translateX(-50%); white-space: nowrap; }
+.timeline-ticks span.day { color: var(--paper-dim); font-weight: 600; }
+
+.timeline-head { position: absolute; left: 0; top: -5px; bottom: -2px; width: 0; pointer-events: none; will-change: transform; }
+.timeline-head::before { content: ""; position: absolute; left: -1px; top: 0; bottom: 0; width: 2px; background: var(--amber); border-radius: 1px; }
+.timeline-knob {
+  position: absolute; left: -6px; top: -3px; width: 12px; height: 9px; border-radius: 2px 2px 6px 6px;
+  background: var(--amber); box-shadow: 0 0 0 2px var(--ink-1);
+}
+.timeline-head.live::before, .timeline-head.live .timeline-knob { background: var(--signal); }
+.timeline-hoverline { position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: var(--paper-faint); opacity: .75; pointer-events: none; }
+.timeline-empty {
+  position: absolute; inset: 0; display: grid; place-items: center; padding: 0 12px; border-radius: 3px;
+  background: rgba(22, 33, 58, .82); color: var(--paper-dim); font-size: 13px; text-align: center; pointer-events: none;
+}
+
+/* ---------------------------------------------------------------- readout */
+.timeline-right { display: flex; align-items: center; gap: 10px; }
+.timeline-readout { display: grid; min-width: 160px; max-width: 270px; text-align: right; }
+.timeline-clock { font-size: 20px; font-weight: 600; font-stretch: condensed; line-height: 1.1; color: var(--paper); letter-spacing: .02em; }
+.timeline-bar.replaying .timeline-clock { color: var(--amber); }
+.timeline-day { font-size: 12px; color: var(--paper-dim); }
+.timeline-note { font-size: 11.5px; color: var(--paper-faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.timeline-note.warn { color: var(--amber); }
+.timeline-live { height: 30px; white-space: nowrap; }
+.timeline-live:disabled { opacity: .45; cursor: default; }
+.timeline-live:disabled:hover { border-color: var(--ink-4); }
+
+/* ---------------------------------------------------------------- hover tooltip */
+.timeline-tip {
+  position: absolute; bottom: calc(100% + 6px); left: 0; z-index: 20; display: grid; gap: 2px;
+  padding: 6px 9px; background: var(--ink-0); border: 1px solid var(--ink-3); border-radius: var(--r-control);
+  box-shadow: var(--shadow-float); font-size: 12.5px; color: var(--paper); white-space: nowrap; pointer-events: none;
+}
+.timeline-tip strong { font-weight: 600; }
+.timeline-tiprow { display: flex; align-items: center; gap: 6px; color: var(--paper-dim); }
+.timeline-tiprow.dim { color: var(--paper-faint); }
+.timeline-tiprow .key { display: inline-block; width: 8px; height: 8px; border-radius: 2px; }
+.timeline-tiprow .key.line { width: 12px; height: 3px; }
+
+@media (max-width: 860px) {
+  .timeline-bar { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "left right" "main main"; row-gap: 6px; padding-top: 6px; }
+  .timeline-left { grid-area: left; flex-wrap: wrap; }
+  .timeline-right { grid-area: right; }
+  .timeline-main { grid-area: main; }
+  .timeline-readout { min-width: 0; }
+  .timeline-note, .timeline-steps { display: none; }
+  .timeline-rowlabels { width: 34px; font-size: 9.5px; }
+  #app.timeline-open ~ .toasts { bottom: 168px; }
+}

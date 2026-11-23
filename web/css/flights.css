@@ -1,0 +1,207 @@
+/* Flights module styles. Class names are prefixed flights-. */
+
+/* top centre of the map: drawers (bottom left), toasts (bottom centre) and cards (right) stay clear */
+.flights-hint {
+  position: absolute;
+  left: 50%;
+  top: 12px;
+  transform: translateX(-50%);
+  z-index: 6;
+  max-width: min(560px, calc(100% - 48px));
+  padding: 6px 14px 7px;
+  border: 1px solid var(--ink-3);
+  border-radius: var(--r-panel);
+  background: rgba(17, 26, 44, .92);
+  box-shadow: var(--shadow-float);
+  color: var(--paper-dim);
+  font-size: 13px;
+  font-stretch: semi-condensed;
+  line-height: 1.35;
+  text-align: center;
+  pointer-events: none;
+}
+.flights-hint::before {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin: 0 8px 1px 0;
+  border-radius: 50%;
+  background: var(--amber);
+  vertical-align: middle;
+}
+
+/* route block: origin, a plotted line, destination */
+.flights-route {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 56px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  margin: 2px 0 4px;
+}
+.flights-ap { min-width: 0; display: flex; flex-direction: column; }
+.flights-ap.to { text-align: right; }
+.flights-ap-code {
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: condensed;
+  line-height: 1.05;
+  letter-spacing: .02em;
+  color: var(--paper);
+  font-variant-numeric: tabular-nums;
+}
+.flights-ap-name { font-size: 12px; color: var(--paper-dim); overflow-wrap: anywhere; }
+.flights-route-line { position: relative; height: 12px; }
+.flights-route-line::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 50%;
+  border-top: 1.5px dashed var(--paper-faint);
+}
+.flights-route-line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: calc(50% - 4px);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--g-flights);
+  box-shadow: 0 0 0 2px var(--ink-1);
+}
+.flights-route-line span {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 3px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1.5px solid var(--paper-faint);
+  background: var(--ink-1);
+}
+.flights-route-airline { margin: 2px 0 0; font-size: 12.5px; color: var(--paper-dim); }
+.flights-route-note { margin: 4px 0 0; font-size: 12.5px; color: var(--amber); }
+
+/* GPS interference card: hourly bars */
+.flights-spark-wrap { margin: 2px 0 2px; }
+.flights-spark { display: block; width: 100%; height: 44px; }
+.flights-spark rect.ok { fill: #3a5080; }
+.flights-spark rect.some { fill: var(--amber); }
+.flights-spark rect.bad { fill: var(--red); }
+.flights-spark-key { display: flex; gap: 14px; margin-top: 3px; font-size: 12px; color: var(--paper-faint); }
+.flights-spark-key span::before {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 5px;
+  border-radius: 2px;
+  vertical-align: -1px;
+}
+.flights-spark-key .ok::before { background: #3a5080; }
+.flights-spark-key .bad::before { background: var(--red); }
+
+/* airspace cards: official texts in paragraphs, and the raw notice tucked away */
+.flights-prose p { margin: 0 0 6px; line-height: 1.4; }
+.flights-prose p:last-child { margin-bottom: 0; }
+.flights-notam { margin-top: 2px; }
+.flights-notam summary {
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--paper-dim);
+  font-stretch: semi-condensed;
+  list-style-position: inside;
+}
+.flights-notam summary:hover { color: var(--paper); }
+.flights-notam p {
+  margin: 6px 0 0;
+  max-height: 220px;
+  overflow: auto;
+  padding: 6px 8px;
+  border: 1px solid var(--ink-3);
+  border-radius: var(--r-chip);
+  background: var(--ink-0, #111a2c);
+  color: var(--paper-dim);
+  font-size: 12px;
+  line-height: 1.45;
+  letter-spacing: .01em;
+  overflow-wrap: anywhere;
+}
+
+/* with cards open, centre the hint in the map area left of the card column */
+@media (min-width: 861px) {
+  #map-wrap:has(#cards .card) .flights-hint {
+    left: calc((100% - var(--cards-w) - 20px) / 2);
+    max-width: min(560px, calc(100% - var(--cards-w) - 68px));
+  }
+}
+
+@media (max-width: 860px) {
+  .flights-hint { font-size: 12px; }
+}
+
+/* tall drawers (News, Maritime) reach the top of the map: hide the hint, the layer row keeps the warning */
+#map-wrap:has(#drawers .drawer) .flights-hint { display: none; }
+
+/* air activity: charts in cards (one series colour; the compared window is a band, "usual" a neutral line) */
+.flights-act-chart-wrap { margin: 2px 0; }
+.flights-act-chart { display: block; width: 100%; height: auto; overflow: visible; }
+.flights-act-chart .grid { stroke: var(--ink-3); stroke-width: 1; shape-rendering: crispEdges; }
+.flights-act-chart .axis { stroke: var(--ink-4); stroke-width: 1; shape-rendering: crispEdges; }
+.flights-act-chart .tick { fill: var(--paper-faint); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+.flights-act-chart .tick.end { text-anchor: end; }
+.flights-act-chart .tick.mid { text-anchor: middle; }
+.flights-act-chart .band { fill: rgba(235, 230, 214, .09); }
+.flights-act-chart .hit { fill: transparent; }
+.flights-act-chart .col:hover .bar, .flights-act-chart .col:hover path { filter: brightness(1.25); }
+.flights-act-chart .usual { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.flights-act-chart .nodata { stroke-width: 1; }
+.flights-act-key { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 3px; font-size: 12px; color: var(--paper-faint); }
+.flights-act-key span::before { content: ""; display: inline-block; vertical-align: middle; margin-right: 5px; }
+.flights-act-key .k-bar::before { width: 9px; height: 9px; border-radius: 2px 2px 0 0; background: var(--g-flights); }
+.flights-act-key .k-usual::before { width: 12px; height: 2px; border-radius: 1px; background: #aab4ca; }
+.flights-act-key .k-band::before { width: 12px; height: 9px; background: rgba(235, 230, 214, .14); }
+.flights-act-key .k-gap::before { width: 9px; height: 1px; background: #3a5080; }
+.flights-act-table { margin-top: 6px; font-size: 12.5px; }
+.flights-act-table summary { cursor: pointer; color: var(--paper-dim); }
+.flights-act-table summary:hover { color: var(--paper); }
+.flights-act-table .tbl { margin-top: 4px; }
+.flights-act-why { margin: 0; padding-left: 18px; font-size: 13px; color: var(--paper-dim); line-height: 1.4; }
+.flights-act-why li { margin: 2px 0; }
+.flights-trend-text { margin: 4px 0 0; font-size: 12.5px; color: var(--paper-dim); line-height: 1.4; }
+
+/* air activity drawer */
+.flights-act-drawer { display: flex; flex-direction: column; min-height: 0; }
+.flights-act-tabs {
+  display: flex; gap: 2px; padding: 6px 10px 0; border-bottom: 1px solid var(--ink-3);
+  position: sticky; top: 0; background: var(--ink-1); z-index: 1;
+}
+.flights-act-tab {
+  border: 0; background: transparent; color: var(--paper-dim); cursor: pointer;
+  padding: 6px 9px 7px; font-size: 13px; font-stretch: semi-condensed; border-bottom: 2px solid transparent;
+}
+.flights-act-tab:hover { color: var(--paper); }
+.flights-act-tab[aria-selected="true"] { color: var(--paper); border-bottom-color: var(--g-flights); }
+.flights-act-count {
+  display: inline-block; min-width: 16px; margin-left: 6px; padding: 0 4px; border-radius: 8px;
+  background: rgba(255, 93, 82, .2); color: #ffd6d2; font-size: 11px; line-height: 16px; text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+.flights-act-panel { padding: 8px 12px 12px; max-height: min(58vh, 560px); overflow: auto; }
+.flights-act-note { margin: 2px 0 8px; font-size: 12.5px; color: var(--paper-dim); max-width: 62ch; line-height: 1.4; }
+.flights-act-empty { margin: 12px 0; color: var(--paper-dim); font-size: 13px; }
+.flights-act-foot { margin: 12px 0 0; font-size: 12px; color: var(--paper-faint); line-height: 1.4; }
+.flights-act-h3 { margin: 14px 0 4px; font-size: 13px; font-weight: 600; color: var(--paper-dim); font-stretch: semi-condensed; }
+.flights-act-tbl td, .flights-act-tbl th { padding: 5px 6px; }
+.flights-act-tbl th { white-space: nowrap; }
+.flights-act-link { padding: 0; color: var(--paper); text-align: left; font-size: 13.5px; }
+.flights-act-link:hover { color: var(--g-flights); background: transparent; text-decoration: underline; }
+.flights-act-sub { font-size: 12px; color: var(--paper-faint); margin-top: 1px; }
+.flights-act-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+.flights-act-dot.red { background: var(--red); }
+.flights-act-dot.amber { background: var(--amber); }
+.flights-act-dim td { color: var(--paper-faint); }
+.flights-act-dim .flights-act-link { color: var(--paper-dim); }

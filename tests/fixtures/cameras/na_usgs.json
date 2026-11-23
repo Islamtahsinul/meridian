@@ -1,0 +1,82 @@
+[
+ {
+  "camId": "IL_Lick_Creek_near_Woodside",
+  "nwisId": "05576100",
+  "camName": "Lick Creek near Woodside",
+  "camDesc": "Lick Creek near Woodside, IL",
+  "lat": "39.71553889",
+  "lng": "-89.7024444",
+  "stateAbrv": "IL",
+  "newestImageDT": "2026-11-23T11:00:01.000Z",
+  "hideCam": false,
+  "overlayDir": "https://usgs-nims-images.s3.amazonaws.com/overlay/IL_Lick_Creek_near_Woodside/",
+  "thumbDir": "https://usgs-nims-images.s3.amazonaws.com/thumbnail/IL_Lick_Creek_near_Woodside/",
+  "smallDir": "https://usgs-nims-images.s3.amazonaws.com/720/IL_Lick_Creek_near_Woodside/",
+  "ingest": {
+   "period": "247",
+   "intr": 15,
+   "specificArr": []
+  },
+  "locus": "aws"
+ },
+ {
+  "camId": "NM_Sapello_River_above_Sapello",
+  "nwisId": "07218525",
+  "camName": "Sapello River above Sapello",
+  "camDesc": "OU Lidar Project Test Streamscope",
+  "lat": "35.77298889",
+  "lng": "-105.3044806",
+  "stateAbrv": "NM",
+  "newestImageDT": "2026-11-23T11:00:01.000Z",
+  "hideCam": false,
+  "overlayDir": "https://usgs-nims-images.s3.amazonaws.com/overlay/NM_Sapello_River_above_Sapello/",
+  "thumbDir": "https://usgs-nims-images.s3.amazonaws.com/thumbnail/NM_Sapello_River_above_Sapello/",
+  "smallDir": "https://usgs-nims-images.s3.amazonaws.com/720/NM_Sapello_River_above_Sapello/",
+  "ingest": {
+   "period": "daylight",
+   "intr": 15,
+   "specificArr": []
+  },
+  "locus": "aws"
+ },
+ {
+  "camId": "HI_Kilauea_KWcam",
+  "camName": "Kilauea KWcam",
+  "camDesc": "Image of Halemaʻumaʻu, lava lake, and down-dropped block from the west rim of the summit caldera, looking east.",
+  "lat": "19.407540",
+  "lng": "-155.291750",
+  "stateAbrv": "HI",
+  "newestImageDT": "2026-11-23T11:00:01.000Z",
+  "hideCam": true,
+  "overlayDir": "https://usgs-nims-images.s3.amazonaws.com/overlay/HI_Kilauea_KWcam/",
+  "thumbDir": "https://usgs-nims-images.s3.amazonaws.com/thumbnail/HI_Kilauea_KWcam/",
+  "smallDir": "https://usgs-nims-images.s3.amazonaws.com/720/HI_Kilauea_KWcam/",
+  "ingest": {
+   "period": "247",
+   "intr": 2,
+   "hourlyStart": true,
+   "specificArr": []
+  },
+  "locus": "aws"
+ },
+ {
+  "camId": "IL_Lick_Creek_near_Woodside_old",
+  "nwisId": "05576100",
+  "camName": "Lick Creek near Woodside",
+  "camDesc": "Lick Creek near Woodside, IL",
+  "lat": "39.71553889",
+  "lng": "-89.7024444",
+  "stateAbrv": "IL",
+  "newestImageDT": "2025-01-01T00:00:00.000Z",
+  "hideCam": false,
+  "overlayDir": "https://usgs-nims-images.s3.amazonaws.com/overlay/IL_Lick_Creek_near_Woodside/",
+  "thumbDir": "https://usgs-nims-images.s3.amazonaws.com/thumbnail/IL_Lick_Creek_near_Woodside/",
+  "smallDir": "https://usgs-nims-images.s3.amazonaws.com/720/IL_Lick_Creek_near_Woodside/",
+  "ingest": {
+   "period": "247",
+   "intr": 15,
+   "specificArr": []
+  },
+  "locus": "aws"
+ }
+]

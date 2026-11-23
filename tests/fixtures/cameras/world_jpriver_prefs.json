@@ -1,0 +1,30 @@
+{
+ "prefs": [
+  {
+   "lon": 141.50115,
+   "lat": 43.07691,
+   "prefCd": 101,
+   "prefNm": "北海道",
+   "altPrefNm": null,
+   "minLon": null,
+   "minLat": null,
+   "maxLon": null,
+   "maxLat": null,
+   "altWtareaCd": null,
+   "wtCityBosaiUrl": null
+  },
+  {
+   "lon": 139.31762,
+   "lat": 35.68944,
+   "prefCd": 1301,
+   "prefNm": "東京都",
+   "altPrefNm": "東京都",
+   "minLon": 138.942864717,
+   "minLat": 24.22470736,
+   "maxLon": 153.986838612,
+   "maxLat": 35.898339048,
+   "altWtareaCd": 130000,
+   "wtCityBosaiUrl": "https://www.jma.go.jp/bosai/#pattern=default&area_type=offices&area_code=130000"
+  }
+ ]
+}

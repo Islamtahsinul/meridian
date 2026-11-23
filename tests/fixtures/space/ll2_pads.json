@@ -1,0 +1,107 @@
+{
+ "count": 4,
+ "next": null,
+ "previous": null,
+ "results": [
+  {
+   "id": 127,
+   "url": "https://ll.thespacedevs.com/2.2.0/pad/127/",
+   "agency_id": 63,
+   "name": "32/2",
+   "info_url": null,
+   "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome_Site_32",
+   "map_url": "https://www.google.com/maps?q=62.9063889,40.7844727",
+   "latitude": "62.9063889",
+   "longitude": "40.7844727",
+   "location": {
+    "id": 6,
+    "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+    "name": "Plesetsk Cosmodrome, Russian Federation",
+    "country_code": "RUS",
+    "map_image": null,
+    "timezone_name": "Europe/Moscow",
+    "total_launch_count": 1689,
+    "total_landing_count": 0
+   },
+   "country_code": "RUS",
+   "map_image": null,
+   "total_launch_count": 65,
+   "orbital_launch_attempt_count": 65
+  },
+  {
+   "id": 173,
+   "url": "https://ll.thespacedevs.com/2.2.0/pad/173/",
+   "agency_id": null,
+   "name": "576A1",
+   "info_url": null,
+   "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Air_Force_Base_Launch_Complex_576",
+   "map_url": "https://www.google.com/maps?q=34.7394444,-120.6213607",
+   "latitude": "34.7394444",
+   "longitude": "-120.6213607",
+   "location": {
+    "id": 11,
+    "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+    "name": "Vandenberg SFB, CA, USA",
+    "country_code": "USA",
+    "map_image": null,
+    "timezone_name": "America/Los_Angeles",
+    "total_launch_count": 926,
+    "total_landing_count": 38
+   },
+   "country_code": "USA",
+   "map_image": null,
+   "total_launch_count": 1,
+   "orbital_launch_attempt_count": 1
+  },
+  {
+   "id": 175,
+   "url": "https://ll.thespacedevs.com/2.2.0/pad/175/",
+   "agency_id": null,
+   "name": "101",
+   "info_url": null,
+   "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+   "map_url": "https://www.google.com/maps?q=19.614334,110.951011",
+   "latitude": "19.614334",
+   "longitude": "110.951011",
+   "location": {
+    "id": 8,
+    "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+    "name": "Wenchang Space Launch Site, People's Republic of China",
+    "country_code": "CHN",
+    "map_image": null,
+    "timezone_name": "Asia/Shanghai",
+    "total_launch_count": 78,
+    "total_landing_count": 0
+   },
+   "country_code": "CHN",
+   "map_image": null,
+   "total_launch_count": 18,
+   "orbital_launch_attempt_count": 18
+  },
+  {
+   "id": 158,
+   "url": "https://ll.thespacedevs.com/2.2.0/pad/158/",
+   "agency_id": null,
+   "name": "Mobile Launcher Pad",
+   "info_url": null,
+   "wiki_url": "https://en.wikipedia.org/wiki/Taiyuan_Satellite_Launch_Center",
+   "map_url": "https://www.google.com/maps?q=38.890002,111.608129",
+   "latitude": "38.890002",
+   "longitude": "111.608129",
+   "location": {
+    "id": 19,
+    "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+    "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "country_code": "CHN",
+    "map_image": null,
+    "timezone_name": "Asia/Shanghai",
+    "total_launch_count": 164,
+    "total_landing_count": 0
+   },
+   "country_code": "CHN",
+   "map_image": null,
+   "total_launch_count": 2,
+   "orbital_launch_attempt_count": 2
+  }
+ ]
+}

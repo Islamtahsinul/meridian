@@ -1,0 +1,109 @@
+{
+ "data": [
+  {
+   "cctv": {
+    "index": "901",
+    "recordTimestamp": {
+     "recordDate": "2024-05-07",
+     "recordTime": "16:27:07",
+     "recordEpoch": "1715124427"
+    },
+    "location": {
+     "district": "7",
+     "locationName": "I-110 : (901) Test Avenue Off Ramp",
+     "nearbyPlace": "Testville",
+     "longitude": "-118.2000",
+     "latitude": "34.0000",
+     "elevation": "95",
+     "direction": "South",
+     "county": "Los Angeles",
+     "route": "I-110",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "10.000",
+     "alignment": "",
+     "milepost": "100.000"
+    },
+    "inService": "true",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "https://wzmedia.dot.ca.gov/D7/CCTV-901.stream/playlist.m3u8",
+     "static": {
+      "currentImageUpdateFrequency": "2",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/testavenueofframp/testavenueofframp.jpg"
+     }
+    }
+   }
+  },
+  {
+   "cctv": {
+    "index": "902",
+    "recordTimestamp": {
+     "recordDate": "2023-06-14",
+     "recordTime": "11:11:44",
+     "recordEpoch": "1686766304"
+    },
+    "location": {
+     "district": "7",
+     "locationName": "I-5 : (902) Sample Street",
+     "nearbyPlace": "Sampletown",
+     "longitude": "-118.2500",
+     "latitude": "34.0500",
+     "elevation": "866",
+     "direction": "North",
+     "county": "Los Angeles",
+     "route": "I-5",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "11.000",
+     "alignment": "R",
+     "milepost": "101.000"
+    },
+    "inService": "true",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "",
+     "static": {
+      "currentImageUpdateFrequency": "2",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/samplestreet/samplestreet.jpg"
+     }
+    }
+   }
+  },
+  {
+   "cctv": {
+    "index": "903",
+    "recordTimestamp": {
+     "recordDate": "2026-09-04",
+     "recordTime": "09:35:59",
+     "recordEpoch": "1788539759"
+    },
+    "location": {
+     "district": "7",
+     "locationName": "I-5 : (903) Example St",
+     "nearbyPlace": "Exampleton",
+     "longitude": "-118.3000",
+     "latitude": "34.1000",
+     "elevation": "157",
+     "direction": "North",
+     "county": "Los Angeles",
+     "route": "I-5",
+     "routeSuffix": "",
+     "postmilePrefix": "",
+     "postmile": "12.000",
+     "alignment": "R",
+     "milepost": "102.000"
+    },
+    "inService": "false",
+    "imageData": {
+     "imageDescription": "",
+     "streamingVideoURL": "https://wzmedia.dot.ca.gov/D7/CCTV-903.stream/playlist.m3u8",
+     "static": {
+      "currentImageUpdateFrequency": "2",
+      "currentImageURL": "https://cwwp2.dot.ca.gov/data/d7/cctv/image/examplest/examplest.jpg"
+     }
+    }
+   }
+  }
+ ]
+}

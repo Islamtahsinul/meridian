@@ -1,0 +1,98 @@
+[
+ {
+  "systemCodeNumber": "GH_A184B1",
+  "definitions": [
+   {
+    "shortDescription": "Gateshead - A184 Bus Interchange",
+    "longDescription": "Gateshead - A184 Bus Interchange - Nelson Street / West Street",
+    "point": {
+     "easting": 425393,
+     "northing": 563206,
+     "latitude": 54.9628426339244,
+     "longitude": -1.60495060943602
+    },
+    "lastUpdated": "2016-02-08T12:03:55.987+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "TT2North1",
+  "definitions": [
+   {
+    "shortDescription": "Tyne Tunnel North 1",
+    "longDescription": "Tyne Tunnel 2 - North Portal 1",
+    "point": {
+     "easting": 434296,
+     "northing": 566233,
+     "latitude": 54.9897,
+     "longitude": -1.4652
+    },
+    "lastUpdated": "2016-02-08T12:03:55.987+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "VAISALACCTV12",
+  "definitions": [
+   {
+    "shortDescription": "A68 Carterway Heads",
+    "longDescription": "A68 Carterway Heads",
+    "point": {
+     "easting": 404797,
+     "northing": 551577,
+     "latitude": 54.8589,
+     "longitude": -1.9274
+    },
+    "lastUpdated": "2016-02-08T12:03:55.987+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "PS_TOWN01",
+  "definitions": [
+   {
+    "shortDescription": "Public safety camera",
+    "longDescription": "Town centre - public safety camera",
+    "point": {
+     "easting": 425000,
+     "northing": 563000,
+     "latitude": 54.961,
+     "longitude": -1.61
+    },
+    "lastUpdated": "2016-02-08T12:03:55.987+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "NC_A167C1",
+  "definitions": [
+   {
+    "shortDescription": "Newcastle - A167 Central Motorway",
+    "longDescription": "Newcastle - A167 Central Motorway - no position",
+    "point": {
+     "easting": 0,
+     "northing": 0,
+     "latitude": 0,
+     "longitude": 0
+    },
+    "lastUpdated": "2016-02-08T12:03:55.987+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "SL_A1018E1",
+  "definitions": [
+   {
+    "shortDescription": "Sunderland - A1018 Ryhope Road",
+    "longDescription": "Sunderland - A1018 Ryhope Road - Toward City Centre",
+    "point": {
+     "easting": 439700,
+     "northing": 555100,
+     "latitude": 54.8893,
+     "longitude": -1.3815
+    },
+    "lastUpdated": "2016-02-08T12:03:55.987+0000"
+   }
+  ]
+ }
+]

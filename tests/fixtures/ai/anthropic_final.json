@@ -1,0 +1,7 @@
+{"id": "msg_01Final", "type": "message", "role": "assistant", "model": "claude-opus-5-5",
+ "content": [
+  {"type": "thinking", "thinking": "", "signature": "EqQBCkYIBhgCKkA-fixture-signature-2"},
+  {"type": "text", "text": "**London Heathrow Airport** is on the map now, with the Cameras layer on.\n\n- The nearest camera is **A4 Bath Road** (from the Cameras layer).\n- Times are in UTC."}
+ ],
+ "stop_reason": "end_turn", "stop_sequence": null,
+ "usage": {"input_tokens": 410, "output_tokens": 95, "cache_creation_input_tokens": 0, "cache_read_input_tokens": 3100}}

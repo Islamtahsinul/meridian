@@ -1,0 +1,38 @@
+[
+ {
+  "Maelist_nr": 9001,
+  "Myndavel": "Prófheiði",
+  "Vegheiti": "Hringvegur",
+  "NrVegur": "1",
+  "Skyring": "Prófheiði séð til vesturs",
+  "Slod": "https://www.vegagerdin.is/vgdata/vefmyndavelar/profheidi_1.jpg",
+  "PntX": 385000.0,
+  "PntY": 392000.0,
+  "Breidd": 64.0,
+  "Lengd": -21.3
+ },
+ {
+  "Maelist_nr": 9001,
+  "Myndavel": "Prófheiði",
+  "Vegheiti": "Hringvegur",
+  "NrVegur": "1",
+  "Skyring": "Prófheiði séð niður á veg",
+  "Slod": "https://www.vegagerdin.is/vgdata/vefmyndavelar/profheidi_2.jpg",
+  "PntX": 385000.0,
+  "PntY": 392000.0,
+  "Breidd": 64.0,
+  "Lengd": -21.3
+ },
+ {
+  "Maelist_nr": 9001,
+  "Myndavel": "Prófheiði",
+  "Vegheiti": "Hringvegur",
+  "NrVegur": "1",
+  "Skyring": "Prófheiði séð til austurs",
+  "Slod": "https://www.vegagerdin.is/vgdata/vefmyndavelar/profheidi_3.jpg",
+  "PntX": 385000.0,
+  "PntY": 392000.0,
+  "Breidd": 64.0,
+  "Lengd": -21.3
+ }
+]

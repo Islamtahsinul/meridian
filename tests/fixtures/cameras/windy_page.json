@@ -1,0 +1,173 @@
+{
+ "total": 6,
+ "webcams": [
+  {
+   "title": "Northdorf: Weather camera",
+   "viewCount": 1111,
+   "webcamId": 1900000003,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:07:12.000Z",
+   "categories": [
+    {
+     "id": "city",
+     "name": "City"
+    }
+   ],
+   "location": {
+    "city": "Northdorf",
+    "region": "Canton North",
+    "region_code": "LU.CL",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "Europe",
+    "continent_code": "EU",
+    "latitude": 49.95793,
+    "longitude": 6.06963
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000003",
+    "provider": "https://camera-1.example.invalid/"
+   }
+  },
+  {
+   "title": "Westdorf: Village",
+   "viewCount": 1222,
+   "webcamId": 1900000004,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:07:04.000Z",
+   "categories": [
+    {
+     "id": "meteo",
+     "name": "Weather"
+    }
+   ],
+   "location": {
+    "city": "Westdorf",
+    "region": "Canton West",
+    "region_code": "LU.ES",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "Europe",
+    "continent_code": "EU",
+    "latitude": 49.55727,
+    "longitude": 5.82742
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000004",
+    "provider": "https://camera-2.example.invalid/"
+   }
+  },
+  {
+   "title": "Middledorf › South-west: River bridge",
+   "viewCount": 1333,
+   "webcamId": 1900000005,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:09:00.000Z",
+   "categories": [
+    {
+     "id": "traffic",
+     "name": "Traffic"
+    }
+   ],
+   "location": {
+    "city": "Middledorf",
+    "region": "Canton Middle",
+    "region_code": "LU.LU",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "Europe",
+    "continent_code": "EU",
+    "latitude": 49.5925,
+    "longitude": 6.14188
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000005",
+    "provider": "https://camera-3.example.invalid/"
+   }
+  },
+  {
+   "title": "Middledorf: Motorway junction",
+   "viewCount": 1444,
+   "webcamId": 1900000006,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:14:26.000Z",
+   "categories": [
+    {
+     "id": "traffic",
+     "name": "Traffic"
+    }
+   ],
+   "location": {
+    "city": "Middledorf",
+    "region": "Canton Middle",
+    "region_code": "LU.LU",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "Europe",
+    "continent_code": "EU",
+    "latitude": 49.58507,
+    "longitude": 6.11206
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000006",
+    "provider": "https://camera-4.example.invalid/"
+   }
+  },
+  {
+   "title": "Bar: Inside",
+   "viewCount": 1555,
+   "webcamId": 1000000001,
+   "status": "active",
+   "lastUpdatedOn": "2026-11-23T11:07:12.000Z",
+   "categories": [
+    {
+     "id": "indoor",
+     "name": "Indoor"
+    }
+   ],
+   "location": {
+    "city": "Northdorf",
+    "region": "Canton North",
+    "region_code": "LU.CL",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "Europe",
+    "continent_code": "EU",
+    "latitude": 49.95793,
+    "longitude": 6.06963
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000003",
+    "provider": "https://camera-5.example.invalid/"
+   }
+  },
+  {
+   "title": "Westdorf: Village",
+   "viewCount": 1666,
+   "webcamId": 1000000002,
+   "status": "inactive",
+   "lastUpdatedOn": "2026-11-23T11:07:04.000Z",
+   "categories": [
+    {
+     "id": "meteo",
+     "name": "Weather"
+    }
+   ],
+   "location": {
+    "city": "Westdorf",
+    "region": "Canton West",
+    "region_code": "LU.ES",
+    "country": "Luxembourg",
+    "country_code": "LU",
+    "continent": "Europe",
+    "continent_code": "EU",
+    "latitude": 49.55727,
+    "longitude": 5.82742
+   },
+   "urls": {
+    "detail": "https://windy.com/webcams/1900000004",
+    "provider": "https://camera-6.example.invalid/"
+   }
+  }
+ ]
+}

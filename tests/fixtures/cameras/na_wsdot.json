@@ -1,0 +1,16 @@
+[
+ {"CameraID": 9145, "CameraLocation": {"Description": null, "Direction": "N", "Latitude": 47.661, "Longitude": -122.3239,
+  "MilePost": 169.5, "RoadName": "005"}, "CameraOwner": null, "Description": null, "DisplayLatitude": 47.661,
+  "DisplayLongitude": -122.3239, "ImageHeight": 240, "ImageURL": "http://images.wsdot.wa.gov/nw/005vc16950.jpg",
+  "ImageWidth": 320, "IsActive": true, "OwnerURL": null, "Region": "NW", "SortOrder": 3150, "Title": "I-5 at NE 45th St"},
+ {"CameraID": 9300, "CameraLocation": {"Description": "Snoqualmie Summit", "Direction": "B", "Latitude": 47.4245,
+  "Longitude": -121.4127, "MilePost": 52, "RoadName": "090"}, "CameraOwner": "WSDOT", "DisplayLatitude": 0,
+  "DisplayLongitude": 0, "ImageURL": "https://images.wsdot.wa.gov/sc/090VC05200.jpg", "IsActive": true, "Region": "SC",
+  "Title": "I-90 at MP 52: Snoqualmie Summit"},
+ {"CameraID": 9400, "CameraLocation": {"Direction": "S", "Latitude": 45.62, "Longitude": -122.67, "RoadName": "005"},
+  "CameraOwner": "Oregon DOT", "DisplayLatitude": 45.62, "DisplayLongitude": -122.67,
+  "ImageURL": "https://tripcheck.com/RoadCams/cams/I-5%20Interstate%20Bridge_pid1234.jpg", "IsActive": true,
+  "Region": "SW", "Title": "I-5 at Interstate Bridge (ODOT)"},
+ {"CameraID": 9500, "CameraLocation": {"Direction": "E", "Latitude": 47.6, "Longitude": -122.2, "RoadName": "520"},
+  "ImageURL": "https://images.wsdot.wa.gov/nw/520vc00430.jpg", "IsActive": false, "Region": "NW", "Title": "SR 520 closed camera"}
+]

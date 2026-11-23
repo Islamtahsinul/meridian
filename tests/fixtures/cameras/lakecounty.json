@@ -1,0 +1,36 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1512,
+    "ImgPath": "https://travelmidwest.com/showCamera?id=IL-LAKECOUNTY-cam237_30_74_65&direction=E",
+    "CameraLocation": "US 12 at Cuba",
+    "CameraDirection": "E",
+    "SnapShot": "https://www.lakecountypassage.com/snapshots/US_12_@_Cuba_cctv_East_Leg.jpg",
+    "TooOld": "false",
+    "x": -88.07449340820312,
+    "y": 42.17560958862305
+   },
+   "geometry": {
+    "x": -88.07449931897622,
+    "y": 42.17561746792805
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 1513,
+    "ImgPath": "https://travelmidwest.com/showCamera?id=IL-LAKECOUNTY-cam237_30_74_65&direction=N",
+    "CameraLocation": "US 12 at Cuba",
+    "CameraDirection": "N",
+    "SnapShot": "https://www.lakecountypassage.com/snapshots/US_12_@_Cuba_cctv_North_Leg.jpg",
+    "TooOld": "false",
+    "x": -88.07449340820312,
+    "y": 42.17560958862305
+   },
+   "geometry": {
+    "x": -88.07449931897622,
+    "y": 42.17561746792805
+   }
+  }
+ ]
+}

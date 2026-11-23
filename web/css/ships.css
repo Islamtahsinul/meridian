@@ -1,0 +1,73 @@
+/* Ships module styles. Every class is prefixed ships- (CONTRACT.md section 2). */
+
+/* Legend swatches shaped like the map symbols: large-ship hull arrows and small-craft darts. */
+.legend i.ships-hull,
+.legend i.ships-dart {
+  width: 9px;
+  height: 13px;
+  border-radius: 0;
+  flex: none;
+}
+.legend i.ships-hull { clip-path: polygon(50% 0, 100% 34%, 100% 100%, 0 100%, 0 34%); }
+.legend i.ships-dart { clip-path: polygon(50% 0, 100% 100%, 50% 76%, 0 100%); }
+
+/* Keep the vessel-type select inside the layer panel. */
+.lr[data-layer="ships"] .lr-opt select { max-width: 160px; min-width: 0; }
+
+/* ---------------------------------------------------------------- maritime overview drawer */
+.ships-drawer { display: flex; flex-direction: column; min-height: 0; }
+.ships-tabs {
+  display: flex; gap: 2px; padding: 6px 10px 0; border-bottom: 1px solid var(--ink-3);
+  position: sticky; top: 0; background: var(--ink-1); z-index: 1;
+}
+.ships-tab {
+  border: 0; background: transparent; color: var(--paper-dim); cursor: pointer;
+  padding: 6px 9px 7px; font-size: 13px; font-stretch: semi-condensed; border-bottom: 2px solid transparent;
+}
+.ships-tab:hover { color: var(--paper); }
+.ships-tab[aria-selected="true"] { color: var(--paper); border-bottom-color: var(--g-ships); }
+.ships-panel { padding: 8px 12px 12px; max-height: min(58vh, 560px); overflow: auto; }
+.ships-note { margin: 2px 0 8px; font-size: 12.5px; color: var(--paper-dim); max-width: 60ch; }
+.ships-empty { margin: 12px 0; color: var(--paper-dim); font-size: 13px; }
+.ships-tbl td { padding: 5px 6px; }
+.ships-tbl th { padding: 5px 6px; }
+.ships-link { padding: 0; color: var(--paper); text-align: left; font-size: 13.5px; }
+.ships-link:hover { color: var(--g-ships); background: transparent; text-decoration: underline; }
+.ships-sub { font-size: 12px; color: var(--paper-faint); margin-top: 1px; }
+.ships-err { color: var(--red); }
+.ships-dim td { color: var(--paper-faint); }
+.ships-dim .ships-link { color: var(--paper-dim); }
+.ships-h3 { margin: 14px 0 4px; font-size: 13px; font-weight: 600; color: var(--paper-dim); font-stretch: semi-condensed; }
+
+.ships-stats { display: flex; border: 1px solid var(--ink-3); border-radius: var(--r-control); margin: 2px 0 10px; }
+.ships-stats > div { flex: 1 1 0; padding: 6px 10px 7px; border-right: 1px solid var(--ink-3); min-width: 0; }
+.ships-stats > div:last-child { border-right: 0; }
+.ships-stat-v { display: block; font-size: 20px; font-weight: 600; font-stretch: condensed; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.ships-stat-k { display: block; font-size: 12px; color: var(--paper-faint); }
+
+/* The drawer has seven tabs: let them wrap rather than overflow. */
+.ships-tabs { flex-wrap: wrap; row-gap: 0; }
+.ships-warn { color: #ffe7bf; }
+
+/* ---------------------------------------------------------------- PortWatch sparkline and section */
+.ships-pw { display: flex; flex-direction: column; gap: 6px; }
+.ships-spark { display: flex; flex-direction: column; gap: 2px; }
+.ships-spark-svg { width: 100%; height: 60px; display: block; overflow: visible; border-radius: 2px; }
+.ships-spark-svg:focus-visible { outline: 2px solid var(--g-ships); outline-offset: 2px; }
+.ships-spark-svg .line { fill: none; stroke-width: 2; vector-effect: non-scaling-stroke; stroke-linejoin: round; stroke-linecap: round; }
+.ships-spark-svg .area { fill: rgba(79, 168, 232, 0.14); stroke: none; }
+.ships-spark-svg .base { stroke: var(--ink-4); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.ships-spark-svg .ref { stroke: var(--paper-dim); stroke-width: 1; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
+.ships-spark-svg .cross { stroke: var(--paper); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.ships-spark-read { min-height: 16px; font-size: 12px; color: var(--paper); font-variant-numeric: tabular-nums; }
+.ships-spark-axis { display: flex; justify-content: space-between; gap: 8px; font-size: 11.5px; color: var(--paper-faint); }
+.ships-spark-axis .ref-label { color: var(--paper-dim); text-align: center; }
+.ships-pw-line { margin: 0; font-size: 12.5px; color: var(--paper-dim); }
+.ships-pw-credit { margin: 2px 0 0; font-size: 11.5px; color: var(--paper-faint); }
+.ships-pw-days summary { cursor: pointer; font-size: 12.5px; color: var(--paper-dim); }
+.ships-pw-tbl { margin-top: 4px; font-size: 12px; }
+
+/* ---------------------------------------------------------------- anomaly cards */
+.ships-bullets { margin: 0; padding-left: 18px; font-size: 13px; color: var(--paper-dim); }
+.ships-bullets li + li { margin-top: 3px; }
+.ships-anom-vessels .li-t .badge { margin-left: 6px; vertical-align: 1px; }

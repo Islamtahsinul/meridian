@@ -1,0 +1,26 @@
+{
+ "totalItems": 5,
+ "totalPages": 2,
+ "currentPage": 2,
+ "cameras": [
+  {
+   "cameraId": "48",
+   "sourceId": "1",
+   "cameraName": "Berriz 1",
+   "urlImage": "https://www.trafikoa.eus/static/files/tr/camaras/818.jpg",
+   "latitude": "43.1685",
+   "longitude": "-2.568193",
+   "road": "A-8",
+   "kilometer": "82.000"
+  },
+  {
+   "cameraId": "145",
+   "sourceId": "5",
+   "cameraName": "Indautxu",
+   "urlImage": "https://www.bilbao.eus/camarastrafico/codec0145/snap_c1.jpg",
+   "latitude": "43.26139493790335",
+   "longitude": "-2.940265067775675",
+   "address": "Indautxu"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "administrativedistrictwherethemonitoringpointislocated": "光復鄉",
+  "basinname": "花蓮溪",
+  "cameraid": "17457",
+  "cameraname": "羅莫溪匯流口",
+  "coordinate": "WGS84",
+  "countiesandcitieswherethemonitoringpointsarelocated": "花蓮縣",
+  "imageformat": "JPG",
+  "imageurl": "https://fmg.wra.gov.tw/109wraweb/getImage.aspx?mode=getNewImageS&CCTV_SN=0x02000000F7F79C0425A81E392D6D82610AC91974A67CD6CF74588E789D35C83F07223A56AD01D86EC8C46A02180FC2391AD16E88",
+  "latitude_4326": "23.688806",
+  "longitude_4326": "121.484861",
+  "rivercode": "242000",
+  "status": "1",
+  "tributary": "馬鞍溪",
+  "videosurveillancestationname": "羅莫溪匯流口"
+ },
+ {
+  "administrativedistrictwherethemonitoringpointislocated": "大湖鄉",
+  "basinname": "後龍溪",
+  "cameraid": "1609",
+  "cameraname": "大湖南湖二橋(固定)",
+  "coordinate": "WGS84",
+  "countiesandcitieswherethemonitoringpointsarelocated": "苗栗縣",
+  "imageformat": "JPG",
+  "imageurl": "https://fmg.wra.gov.tw/109wraweb/getImage.aspx?mode=getNewImageS&CCTV_SN=0x02000000152310AA24A6E6277B89125B9E4728E311944266681589DF9F16C9EBAA25C7D3D4F28DB5C991548E9630FC18F4DBE42B",
+  "latitude_4326": "24.398625",
+  "longitude_4326": "120.868575",
+  "rivercode": "135000",
+  "status": "1",
+  "tributary": "南湖溪",
+  "videosurveillancestationname": "大湖南湖二橋"
+ },
+ {
+  "administrativedistrictwherethemonitoringpointislocated": "仁德區",
+  "basinname": "二仁溪",
+  "cameraid": "6287",
+  "cameraname": "仁德二層行橋(固)",
+  "coordinate": "WGS84",
+  "countiesandcitieswherethemonitoringpointsarelocated": "臺南市",
+  "imageformat": "JPG",
+  "imageurl": "https://fmg.wra.gov.tw/109wraweb/getImage.aspx?mode=getNewImageS&CCTV_SN=0x02000000C29060160FD155A0A2D437F801FAEB08ABDE44D08429E22F6D0440FDE0A7A4E746CF54A3386FD068BF0784556FEC2055",
+  "latitude_4326": "22.917736",
+  "longitude_4326": "120.22956",
+  "rivercode": "166000",
+  "status": "0",
+  "tributary": "二仁溪",
+  "videosurveillancestationname": "仁德二層行橋"
+ }
+]

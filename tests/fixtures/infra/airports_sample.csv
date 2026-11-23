@@ -1,0 +1,8 @@
+"id","ident","type","name","latitude_deg","longitude_deg","elevation_ft","continent","iso_country","iso_region","municipality","scheduled_service","icao_code","iata_code","gps_code","local_code","home_link","wikipedia_link","keywords"
+1,"EGLL","large_airport","London Heathrow Airport",51.470748,-0.459909,83,"EU","GB","GB-ENG","London","yes","EGLL","LHR","EGLL",,"http://www.heathrow.com/","https://en.wikipedia.org/wiki/Heathrow_Airport","LON, Londres"
+2,"EGKK","large_airport","London Gatwick Airport",51.148102,-0.190278,202,"EU","GB","GB-ENG","London","yes","EGKK","LGW","EGKK",,,,"LON"
+3,"EGLC","medium_airport","London City Airport",51.505299,0.055278,19,"EU","GB","GB-ENG","London","yes",,"LCY","EGLC",,"javascript:alert(1)",,
+4,"GB-0001","small_airport","Example Farm Strip",51.6,-0.8,300,"EU","GB","GB-ENG","Example","no",,,,,,,
+5,"EGXX","closed","Closed Field",51.7,-0.9,100,"EU","GB","GB-ENG",,"no",,,,,,,
+6,"EG01","heliport","Example Hospital Helipad",51.5,-0.1,50,"EU","GB","GB-ENG",,"no",,,,,,,
+7,"ZZ99","small_airport","Null Island Strip",0,0,0,"AF","ZZ",,,"no",,,,,,,

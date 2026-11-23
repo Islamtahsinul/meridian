@@ -1,0 +1,8 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"id":"alpha","name":"Alpha Cable","color":"#ff7f00","feature_id":"alpha-0"},"geometry":{"type":"MultiLineString","coordinates":[[[5.37,43.30],[7.0,40.0],[9.87,37.27]]]}},
+{"type":"Feature","properties":{"id":"beta","name":"Beta Link","color":"#00aaff","feature_id":"beta-0"},"geometry":{"type":"MultiLineString","coordinates":[[[5.37,43.30],[7.5,43.6],[8.93,44.41]]]}},
+{"type":"Feature","properties":{"id":"gamma","name":"Gamma Planned","color":"bad-colour","feature_id":"gamma-0"},"geometry":{"type":"MultiLineString","coordinates":[[[8.93,44.41],[9.5,40.0],[9.87,37.27]]]}},
+{"type":"Feature","properties":{"id":"delta","name":"Delta Pacific","color":"#33cc66","feature_id":"delta-0"},"geometry":{"type":"MultiLineString","coordinates":[[[184.8,-21.13],[181.5,-19.5],[178.44,-18.14]]]}},
+{"type":"Feature","properties":{"id":"delta","name":"Delta Pacific","color":"#33cc66","feature_id":"delta-1"},"geometry":{"type":"MultiLineString","coordinates":[[[178.44,-18.14],[178.0,-17.8]]]}},
+{"type":"Feature","properties":{"id":"Bad Id!","name":"Broken","color":"#000000"},"geometry":{"type":"MultiLineString","coordinates":[[[0,0],[1,1]]]}}
+]}

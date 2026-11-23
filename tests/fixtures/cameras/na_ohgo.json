@@ -1,0 +1,16 @@
+{"links": [{"href": "https://publicapi.ohgo.com/api/v1/cameras", "rel": "self"}],
+ "lastUpdated": "2026-11-23T10:00:00Z", "totalPageCount": 1, "totalResultCount": 2, "currentResultCount": 2,
+ "results": [
+  {"links": [], "id": "00000000001100000000", "latitude": 39.96711, "longitude": -82.99645, "location": "I-70 at I-71 split",
+   "description": "Columbus, fixed and PTZ cameras",
+   "cameraViews": [
+    {"direction": "E", "smallUrl": "https://itscameras.dot.state.oh.us/images/COL/CAM1100-E-s.jpg",
+     "largeUrl": "https://itscameras.dot.state.oh.us/images/COL/CAM1100-E.jpg", "mainRoute": "I-70"},
+    {"direction": "PTZ", "smallUrl": "https://itscameras.dot.state.oh.us/images/COL/CAM1100-P-s.jpg",
+     "largeUrl": "https://itscameras.dot.state.oh.us/images/COL/CAM1100-P.jpg", "mainRoute": "I-71"}]},
+  {"links": [], "id": "00000000002200000000", "latitude": 41.49932, "longitude": -81.69436, "location": "I-90 at Dead Man's Curve",
+   "description": "Cleveland",
+   "cameraViews": [
+    {"direction": "N", "smallUrl": "https://itscameras.dot.state.oh.us/images/CLE/CAM2200-s.jpg",
+     "largeUrl": "https://itscameras.dot.state.oh.us/images/CLE/CAM2200.jpg", "mainRoute": "I-90"}]}
+ ]}

@@ -1,0 +1,55 @@
+{
+ "help": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/help_show?name=package_show",
+ "success": true,
+ "result": {
+  "name": "traffic-cameras",
+  "license_title": "open-government-licence-toronto",
+  "resources": [
+   {
+    "name": "Traffic Camera List - 4326.geojson",
+    "format": "GeoJSON",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/4a568300-c7f8-496d-b150-dff6f5dc6d4f/download/traffic-camera-list-4326.geojson"
+   },
+   {
+    "name": "Traffic Camera List - 2952.geojson",
+    "format": "GeoJSON",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/3f1418e0-8640-47b2-8a2c-a146879a8091/download/traffic-camera-list-2952.geojson"
+   },
+   {
+    "name": "Traffic Camera List - 4326.gpkg",
+    "format": "gpkg",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/e0ad66e8-763a-4114-8986-6cd5c2cf7076/download/traffic-camera-list-4326.gpkg"
+   },
+   {
+    "name": "Traffic Camera List - 2952.gpkg",
+    "format": "gpkg",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/28fd3446-cc8e-4616-b86d-8cef2ea8c756/download/traffic-camera-list-2952.gpkg"
+   },
+   {
+    "name": "Traffic Camera List - 4326.zip",
+    "format": "SHP",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/446cbc56-6793-4347-93d3-5d05273f4708/download/traffic-camera-list-4326.zip"
+   },
+   {
+    "name": "Traffic Camera List - 2952.zip",
+    "format": "SHP",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/88a498f4-add0-4bd8-a3fa-b49401d01f01/download/traffic-camera-list-2952.zip"
+   },
+   {
+    "name": "Traffic Camera List - 4326.csv",
+    "format": "CSV",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/8f9d6db7-faa0-405c-9627-b0298489cf9f/download/traffic-camera-list-4326.csv"
+   },
+   {
+    "name": "Traffic Camera List - 2952.csv",
+    "format": "CSV",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/a3309088-5fd4-4d34-8297-77c8301840ac/resource/48f4bb6a-49b1-45d0-852b-6a8ebfd4981a/download/traffic-camera-list-2952.csv"
+   },
+   {
+    "name": "Traffic Camera List",
+    "format": "GeoJSON",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/824d2986-2fe0-4513-bdfb-e37e2499e7a9"
+   }
+  ]
+ }
+}

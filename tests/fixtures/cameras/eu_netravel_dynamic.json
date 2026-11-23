@@ -1,0 +1,29 @@
+[
+ {
+  "systemCodeNumber": "GH_A184B1",
+  "dynamics": [
+   {
+    "image": "https://www.netraveldata.co.uk/api/v1/cctv/images/GH_A184B1.jpg",
+    "lastUpdated": "2026-11-23T09:01:01.000+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "TT2North1",
+  "dynamics": [
+   {
+    "image": "https://www.netraveldata.co.uk/api/v2/cctv/images/TT2North1.jpg",
+    "lastUpdated": "2026-11-23T09:00:31.000+0000"
+   }
+  ]
+ },
+ {
+  "systemCodeNumber": "SL_A1018E1",
+  "dynamics": [
+   {
+    "image": "https://www.netraveldata.co.uk/api/v2/cctv/images/SL_A1018E1.jpg",
+    "lastUpdated": "2026-10-01T07:30:00.000+0000"
+   }
+  ]
+ }
+]

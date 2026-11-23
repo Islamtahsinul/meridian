@@ -1,0 +1,49 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "AssetID": 224,
+    "Location": "Avondale Rd NE & NE Woodinville-Duvall Rd, SE corner",
+    "ImageURL": "http://info.kingcounty.gov/transportation/kcdot/Roads/TrafficCameras/ImageHandler/Handler.ashx?id=AvonNE_WoodDuv_sec.jpg",
+    "CamRegion": "North",
+    "Owner": "King County",
+    "Jurisdiction": "King County",
+    "CurrentStatus": "Active"
+   },
+   "geometry": {
+    "x": -122.08043057815713,
+    "y": 47.75486993497617
+   }
+  },
+  {
+   "attributes": {
+    "AssetID": 52,
+    "Location": "Sahalee Way NE and NE 37th Way",
+    "ImageURL": "http://info.kingcounty.gov/transportation/kcdot/Roads/TrafficCameras/ImageHandler/Handler.ashx?id=SahaleeWy_NE37th.jpg",
+    "CamRegion": "North",
+    "Owner": "City of Sammamish",
+    "Jurisdiction": "Sammamish",
+    "CurrentStatus": "Active"
+   },
+   "geometry": {
+    "x": -122.05642143095265,
+    "y": 47.644499250671394
+   }
+  },
+  {
+   "attributes": {
+    "AssetID": 56,
+    "Location": "NE Novelty Hill Road at Trilogy Parkway NE",
+    "ImageURL": "http://info.kingcounty.gov/transportation/kcdot/Roads/TrafficCameras/ImageHandler/Handler.ashx?id=TrilogyNE_NovHill.jpg",
+    "CamRegion": "North",
+    "Owner": "King County",
+    "Jurisdiction": "King County",
+    "CurrentStatus": "Active"
+   },
+   "geometry": {
+    "x": -122.02442594832883,
+    "y": 47.70058876767998
+   }
+  }
+ ]
+}

@@ -1,0 +1,1365 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "bbox": [
+    -168.4,
+    -11.8,
+    -168.4,
+    -11.8
+   ],
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -168.4,
+     -11.8
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygonlabel": "Centroid",
+    "Class": "Point_Centroid",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    }
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -171.775183860817,
+    -13.250999999999985,
+    -157.382723159249,
+    -6.515000000000002
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -164.2,
+       -13.250999999999985
+      ],
+      [
+       -163.051420829321,
+       -12.841343819901292
+      ],
+      [
+       -161.595057674534,
+       -11.924107874463791
+      ],
+      [
+       -161.271837723476,
+       -10.947615855449502
+      ],
+      [
+       -160.944069954464,
+       -10.084034460825293
+      ],
+      [
+       -158.794160117896,
+       -9.897343639439988
+      ],
+      [
+       -157.846010942269,
+       -9.479729040308307
+      ],
+      [
+       -157.391034960538,
+       -8.556897223364741
+      ],
+      [
+       -157.64212049105,
+       -7.560651451890412
+      ],
+      [
+       -159.605272492969,
+       -6.592575421672184
+      ],
+      [
+       -160.699734608296,
+       -6.630413590511638
+      ],
+      [
+       -163.370365262826,
+       -7.269469967773216
+      ],
+      [
+       -164.592334268148,
+       -7.615453815321975
+      ],
+      [
+       -165.30318792946096,
+       -8.656073321574608
+      ],
+      [
+       -165.37025417425798,
+       -9.761813901976316
+      ],
+      [
+       -166.66316844884693,
+       -10.701783014084615
+      ],
+      [
+       -167.96814204175,
+       -10.490117045483602
+      ],
+      [
+       -169.91129043122655,
+       -10.998999999999976
+      ],
+      [
+       -171.310873934863,
+       -10.9433139129199
+      ],
+      [
+       -171.711456345527,
+       -11.3789621494426
+      ],
+      [
+       -171.732349313786,
+       -11.964827564179295
+      ],
+      [
+       -171.363776787593,
+       -12.426777218406093
+      ],
+      [
+       -169.028613810262,
+       -12.998561614310095
+      ],
+      [
+       -165.6,
+       -13.23399999999999
+      ],
+      [
+       -164.2,
+       -13.250999999999985
+      ],
+      [
+       -164.2,
+       -13.250999999999985
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "60 km/h",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Poly_Green",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -164.508029090916,
+    -11.899999999999999,
+    -162.09046801393,
+    -8.483000000000002
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -163.5,
+       -11.899999999999999
+      ],
+      [
+       -163.229707820676,
+       -11.824024048078197
+      ],
+      [
+       -162.723266943939,
+       -11.585147863137998
+      ],
+      [
+       -162.442545957127,
+       -11.575528258147596
+      ],
+      [
+       -162.20967585348,
+       -11.421393804843298
+      ],
+      [
+       -162.095426744192,
+       -11.169586550479998
+      ],
+      [
+       -162.134519368602,
+       -10.8966316784621
+      ],
+      [
+       -162.50090698271,
+       -10.2954915028125
+      ],
+      [
+       -162.76450459734,
+       -10.2012179748701
+      ],
+      [
+       -162.340140420572,
+       -9.228600484253997
+      ],
+      [
+       -162.203372731581,
+       -9.042622399766797
+      ],
+      [
+       -162.187141579695,
+       -8.813300824928989
+      ],
+      [
+       -162.296379673776,
+       -8.6103274595186
+      ],
+      [
+       -162.497889141087,
+       -8.49538668214291
+      ],
+      [
+       -163.639575400877,
+       -8.619369152030838
+      ],
+      [
+       -163.876308706844,
+       -8.76543469682057
+      ],
+      [
+       -164.483164377383,
+       -10.0454915028125
+      ],
+      [
+       -164.49293845574,
+       -10.320960947799797
+      ],
+      [
+       -164.352906660441,
+       -10.559669900169297
+      ],
+      [
+       -164.105625187277,
+       -10.689073800366899
+      ],
+      [
+       -164.039816401881,
+       -10.960650709228599
+      ],
+      [
+       -164.20195369543,
+       -11.084870597661002
+      ],
+      [
+       -164.272326111193,
+       -11.2744691306097
+      ],
+      [
+       -164.229547204062,
+       -11.471826591979596
+      ],
+      [
+       -163.770292179324,
+       -11.824024048078197
+      ],
+      [
+       -163.5,
+       -11.899999999999999
+      ],
+      [
+       -163.5,
+       -11.899999999999999
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "120 km/h",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Poly_Red",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -167.6,
+    -11.9,
+    -166.8,
+    -11.6
+   ],
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -166.8,
+      -11.9
+     ],
+     [
+      -167.6,
+      -11.6
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "TS",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Line_Line_19",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -167.9,
+    -11.7,
+    -167.6,
+    -11.6
+   ],
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -167.6,
+      -11.6
+     ],
+     [
+      -167.9,
+      -11.7
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "TS",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Line_Line_20",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -168.4,
+    -11.8,
+    -167.9,
+    -11.7
+   ],
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -167.9,
+      -11.7
+     ],
+     [
+      -168.4,
+      -11.8
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "TS",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Line_Line_21",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -169.1,
+    -12.0,
+    -168.4,
+    -11.8
+   ],
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -168.4,
+      -11.8
+     ],
+     [
+      -169.1,
+      -12.0
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "TS",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Line_Line_22",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -167.63,
+    -11.629999999999999,
+    -167.57,
+    -11.57
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -167.6,
+       -11.629999999999999
+      ],
+      [
+       -167.5787867965644,
+       -11.621213203435596
+      ],
+      [
+       -167.57,
+       -11.6
+      ],
+      [
+       -167.5787867965644,
+       -11.578786796564403
+      ],
+      [
+       -167.6,
+       -11.57
+      ],
+      [
+       -167.6212132034356,
+       -11.578786796564403
+      ],
+      [
+       -167.63,
+       -11.6
+      ],
+      [
+       -167.6212132034356,
+       -11.621213203435596
+      ],
+      [
+       -167.6,
+       -11.629999999999999
+      ],
+      [
+       -167.6,
+       -11.629999999999999
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "22/11 06:00 UTC",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Point_Polygon_Point_19",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -167.93,
+    -11.729999999999999,
+    -167.87,
+    -11.67
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -167.9,
+       -11.729999999999999
+      ],
+      [
+       -167.8787867965644,
+       -11.721213203435596
+      ],
+      [
+       -167.87,
+       -11.7
+      ],
+      [
+       -167.8787867965644,
+       -11.678786796564403
+      ],
+      [
+       -167.9,
+       -11.67
+      ],
+      [
+       -167.9212132034356,
+       -11.678786796564403
+      ],
+      [
+       -167.93,
+       -11.7
+      ],
+      [
+       -167.9212132034356,
+       -11.721213203435596
+      ],
+      [
+       -167.9,
+       -11.729999999999999
+      ],
+      [
+       -167.9,
+       -11.729999999999999
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "22/11 12:00 UTC",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Point_Polygon_Point_20",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -168.43,
+    -11.83,
+    -168.37,
+    -11.770000000000001
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -168.4,
+       -11.83
+      ],
+      [
+       -168.3787867965644,
+       -11.821213203435597
+      ],
+      [
+       -168.37,
+       -11.8
+      ],
+      [
+       -168.3787867965644,
+       -11.778786796564404
+      ],
+      [
+       -168.4,
+       -11.770000000000001
+      ],
+      [
+       -168.4212132034356,
+       -11.778786796564404
+      ],
+      [
+       -168.43,
+       -11.8
+      ],
+      [
+       -168.4212132034356,
+       -11.821213203435597
+      ],
+      [
+       -168.4,
+       -11.83
+      ],
+      [
+       -168.4,
+       -11.83
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "22/11 18:00 UTC",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Point_Polygon_Point_21",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -169.13,
+    -12.03,
+    -169.07,
+    -11.97
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -169.1,
+       -12.03
+      ],
+      [
+       -169.0787867965644,
+       -12.021213203435597
+      ],
+      [
+       -169.07,
+       -12.0
+      ],
+      [
+       -169.0787867965644,
+       -11.978786796564403
+      ],
+      [
+       -169.1,
+       -11.97
+      ],
+      [
+       -169.1212132034356,
+       -11.978786796564403
+      ],
+      [
+       -169.13,
+       -12.0
+      ],
+      [
+       -169.1212132034356,
+       -12.021213203435597
+      ],
+      [
+       -169.1,
+       -12.03
+      ],
+      [
+       -169.1,
+       -12.03
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "23/11 06:00 UTC",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Point_Polygon_Point_22",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -170.03,
+    -12.03,
+    -169.97,
+    -11.97
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -170.0,
+       -12.03
+      ],
+      [
+       -169.9787867965644,
+       -12.021213203435597
+      ],
+      [
+       -169.97,
+       -12.0
+      ],
+      [
+       -169.9787867965644,
+       -11.978786796564403
+      ],
+      [
+       -170.0,
+       -11.97
+      ],
+      [
+       -170.0212132034356,
+       -11.978786796564403
+      ],
+      [
+       -170.03,
+       -12.0
+      ],
+      [
+       -170.0212132034356,
+       -12.021213203435597
+      ],
+      [
+       -170.0,
+       -12.03
+      ],
+      [
+       -170.0,
+       -12.03
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "23/11 18:00 UTC",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Point_Polygon_Point_23",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  },
+  {
+   "type": "Feature",
+   "bbox": [
+    -171.716974432501,
+    -12.633999999999995,
+    -168.144602790051,
+    -10.899999999999999
+   ],
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -170.0,
+       -12.633999999999995
+      ],
+      [
+       -168.996864818367,
+       -12.404613317857098
+      ],
+      [
+       -168.886841985971,
+       -12.361132593378096
+      ],
+      [
+       -168.222586190317,
+       -11.979834950084697
+      ],
+      [
+       -168.178819528128,
+       -11.924999999999999
+      ],
+      [
+       -168.152189178683,
+       -11.860480473899898
+      ],
+      [
+       -168.144758371131,
+       -11.7912751258244
+      ],
+      [
+       -168.157102819234,
+       -11.7227457514063
+      ],
+      [
+       -168.188266117026,
+       -11.6602017741323
+      ],
+      [
+       -168.235833837896,
+       -11.6084888892203
+      ],
+      [
+       -168.296120596174,
+       -11.5716136355894
+      ],
+      [
+       -168.364455578315,
+       -11.5524329828146
+      ],
+      [
+       -170.491512783749,
+       -11.007179676972399
+      ],
+      [
+       -170.702355996633,
+       -10.923763418979199
+      ],
+      [
+       -170.928511996513,
+       -10.900487338384702
+      ],
+      [
+       -171.152458983613,
+       -10.939154786963904
+      ],
+      [
+       -171.356846304972,
+       -11.036769941956003
+      ],
+      [
+       -171.525838724188,
+       -11.185769912250796
+      ],
+      [
+       -171.646343281822,
+       -11.3746106855394
+      ],
+      [
+       -171.709023693484,
+       -11.5886615192319
+      ],
+      [
+       -171.709023693484,
+       -11.811338480768095
+      ],
+      [
+       -171.646343281822,
+       -12.025389314460595
+      ],
+      [
+       -171.525838724188,
+       -12.214230087749192
+      ],
+      [
+       -171.356846304972,
+       -12.363230058043992
+      ],
+      [
+       -171.152458983613,
+       -12.460845213036091
+      ],
+      [
+       -170.045213630663,
+       -12.632455607864694
+      ],
+      [
+       -170.0,
+       -12.633999999999995
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "eventtype": "TC",
+    "eventid": 1001350,
+    "episodeid": 22,
+    "eventname": "XAVIER-26",
+    "glide": "",
+    "name": "Tropical Cyclone XAVIER-26",
+    "description": "Tropical Cyclone XAVIER-26",
+    "icon": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconoverall": null,
+    "url": {
+     "geometry": "https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&eventid=1001350&episodeid=22",
+     "report": "https://www.gdacs.org/report.aspx?eventid=1001350&episodeid=22&eventtype=TC",
+     "details": "https://www.gdacs.org/gdacsapi/api/events/geteventdata?eventtype=TC&eventid=1001350"
+    },
+    "alertlevel": "Green",
+    "alertscore": 1,
+    "episodealertlevel": "Green",
+    "episodealertscore": 1.0,
+    "istemporary": "false",
+    "iscurrent": "true",
+    "country": "Cook Islands, American Samoa",
+    "fromdate": "2026-11-15T06:00:00",
+    "todate": "2026-11-22T18:00:00",
+    "datemodified": "2026-11-22T21:05:04",
+    "iso3": "ASM",
+    "source": "JTWC",
+    "sourceid": "",
+    "polygondate": "2026-11-22T18:00:00",
+    "polygonlabel": "Uncertainty Cones",
+    "countryonland": "",
+    "affectedcountries": [
+     {
+      "iso2": "AS",
+      "iso3": "ASM",
+      "countryname": "American Samoa"
+     }
+    ],
+    "severitydata": {
+     "severity": 240.7392,
+     "severitytext": "Tropical Storm (maximum wind speed of 241 km/h)",
+     "severityunit": "km/h"
+    },
+    "Class": "Poly_Cones",
+    "iconeventlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png",
+    "iconitemlink": "https://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png"
+   }
+  }
+ ]
+}

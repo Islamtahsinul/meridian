@@ -1,0 +1,6 @@
+{"data":[
+{"id":1,"org_id":10,"org_name":"Example Colo, Inc.","campus_id":14,"name":"Example DC1 - Ashburn","aka":"","name_long":"","website":"http://www.example.com/","clli":"ASBNVA","property":"","notes":"","region_continent":"North America","address1":"1 Example Ct","city":"Ashburn","country":"US","state":"VA","zipcode":"20147","latitude":39.016363,"longitude":-77.459023,"net_count":529,"ix_count":9,"carrier_count":14,"status":"ok","updated":"2026-02-12T20:01:14Z","available_voltage_services":["48 VDC"],"diverse_serving_substations":true,"tech_email":"noc@example.com","sales_phone":"+1 555 0100"},
+{"id":2,"org_id":10,"org_name":"Example Colo, Inc.","campus_id":14,"name":"Example DC2 - Ashburn","website":"javascript:alert(1)","city":"Ashburn","country":"US","latitude":39.017,"longitude":-77.46,"net_count":40,"ix_count":2,"carrier_count":3,"status":"ok"},
+{"id":3,"org_name":"No Position Ltd","name":"Somewhere","city":"London","country":"GB","latitude":null,"longitude":null,"net_count":5,"status":"ok"},
+{"id":4,"org_name":"Old Ltd","name":"Deleted DC","city":"Paris","country":"FR","latitude":48.85,"longitude":2.35,"net_count":1,"status":"deleted"}
+],"meta":{}}

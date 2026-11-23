@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Meridian</title>
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/vendor/maplibre-gl/maplibre-gl.css">
+<link rel="stylesheet" href="/css/core.css">
+<script src="/vendor/maplibre-gl/maplibre-gl.js"></script>
+<script type="module" src="/js/core/app.js"></script>
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <button id="toggle-left" class="icon-btn" type="button" aria-label="Show or hide layers" aria-controls="left" aria-expanded="true">
+      <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+    </button>
+    <a class="brand" href="/" aria-label="Meridian home">
+      <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
+        <circle cx="14" cy="14" r="11" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <ellipse cx="14" cy="14" rx="4.6" ry="11" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".7"/>
+        <path d="M14 1.5v25" stroke="var(--signal)" stroke-width="2"/>
+      </svg>
+      <span class="brand-name">Meridian</span>
+    </a>
+    <div id="search" class="search" role="search"></div>
+    <div class="top-right">
+      <div id="toolbar" class="toolbar" role="toolbar" aria-label="Tools"></div>
+      <div id="view-controls" class="view-controls"></div>
+      <time id="clock" class="clock" aria-label="Coordinated Universal Time"></time>
+    </div>
+  </header>
+  <aside id="left" aria-label="Layers">
+    <div class="left-head">
+      <input id="layer-filter" type="search" placeholder="Filter layers" aria-label="Filter layers" autocomplete="off">
+      <button id="layers-off" class="text-btn" type="button" title="Turn every layer off">All off</button>
+    </div>
+    <div id="layer-groups" class="layer-groups"></div>
+    <div class="left-foot">
+      <button id="open-layer-table" class="text-btn" type="button">Layer table</button>
+      <button id="open-sources" class="text-btn" type="button">Sources and status</button>
+    </div>
+  </aside>
+  <main id="map-wrap">
+    <div id="map" aria-label="Map"></div>
+    <div id="cards" class="cards" aria-live="polite"></div>
+    <div id="drawers" class="drawers"></div>
+    <div id="map-hint" class="map-hint" hidden></div>
+  </main>
+  <footer id="statusbar">
+    <span id="cursor-pos" class="sb-item" title="Position under the cursor"></span>
+    <span id="zoom-level" class="sb-item"></span>
+    <span class="sb-spacer"></span>
+    <button id="status-summary" class="sb-item sb-btn" type="button">Connecting…</button>
+  </footer>
+</div>
+<div id="modal-root"></div>
+<div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+<noscript>Meridian needs JavaScript to draw the map.</noscript>
+</body>
+</html>

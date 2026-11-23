@@ -1,0 +1,170 @@
+{
+ "type": "FeatureCollection",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "EPSG:4326"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.360884747491493,
+     46.005502371925814
+    ]
+   },
+   "properties": {
+    "group": {
+     "LegacyId": 1,
+     "EntityId": "1c5dc226-5f3a-4abf-a4e2-9c0958b91dcc",
+     "name": "Log pri Brezovici",
+     "title_slo": "A1/E61/E70, Ljubljana - Koper, Log pri Brezovici",
+     "title_eng": "A1/E61/E70, Ljubljana - Koper, Log pri Brezovici",
+     "priority": 103,
+     "KameraOwner": "DARS"
+    },
+    "items": [
+     {
+      "LegacyId": 1,
+      "EntityId": "2e54815d-fe93-4a56-a606-0620adf89967",
+      "x": 450873.01,
+      "y": 95899.98,
+      "name": "Log pri Brezovici",
+      "region": "Primorska in Notranjska",
+      "title_slo": "Log pri Brezovici",
+      "title_eng": "Log pri Brezovici",
+      "text_slo": "A1/E61/E70, Ljubljana - Koper, Log pri Brezovici - vrtljiva kamera I",
+      "text_eng": "A1/E61/E70, Ljubljana - Koper, Log pri Brezovici, rotating camera I",
+      "image": "https://kamere.dars.si/cam.jpg",
+      "active": 1,
+      "priority": null,
+      "odsek": "0052",
+      "stacionaza": 6209.0,
+      "KameraOwner": "DARS"
+     },
+     {
+      "LegacyId": 2,
+      "EntityId": "464ecee7-4fc7-4906-bec6-acd8f019ecfb",
+      "x": 450873.01,
+      "y": 95899.98,
+      "name": "Log pri Brezovici",
+      "region": "Primorska in Notranjska",
+      "title_slo": "Log pri Brezovici",
+      "title_eng": "Log pri Brezovici",
+      "text_slo": "A1/E61/E70, Ljubljana - Koper, Log pri Brezovici - vrtljiva kamera II",
+      "text_eng": "A1/E61/E70, Ljubljana - Koper, Log pri Brezovici, rotating camera II",
+      "image": "https://kamere.dars.si/cam.jpg",
+      "active": 1,
+      "priority": null,
+      "odsek": "0652",
+      "stacionaza": 6178.0,
+      "KameraOwner": "DARS"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     13.579066776943955,
+     46.418652727491924
+    ]
+   },
+   "properties": {
+    "group": {
+     "LegacyId": 50,
+     "EntityId": "c862f395-8f60-4deb-ac61-1ce46765ce81",
+     "name": "Predel",
+     "title_slo": "R1-203, Predel - Bovec, pred prehodom Predel",
+     "title_eng": "R1-203, Predel - Bovec, border crossing Predel",
+     "priority": 223,
+     "KameraOwner": "DRSI"
+    },
+    "items": [
+     {
+      "LegacyId": 88,
+      "EntityId": "b4b176fc-a957-4c67-875c-29d784e23e85",
+      "x": 391145.0,
+      "y": 142600.0,
+      "name": "Predel",
+      "region": "Primorska in Notranjska",
+      "title_slo": "prehod Predel",
+      "title_eng": "Predel border crossing",
+      "text_slo": "R1-203, Predel - Bovec, pred prehodom Predel, pogled proti Bovcu",
+      "text_eng": "R1-203, Predel - Bovec, border crossing Predel, view in the direction of Bovec",
+      "image": "https://www.drsc.si/kamere/cam.jpg",
+      "active": 1,
+      "priority": null,
+      "odsek": null,
+      "stacionaza": null,
+      "KameraOwner": "DRSI"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     14.299910878366848,
+     45.96888075699547
+    ]
+   },
+   "properties": {
+    "group": {
+     "LegacyId": 186,
+     "EntityId": "474ebf82-f312-4df2-aa53-4fa6b207bab4",
+     "name": "Brezovica II",
+     "title_slo": "R2-409, Brezovica – Vrhnika, Vrhnika AC priključek",
+     "title_eng": "R2-409, Brezovica – Vrhnika, Vrhnika motorway junction",
+     "priority": 202,
+     "KameraOwner": "DRSI"
+    },
+    "items": [
+     {
+      "LegacyId": 319,
+      "EntityId": "ccab72c7-b804-478c-b479-eca2c56a6057",
+      "x": 446115.1,
+      "y": 91869.5,
+      "name": "Brezovica II",
+      "region": "Primorska in Notranjska",
+      "title_slo": "Brezovica II",
+      "title_eng": "Brezovica II",
+      "text_slo": "R2-409, Brezovica – Vrhnika, križišče z AC priključkom Vrhnika",
+      "text_eng": "R2-409, Brezovica – Vrhnika, Vrhnika - A1 motorway junction",
+      "image": "https://www.drsc.si/kamere/cam.jpg",
+      "active": 1,
+      "priority": null,
+      "odsek": null,
+      "stacionaza": null,
+      "KameraOwner": "DRSI"
+     },
+     {
+      "LegacyId": 9999,
+      "EntityId": "00000000-0000-0000-0000-000000009999",
+      "x": 446115.1,
+      "y": 91869.5,
+      "name": "Brezovica II",
+      "region": "Primorska in Notranjska",
+      "title_slo": "Brezovica II",
+      "title_eng": "Brezovica II",
+      "text_slo": "R2-409, Brezovica – Vrhnika, križišče z AC priključkom Vrhnika",
+      "text_eng": "R2-409, Brezovica – Vrhnika, Vrhnika - A1 motorway junction",
+      "image": "https://www.drsc.si/kamere/cam.jpg",
+      "active": 0,
+      "priority": null,
+      "odsek": null,
+      "stacionaza": null,
+      "KameraOwner": "DRSI"
+     }
+    ]
+   }
+  }
+ ]
+}

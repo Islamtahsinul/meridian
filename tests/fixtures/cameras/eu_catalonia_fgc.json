@@ -1,0 +1,82 @@
+[
+ {
+  "business_unit": "15",
+  "name_bu": "La Molina",
+  "id": 34,
+  "tipus_servei": "livecam",
+  "nom_servei": "Webcam 360 Cap de Comella Inferior 1664m",
+  "is_active": 1,
+  "imatge_2": null,
+  "url": "https://fgc.roundshot.com/cap-de-comella-inferior",
+  "coordenadas": {
+   "lon": 1.936987,
+   "lat": 42.33504
+  }
+ },
+ {
+  "business_unit": "15",
+  "name_bu": "La Molina",
+  "id": 55,
+  "tipus_servei": "webcam",
+  "nom_servei": "Cap de Comella Sup",
+  "is_active": 1,
+  "imatge_2": {
+   "thumbnail": true,
+   "filename": "comella.jpg",
+   "format": "JPEG",
+   "width": 2560,
+   "id": "7b8fbe290db3096c7aeacc4120d25bd2",
+   "height": 1440,
+   "url": "https://dadesobertes.fgc.cat/api/explore/v2.1/catalog/datasets/webcams-actives-tim/files/7b8fbe290db3096c7aeacc4120d25bd2"
+  },
+  "url": "https://media.turismefgc.cat/lamolina/comella.jpg",
+  "coordenadas": {
+   "lon": 1.938663,
+   "lat": 42.324095
+  }
+ },
+ {
+  "business_unit": "20",
+  "name_bu": "Boí Taüll",
+  "id": 62,
+  "tipus_servei": "livecam",
+  "nom_servei": "Cap TC Mulleres 2.270m P4E",
+  "is_active": 1,
+  "imatge_2": {
+   "thumbnail": true,
+   "filename": "boi-taull-mulleres.jpg",
+   "format": "JPEG",
+   "width": 1920,
+   "id": "60fa50062ff3a2d02506e36fee49ccdb",
+   "height": 1080,
+   "url": "https://dadesobertes.fgc.cat/api/explore/v2.1/catalog/datasets/webcams-actives-tim/files/60fa50062ff3a2d02506e36fee49ccdb"
+  },
+  "url": "https://app.projecte4estacions.com/snapshots/boi-taull-mulleres.jpg",
+  "coordenadas": {
+   "lon": 0.870681,
+   "lat": 42.467991
+  }
+ },
+ {
+  "business_unit": "15",
+  "name_bu": "La Molina",
+  "id": 19,
+  "tipus_servei": "webcam",
+  "nom_servei": "Vista webcam TV3",
+  "is_active": 1,
+  "imatge_2": {
+   "thumbnail": true,
+   "filename": "19.jpg",
+   "format": "JPEG",
+   "width": 670,
+   "id": "7501e8e74d1f875c12562a07f83e4311",
+   "height": 378,
+   "url": "https://dadesobertes.fgc.cat/api/explore/v2.1/catalog/datasets/webcams-actives-tim/files/7501e8e74d1f875c12562a07f83e4311"
+  },
+  "url": "https://api.pirineu365.cat/webcam/19",
+  "coordenadas": {
+   "lon": -3.779297,
+   "lat": 40.329796
+  }
+ }
+]

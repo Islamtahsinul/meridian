@@ -1,0 +1,40 @@
+{
+ "items": [
+  {
+   "timestamp": "2026-11-23T05:50:03+08:00",
+   "cameras": [
+    {
+     "timestamp": "2026-11-23T05:46:23+08:00",
+     "image": "https://images.data.gov.sg/api/traffic-images/2026/11/5bb6bc55-ae1f-4b84-bfa4-7a1894014079.jpg",
+     "location": {
+      "latitude": 1.447023728,
+      "longitude": 103.7716543
+     },
+     "camera_id": "2701",
+     "image_metadata": {
+      "height": 1080,
+      "width": 1920,
+      "md5": "c98f43cc7811d3591d5147c0b967b211"
+     }
+    },
+    {
+     "timestamp": "2026-11-23T05:46:23+08:00",
+     "image": "https://images.data.gov.sg/api/traffic-images/2026/11/3076b0b1-c318-4538-ab1d-f892b5f44701.jpg",
+     "location": {
+      "latitude": 1.445554109,
+      "longitude": 103.7683397
+     },
+     "camera_id": "2702",
+     "image_metadata": {
+      "height": 1080,
+      "width": 1920,
+      "md5": "c13a5a675452ae8167da5a2bb28d37f6"
+     }
+    }
+   ]
+  }
+ ],
+ "api_info": {
+  "status": "healthy"
+ }
+}

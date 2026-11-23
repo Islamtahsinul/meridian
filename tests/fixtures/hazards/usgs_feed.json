@@ -1,0 +1,173 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "generated": 1795381997000,
+  "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+  "title": "USGS Significant Earthquakes, Past Month",
+  "status": 200,
+  "api": "2.8.2",
+  "count": 11
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 5.9,
+    "place": "238 km SW of Yanglong, China",
+    "time": 1795257933230,
+    "updated": 1795344769837,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ucly.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": 7.497,
+    "alert": "yellow",
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 650,
+    "net": "us",
+    "code": "6000ucly",
+    "ids": ",us6000ucly,",
+    "sources": ",us,",
+    "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+    "nst": 99,
+    "dmin": 5.815,
+    "rms": 0.63,
+    "gap": 36,
+    "magType": "mb",
+    "type": "earthquake",
+    "title": "M 5.9 - 238 km SW of Yanglong, China"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.6398,
+     37.1958,
+     10
+    ]
+   },
+   "id": "us6000ucly"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 6.8,
+    "place": "105 km NE of Lospalos, Timor Leste",
+    "time": 1795254129120,
+    "updated": 1795344403086,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucij",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ucij.geojson",
+    "felt": 41,
+    "cdi": 3.6,
+    "mmi": 5.298,
+    "alert": "green",
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 726,
+    "net": "us",
+    "code": "6000ucij",
+    "ids": ",us6000ucij,",
+    "sources": ",us,",
+    "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+    "nst": 106,
+    "dmin": 6.186,
+    "rms": 1.13,
+    "gap": 21,
+    "magType": "mww",
+    "type": "earthquake",
+    "title": "M 6.8 - 105 km NE of Lospalos, Timor Leste"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.5407,
+     -7.7324,
+     132.055
+    ]
+   },
+   "id": "us6000ucij"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 6.7,
+    "place": "9 km NE of Carhuamayo, Peru",
+    "time": 1795219759667,
+    "updated": 1795365766146,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ucfm.geojson",
+    "felt": 122,
+    "cdi": 5.6,
+    "mmi": 5.707,
+    "alert": "green",
+    "status": "reviewed",
+    "tsunami": 1,
+    "sig": 759,
+    "net": "us",
+    "code": "6000ucfm",
+    "ids": ",pt26325050,us6000ucfm,attotsfi,",
+    "sources": ",pt,us,at,",
+    "types": ",dyfi,ground-failure,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+    "nst": 74,
+    "dmin": 1.409,
+    "rms": 0.68,
+    "gap": 65,
+    "magType": "mww",
+    "type": "earthquake",
+    "title": "M 6.7 - 9 km NE of Carhuamayo, Peru"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.9779,
+     -10.8548,
+     107.991
+    ]
+   },
+   "id": "us6000ucfm"
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "mag": 1.4,
+    "place": "10 km E of Somewhere, Utah",
+    "time": 1795257933230,
+    "updated": 1795344769837,
+    "tz": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucly",
+    "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000ucly.geojson",
+    "felt": null,
+    "cdi": null,
+    "mmi": 7.497,
+    "alert": null,
+    "status": "reviewed",
+    "tsunami": 0,
+    "sig": 30,
+    "net": "uu",
+    "code": "60000001",
+    "ids": ",us6000ucly,",
+    "sources": ",us,",
+    "types": ",ground-failure,losspager,origin,phase-data,shakemap,",
+    "nst": 99,
+    "dmin": 5.815,
+    "rms": 0.63,
+    "gap": 36,
+    "magType": "ml",
+    "type": "quarry blast",
+    "title": "M 1.4 Quarry Blast - 10 km E of Somewhere, Utah"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.9,
+     40.5,
+     -0.3
+    ]
+   },
+   "id": "uu60000001"
+  }
+ ]
+}

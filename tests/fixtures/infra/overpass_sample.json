@@ -1,0 +1,5 @@
+{"elements":[
+{"type":"way","id":100,"center":{"lat":39.01640,"lon":-77.45905},"tags":{"telecom":"data_center","name":"Example DC1","operator":"Example Colo"}},
+{"type":"node","id":200,"lat":52.3,"lon":4.9,"tags":{"telecom":"data_center","name":"Amsterdam Example Hall","operator":"Other Hosting","website":"https://other.example"}},
+{"type":"relation","id":300,"center":{"lat":50.1,"lon":8.6},"tags":{"telecom":"data_center"}}
+]}

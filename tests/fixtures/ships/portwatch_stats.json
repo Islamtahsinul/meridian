@@ -1,0 +1,36 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "avg_total": 22.336986301369862,
+    "days": 365,
+    "avg_tanker": 11.53972602739726,
+    "portid": "chokepoint6"
+   }
+  },
+  {
+   "attributes": {
+    "avg_total": 207.15068493150685,
+    "days": 365,
+    "avg_tanker": 54.465753424657535,
+    "portid": "chokepoint12"
+   }
+  },
+  {
+   "attributes": {
+    "avg_total": 41.07945205479452,
+    "days": 365,
+    "avg_tanker": 16.063013698630137,
+    "portid": "chokepoint1"
+   }
+  },
+  {
+   "attributes": {
+    "avg_total": 8,
+    "days": 365,
+    "avg_tanker": 1.8547945205479452,
+    "portid": "chokepoint28"
+   }
+  }
+ ]
+}

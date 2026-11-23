@@ -1,0 +1,38 @@
+[
+ {
+  "id": "41004",
+  "name": "EDISTO - 41 NM Southeast of Charleston, SC",
+  "lat": 32.502,
+  "lng": -79.099,
+  "img": "Z20A_2026_11_23_1010.jpg",
+  "width": 2880,
+  "height": 300
+ },
+ {
+  "id": "41009",
+  "name": "CANAVERAL 20 NM East of Cape Canaveral, FL",
+  "lat": 28.508,
+  "lng": -80.185,
+  "img": "X02A_2026_11_23_1010.jpg",
+  "width": 2880,
+  "height": 300
+ },
+ {
+  "id": "41010",
+  "name": "CANAVERAL EAST - 120NM East of Cape Canaveral",
+  "lat": 28.86,
+  "lng": -78.478,
+  "img": "W04A_2026_11_23_1010.jpg",
+  "width": 2880,
+  "height": 300
+ },
+ {
+  "id": "41013",
+  "name": "Frying Pan Shoals, NC",
+  "lat": 33.436,
+  "lng": -77.764,
+  "img": null,
+  "width": null,
+  "height": null
+ }
+]

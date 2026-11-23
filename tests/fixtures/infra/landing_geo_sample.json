@@ -1,0 +1,8 @@
+{"type":"FeatureCollection","features":[
+{"type":"Feature","properties":{"id":"marseille-france","name":"Marseille, France","is_tbd":false},"geometry":{"type":"Point","coordinates":[5.37,43.30]}},
+{"type":"Feature","properties":{"id":"bizerte-tunisia","name":"Bizerte, Tunisia","is_tbd":false},"geometry":{"type":"Point","coordinates":[9.87,37.27]}},
+{"type":"Feature","properties":{"id":"genoa-italy","name":"Genoa, Italy","is_tbd":false},"geometry":{"type":"Point","coordinates":[8.93,44.41]}},
+{"type":"Feature","properties":{"id":"nukualofa-tonga","name":"Nuku'alofa, Tonga","is_tbd":false},"geometry":{"type":"Point","coordinates":[-175.2,-21.13]}},
+{"type":"Feature","properties":{"id":"suva-fiji","name":"Suva, Fiji","is_tbd":true},"geometry":{"type":"Point","coordinates":[178.44,-18.14]}},
+{"type":"Feature","properties":{"id":"muanda-congo-dem-rep-","name":"Muanda, Congo, Dem. Rep.","is_tbd":false},"geometry":{"type":"Point","coordinates":[12.35,-5.93]}}
+]}

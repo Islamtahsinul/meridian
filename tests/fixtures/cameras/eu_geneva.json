@@ -1,0 +1,57 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "NOM": "Vengeron",
+    "DIRECTION_ALLER": "toLausanne",
+    "DIRECTION_RETOUR": "toFrance",
+    "IMAGE_ALLER": "https://app2.ge.ch/tercameras/CAM_2.jpg",
+    "IMAGE_RETOUR": "https://app2.ge.ch/tercameras/CAM_2.jpg"
+   },
+   "geometry": {
+    "x": 6.134714835066897,
+    "y": 46.266294525296495
+   }
+  },
+  {
+   "attributes": {
+    "NOM": "Bardonnex (douane)",
+    "DIRECTION_ALLER": "toLausanne",
+    "DIRECTION_RETOUR": "toFrance",
+    "IMAGE_ALLER": "https://app2.ge.ch/tercameras/CAM_14.jpg",
+    "IMAGE_RETOUR": "https://app2.ge.ch/tercameras/CAM_14.jpg"
+   },
+   "geometry": {
+    "x": 6.09734063858288,
+    "y": 46.152351665658124
+   }
+  },
+  {
+   "attributes": {
+    "NOM": "Bachet",
+    "DIRECTION_ALLER": "toGeneva",
+    "DIRECTION_RETOUR": "toFrance",
+    "IMAGE_ALLER": "https://app2.ge.ch/tercameras/CAM_16.jpg",
+    "IMAGE_RETOUR": "https://app2.ge.ch/tercameras/CAM_16.jpg"
+   },
+   "geometry": {
+    "x": 6.127803214229492,
+    "y": 46.169086779379406
+   }
+  },
+  {
+   "attributes": {
+    "NOM": "Test",
+    "DIRECTION_ALLER": "toLausanne",
+    "DIRECTION_RETOUR": "toFrance",
+    "IMAGE_ALLER": null,
+    "IMAGE_RETOUR": ""
+   },
+   "geometry": {
+    "x": 6.134714835066897,
+    "y": 46.266294525296495
+   }
+  }
+ ],
+ "exceededTransferLimit": false
+}

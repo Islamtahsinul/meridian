@@ -1,0 +1,448 @@
+{
+ "count": 1,
+ "next": null,
+ "previous": null,
+ "results": [
+  {
+   "code": "EMSR936",
+   "name": "Flood in Ecuador",
+   "reason": "Placeholder description of the EMSR936 test activation.",
+   "category": "Flood",
+   "subCategory": "Riverine flood",
+   "sensitive": false,
+   "reportLink": "https://storymaps.arcgis.com/stories/e067a1c841aa47be8d7ebc3bac998cf4",
+   "activator": "EC Services|DG ECHO",
+   "eventTime": "2026-11-12T23:00:00",
+   "activationTime": "2026-11-16T17:02:00",
+   "closed": false,
+   "gdacsId": "FL1104167",
+   "continent": "South America",
+   "countries": [
+    {
+     "name": "Ecuador"
+    }
+   ],
+   "aois": [
+    {
+     "name": "Milagro",
+     "extent": "POLYGON ((-79.552434 -2.176463, -79.604688 -2.174547, -79.69955 -2.129491, -79.751667 -2.076621, -79.707447 -2.055314, -79.582157 -2.103168, -79.518398 -2.102209, -79.515409 -2.15299, -79.552434 -2.176463))",
+     "number": 1,
+     "activationCode": "EMSR936",
+     "products": [
+      {
+       "id": 2984,
+       "type": "FEP",
+       "monitoring": false,
+       "monitoringNumber": 0,
+       "feasible": true,
+       "images": [
+        {
+         "uuid": "7a022714-44a2-496a-bb96-fb46e423f809",
+         "new": true,
+         "sensorType": "sar",
+         "sensorName": "Sentinel-1",
+         "resolutionClass": "HR+",
+         "acquisitionTime": "2026-11-15T23:36:00",
+         "fileName": "EMSR936_AOI01_FEP_PRODUCT_SENTINEL1_20261115_2336_ORTHO.tif"
+        }
+       ],
+       "stats": {
+        "Flooded area": {
+         "None": {
+          "unit": "ha",
+          "total": 3437.3850098,
+          "affected": null
+         }
+        },
+        "Estimated population": {
+         "None": {
+          "unit": "",
+          "total": 200000,
+          "affected": 500
+         }
+        }
+       },
+       "mapsCount": 1,
+       "activationCode": "EMSR936",
+       "aoiName": "Milagro",
+       "aoiNumber": 1,
+       "extent": "POLYGON ((-79.518398 -2.102209, -79.582157 -2.103168, -79.707447 -2.055314, -79.751667 -2.076621, -79.69955 -2.129491, -79.604688 -2.174547, -79.552434 -2.176463, -79.515409 -2.15299, -79.518398 -2.102209))",
+       "expectedDelivery": "2026-11-16T22:29:00",
+       "layers": [
+        {
+         "name": "EMSR936/AOI01/FEP_PRODUCT/EMSR936_AOI01_FEP_PRODUCT_observedEventA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/FEP_PRODUCT/EMSR936_AOI01_FEP_PRODUCT_observedEventA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/FEP_PRODUCT/EMSR936_AOI01_FEP_PRODUCT_observedEventA_v1.json"
+        }
+       ],
+       "downloadPath": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR936/AOI01/FEP_PRODUCT/EMSR936_AOI01_FEP_PRODUCT_v1.zip",
+       "version": {
+        "uuid": "136c7ae6-9032-4a87-988d-ca5711a8af2c",
+        "number": 1,
+        "reason": "",
+        "deliveryTime": "2026-11-16T23:17:35.024924",
+        "lastUpdateTime": "2026-11-17T15:57:11",
+        "statusCode": "F"
+       }
+      },
+      {
+       "id": 2983,
+       "type": "DEL",
+       "monitoring": false,
+       "monitoringNumber": 0,
+       "feasible": true,
+       "images": [
+        {
+         "uuid": "6fc3ae3d-4eb4-434a-9572-566f54624fee",
+         "new": true,
+         "sensorType": "sar",
+         "sensorName": "Sentinel-1",
+         "resolutionClass": "HR+",
+         "acquisitionTime": "2026-11-17T11:00:00",
+         "fileName": "EMSR936_AOI01_DEL_PRODUCT_SENTINEL1_20261117_1100_ORTHO.tif"
+        }
+       ],
+       "stats": {
+        "Built-up": {
+         "Industrial buildings": {
+          "unit": "ha",
+          "total": 64.1,
+          "affected": 11.4
+         },
+         "Residential Buildings": {
+          "unit": "ha",
+          "total": 29.3,
+          "affected": 0.4
+         },
+         "School, university and research buildings": {
+          "unit": "ha",
+          "total": 139.1,
+          "affected": 21.1
+         }
+        },
+        "Land use": {
+         "Other": {
+          "unit": "ha",
+          "total": 1840.2,
+          "affected": 54.6
+         },
+         "Forests ": {
+          "unit": "ha",
+          "total": 2922.1,
+          "affected": 63.4
+         },
+         "Inland wetlands ": {
+          "unit": "ha",
+          "total": 6537.5,
+          "affected": 3233.2
+         },
+         "Heterogeneous agricultural areas ": {
+          "unit": "ha",
+          "total": 7166.3,
+          "affected": 1675.5
+         },
+         "Shrub and/or herbaceous vegetation association": {
+          "unit": "ha",
+          "total": 339.2,
+          "affected": 37.9
+         }
+        },
+        "Facilities": {
+         "Settling Basin": {
+          "unit": "ha",
+          "total": 25.2,
+          "affected": 4.1
+         },
+         "Sport and recreation constructions": {
+          "unit": "ha",
+          "total": 15.8,
+          "affected": 1.8
+         },
+         "Long-distance pipelines, communication and electricity lines": {
+          "unit": "km",
+          "total": 81.6,
+          "affected": 17.5
+         }
+        },
+        "Flooded area": {
+         "None": {
+          "unit": "ha",
+          "total": "NA",
+          "affected": 5064.7
+         }
+        },
+        "Transportation": {
+         "Cart Track": {
+          "unit": "km",
+          "total": 149.0,
+          "affected": 37.0
+         },
+         "Local Road": {
+          "unit": "km",
+          "total": 569.6,
+          "affected": 23.2
+         },
+         "Primary Road": {
+          "unit": "km",
+          "total": 39.7,
+          "affected": 7.9
+         },
+         "Secondary Road": {
+          "unit": "km",
+          "total": 36.4,
+          "affected": 0.1
+         },
+         "Long-distance railways": {
+          "unit": "km",
+          "total": 26.7,
+          "affected": 1.7
+         }
+        },
+        "Estimated population": {
+         "None": {
+          "unit": "",
+          "total": 200000
+         }
+        },
+        "Maximum of all extents**": {
+         "None": {
+          "unit": "ha",
+          "total": "NA",
+          "affected": 5064.7
+         }
+        }
+       },
+       "mapsCount": 2,
+       "activationCode": "EMSR936",
+       "aoiName": "Milagro",
+       "aoiNumber": 1,
+       "extent": "POLYGON ((-79.518398 -2.102209, -79.582157 -2.103168, -79.707447 -2.055314, -79.751667 -2.076621, -79.69955 -2.129491, -79.604688 -2.174547, -79.552434 -2.176463, -79.515409 -2.15299, -79.518398 -2.102209))",
+       "expectedDelivery": "2026-11-17T22:16:00",
+       "layers": [
+        {
+         "name": "EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_floodDepthA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_floodDepthA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_floodDepthA_v1.json"
+        },
+        {
+         "name": "EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_modelledEventA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_modelledEventA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_modelledEventA_v1.json"
+        },
+        {
+         "name": "EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_observedEventA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_observedEventA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_observedEventA_v1.json"
+        }
+       ],
+       "downloadPath": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR936/AOI01/DEL_PRODUCT/EMSR936_AOI01_DEL_PRODUCT_v1.zip",
+       "version": {
+        "uuid": "38ae9e10-0b29-41f3-ab6d-1dc3a413e7ae",
+        "number": 1,
+        "reason": "",
+        "deliveryTime": "2026-11-17T18:53:03.750408",
+        "lastUpdateTime": "2026-11-17T19:34:17",
+        "statusCode": "F"
+       }
+      },
+      {
+       "id": 2985,
+       "type": "DEL",
+       "monitoring": true,
+       "monitoringNumber": 1,
+       "feasible": true,
+       "images": [
+        {
+         "uuid": "32a48bcd-3ed8-4331-b39c-af201cffe32c",
+         "new": true,
+         "sensorType": "sar",
+         "sensorName": "TerraSAR-X",
+         "resolutionClass": "VHR2",
+         "acquisitionTime": "2026-11-18T23:33:00",
+         "fileName": "EMSR936_AOI01_DEL_MONIT01_TERRASARX_20261118_2333_ORTHO.tif"
+        }
+       ],
+       "stats": {
+        "Built-up": {
+         "Industrial buildings": {
+          "unit": "ha",
+          "total": 64.1,
+          "affected": 11.6
+         },
+         "Residential Buildings": {
+          "unit": "ha",
+          "total": 29.3,
+          "affected": 0.4
+         },
+         "School, university and research buildings": {
+          "unit": "ha",
+          "total": 139.1,
+          "affected": 21.1
+         }
+        },
+        "Land use": {
+         "Other": {
+          "unit": "ha",
+          "total": 1840.2,
+          "affected": 51.5
+         },
+         "Forests ": {
+          "unit": "ha",
+          "total": 2922.1,
+          "affected": 52.0
+         },
+         "Inland wetlands ": {
+          "unit": "ha",
+          "total": 6537.5,
+          "affected": 3097.1
+         },
+         "Heterogeneous agricultural areas ": {
+          "unit": "ha",
+          "total": 7166.3,
+          "affected": 1575.7
+         },
+         "Shrub and/or herbaceous vegetation association": {
+          "unit": "ha",
+          "total": 339.2,
+          "affected": 36.5
+         }
+        },
+        "Facilities": {
+         "Settling Basin": {
+          "unit": "ha",
+          "total": 25.2,
+          "affected": 4.1
+         },
+         "Sport and recreation constructions": {
+          "unit": "ha",
+          "total": 15.8,
+          "affected": 1.8
+         },
+         "Long-distance pipelines, communication and electricity lines": {
+          "unit": "km",
+          "total": 81.6,
+          "affected": 17.6
+         }
+        },
+        "Flooded area": {
+         "None": {
+          "unit": "ha",
+          "total": "NA",
+          "affected": 4812.9
+         }
+        },
+        "Transportation": {
+         "Cart Track": {
+          "unit": "km",
+          "total": 149.0,
+          "affected": 36.5
+         },
+         "Local Road": {
+          "unit": "km",
+          "total": 569.6,
+          "affected": 22.2
+         },
+         "Primary Road": {
+          "unit": "km",
+          "total": 39.7,
+          "affected": 8.2
+         },
+         "Secondary Road": {
+          "unit": "km",
+          "total": 36.4,
+          "affected": 0.2
+         },
+         "Long-distance railways": {
+          "unit": "km",
+          "total": 26.7,
+          "affected": 1.7
+         }
+        },
+        "Estimated population": {
+         "None": {
+          "unit": "",
+          "total": 200000
+         }
+        },
+        "Maximum of all extents**": {
+         "None": {
+          "unit": "ha",
+          "total": "NA",
+          "affected": 4812.9
+         }
+        }
+       },
+       "mapsCount": 3,
+       "activationCode": "EMSR936",
+       "aoiName": "Milagro",
+       "aoiNumber": 1,
+       "extent": "POLYGON ((-79.518398 -2.102209, -79.582157 -2.103168, -79.707447 -2.055314, -79.751667 -2.076621, -79.69955 -2.129491, -79.604688 -2.174547, -79.552434 -2.176463, -79.515409 -2.15299, -79.518398 -2.102209))",
+       "expectedDelivery": "2026-11-19T10:05:00",
+       "layers": [
+        {
+         "name": "EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_floodDepthA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_floodDepthA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_floodDepthA_v1.json"
+        },
+        {
+         "name": "EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_maximumFloodExtentA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_maximumFloodExtentA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_maximumFloodExtentA_v1.json"
+        },
+        {
+         "name": "EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_modelledEventA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_modelledEventA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_modelledEventA_v1.json"
+        },
+        {
+         "name": "EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_notAnalysedA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_notAnalysedA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_notAnalysedA_v1.json"
+        },
+        {
+         "name": "EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_observedEventA_v1_VT",
+         "format": "vt",
+         "sld": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_observedEventA_v1.sld",
+         "json": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_observedEventA_v1.json"
+        }
+       ],
+       "downloadPath": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR936/AOI01/DEL_MONIT01/EMSR936_AOI01_DEL_MONIT01_v1.zip",
+       "version": {
+        "uuid": "ee2a8f4a-bf90-4435-96db-39c5817e9204",
+        "number": 1,
+        "reason": "",
+        "deliveryTime": "2026-11-19T06:18:33.772614",
+        "lastUpdateTime": "2026-11-19T07:17:06",
+        "statusCode": "F"
+       }
+      }
+     ],
+     "blpPath": ""
+    }
+   ],
+   "centroid": "POINT (-79.62462476667793 -2.119817476419881)",
+   "infobulletins": [],
+   "stats": {
+    "Roads [km]": 70,
+    "max_extent": 5060,
+    "Population [No.]": 5200,
+    "Built-up area [ha]": 30,
+    "Identified buildings [No.]": "-"
+   },
+   "charterNumber": "1059",
+   "charterUrl": "https://disasterscharter.org/fr/activations/flood-in-ecuador-activation-1059-",
+   "extent": "POLYGON ((-79.751667 -2.176463, -79.751667 -2.055314, -79.515409 -2.055314, -79.515409 -2.176463, -79.751667 -2.176463))",
+   "aws_bucket": "https://rapidmapping-viewer.s3.eu-west-1.amazonaws.com",
+   "productsPath": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR936/EMSR936_products.zip",
+   "relatedevents": []
+  }
+ ]
+}

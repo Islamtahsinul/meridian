@@ -1,0 +1,22 @@
+{
+  "activeStorms": [
+    {
+      "id": "al142026",
+      "binNumber": "AT4",
+      "name": "Odette",
+      "classification": "HU",
+      "intensity": "105",
+      "pressure": "962",
+      "latitude": "24.6N",
+      "longitude": "71.2W",
+      "latitudeNumeric": 24.6,
+      "longitudeNumeric": -71.2,
+      "movementDir": 315,
+      "movementSpeed": 11,
+      "lastUpdate": "2026-09-14T21:00:00.000Z",
+      "publicAdvisory": {"advNum": "012", "issuance": "2026-09-14T21:00:00.000Z", "url": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT4+shtml/142100.shtml"},
+      "forecastGraphics": {"url": "https://www.nhc.noaa.gov/graphics_at4.shtml?start#contents"}
+    },
+    {"id": "", "name": "broken"}
+  ]
+}

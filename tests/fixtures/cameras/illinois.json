@@ -1,0 +1,52 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 1,
+    "ImgPath": "https://travelmidwest.com/showCamera?id=IL-ISTHA-2911&direction=N",
+    "CameraLocation": "TWR PL47 NB (Halsted/IL-1) Top",
+    "CameraDirection": "N",
+    "SnapShot": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-80_4157909_-8763220_1_N.jpg",
+    "TooOld": "false",
+    "x": -87.6322021484375,
+    "y": 41.5790901184082
+   },
+   "geometry": {
+    "x": -87.63220786947629,
+    "y": 41.57909792042777
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 2,
+    "ImgPath": "https://travelmidwest.com/showCamera?id=IL-ISTHA-2911&direction=S",
+    "CameraLocation": "TWR PL47 NB (Halsted/IL-1) Top",
+    "CameraDirection": "S",
+    "SnapShot": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_WB_I-80_4157909_-8763220_1_S.jpg",
+    "TooOld": "false",
+    "x": -87.6322021484375,
+    "y": 41.5790901184082
+   },
+   "geometry": {
+    "x": -87.63220786947629,
+    "y": 41.57909792042777
+   }
+  },
+  {
+   "attributes": {
+    "OBJECTID": 3,
+    "ImgPath": "https://travelmidwest.com/showCamera?id=IL-ISTHA-QY9mAXxJkfqPN0vl1UNTuCfn2YA=&direction=N",
+    "CameraLocation": "I-294 at 95th Street",
+    "CameraDirection": "N",
+    "SnapShot": "https://cctv.travelmidwest.com/snapshots/IL-ISTHA_1_Cook_NB_I-294_4171730_-8780440_1_N.jpg",
+    "TooOld": "false",
+    "x": -87.80439758300781,
+    "y": 41.71730041503906
+   },
+   "geometry": {
+    "x": -87.80440336822468,
+    "y": 41.71730823135589
+   }
+  }
+ ]
+}

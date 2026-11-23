@@ -1,0 +1,113 @@
+/* intel module: News drawer, card parts (index meters, bar chart, link lists), What's here section.
+   Uses the core design tokens (CONTRACT.md section 11). Every class is prefixed intel-. */
+
+/* ---------------------------------------------------------------- card parts */
+.intel-links li { padding: 4px 0; }
+.intel-links a { display: block; overflow-wrap: anywhere; }
+.intel-links .li-s { color: var(--paper-faint); }
+
+.intel-meters { display: grid; gap: 8px; margin-top: 2px; }
+.intel-meter-head { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: baseline; font-size: 13px; }
+.intel-meter-head > span:first-child { color: var(--paper); }
+.intel-meter-head .tnum { font-weight: 600; font-stretch: condensed; font-size: 15px; color: var(--paper); min-width: 2.4em; text-align: right; }
+.intel-meter-w { color: var(--paper-faint); font-size: 11.5px; }
+.intel-meter-bar { display: block; height: 6px; margin-top: 3px; background: var(--ink-2); border-radius: 3px; overflow: hidden; }
+.intel-meter-fill { display: block; height: 100%; border-radius: 3px; }
+.intel-meter-detail { font-size: 12px; color: var(--paper-dim); margin-top: 2px; }
+.intel-meter-note { font-size: 12px; color: var(--paper-faint); margin: 2px 0 0; }
+
+.intel-bars { display: block; width: 100%; height: auto; margin: 2px 0 2px; }
+.intel-bars-base { stroke: var(--ink-3); stroke-width: 1; }
+.intel-bars-hit { fill: transparent; cursor: default; }
+.intel-bars-hit:hover { fill: rgba(235, 230, 214, .06); }
+.intel-bars-axis { fill: var(--paper-faint); font: 10.5px var(--font); font-variant-numeric: tabular-nums; }
+.intel-bars-peak { fill: var(--paper-dim); font: 11px var(--font); font-variant-numeric: tabular-nums; }
+
+/* ---------------------------------------------------------------- What's here */
+.intel-wh { display: grid; gap: 4px; }
+.intel-wh-name { font-size: 15px; font-weight: 600; font-stretch: semi-condensed; }
+.intel-wh-index { font-size: 13px; color: var(--paper-dim); display: flex; align-items: center; gap: 6px; }
+.intel-swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex: none; }
+.intel-wh-note { font-size: 12.5px; color: var(--paper-dim); margin: 2px 0; }
+.intel-wh-btns { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
+.intel-wh-btns .btn { height: 26px; padding: 0 10px; }
+
+/* ---------------------------------------------------------------- News drawer */
+.intel-drawer { display: flex; flex-direction: column; min-height: 0; }
+.intel-drawer-controls { display: grid; gap: 8px; padding: 10px 12px 8px; border-bottom: 1px solid var(--ink-3); background: var(--ink-1);
+  position: sticky; top: 0; z-index: 1; }
+.intel-row { display: flex; gap: 8px; align-items: center; min-width: 0; }
+.intel-row select { flex: 1 1 auto; min-width: 0; height: 28px; background: var(--ink-0); border: 1px solid var(--ink-3);
+  border-radius: var(--r-control); padding: 0 6px; color: var(--paper); }
+.intel-row select:focus, .intel-q:focus { outline: none; border-color: var(--signal); }
+.intel-label { font-size: 12.5px; color: var(--paper-faint); flex: none; }
+.intel-chips { display: inline-flex; border: 1px solid var(--ink-3); border-radius: var(--r-control); overflow: hidden; flex: none; }
+.intel-chip { border: 0; background: transparent; color: var(--paper-dim); height: 26px; padding: 0 9px; cursor: pointer; font-size: 12.5px;
+  font-variant-numeric: tabular-nums; }
+.intel-chip + .intel-chip { border-left: 1px solid var(--ink-3); }
+.intel-chip[aria-pressed="true"] { background: var(--ink-3); color: var(--paper); }
+.intel-chip:hover { color: var(--paper); }
+.intel-q { flex: 1 1 auto; min-width: 0; height: 28px; padding: 0 8px; background: var(--ink-0); border: 1px solid var(--ink-3);
+  border-radius: var(--r-control); color: var(--paper); }
+.intel-q::placeholder { color: var(--paper-faint); }
+.intel-drawer-status { padding: 6px 12px; font-size: 12px; color: var(--paper-dim); border-bottom: 1px solid var(--ink-2); }
+.intel-drawer-status:empty { display: none; }
+.intel-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; transform: translateY(-1px); }
+.intel-dot.green { background: var(--green); }
+.intel-dot.amber { background: var(--amber); }
+.intel-drawer-list { max-height: calc(100vh - 300px); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--ink-3) transparent; }
+.intel-pad { padding: 12px; margin: 0; }
+
+.intel-th { padding: 8px 0 4px; border-bottom: 1px solid var(--ink-2); }
+.intel-th:last-child { border-bottom: 0; }
+.intel-th-head { display: flex; align-items: baseline; gap: 8px; padding: 0 8px 2px 12px; }
+.intel-th-head h3 { margin: 0; font-size: 14px; font-weight: 600; font-stretch: semi-condensed; color: var(--paper); }
+.intel-th-count { font-size: 12px; color: var(--paper-faint); margin-right: auto; }
+.intel-th-head .text-btn { font-size: 12px; padding: 2px 6px; }
+.intel-items { list-style: none; margin: 0; padding: 0; }
+.intel-item { display: flex; align-items: flex-start; gap: 4px; padding: 0 8px 0 0; }
+.intel-item:hover { background: var(--ink-2); }
+.intel-item-main { all: unset; box-sizing: border-box; flex: 1 1 auto; min-width: 0; display: grid; grid-template-columns: 26px 1fr; gap: 8px;
+  padding: 6px 0 6px 12px; cursor: pointer; }
+.intel-item-main:focus-visible { outline: 2px solid var(--signal); outline-offset: -2px; }
+.intel-sev { display: inline-grid; place-items: center; width: 24px; height: 20px; border-radius: var(--r-chip); font-size: 12px; font-weight: 600;
+  font-variant-numeric: tabular-nums; border: 1px solid var(--ink-4); color: var(--paper-dim); margin-top: 1px; }
+.intel-sev.red { border-color: var(--red); color: #ffd6d2; background: rgba(255, 93, 82, .16); }
+.intel-sev.amber { border-color: var(--amber); color: #ffe7bf; background: rgba(255, 181, 71, .14); }
+.intel-sev.blue { border-color: var(--blue); color: #d8ecff; background: rgba(108, 182, 255, .12); }
+.intel-item-text { min-width: 0; display: grid; gap: 1px; }
+.intel-item-title { color: var(--paper); font-size: 13.5px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; overflow-wrap: anywhere; }
+.intel-item-meta { color: var(--paper-faint); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.intel-item-link { flex: none; font-size: 12px; padding: 7px 4px; color: var(--signal); }
+.intel-none { padding: 4px 12px 8px; color: var(--paper-faint); font-size: 12.5px; }
+
+/* ---------------------------------------------------------------- travel advice (country card, change card) */
+.intel-adv { display: grid; gap: 10px; }
+.intel-adv-src { display: grid; gap: 3px; padding-left: 8px; border-left: 2px solid var(--ink-3); }
+.intel-adv-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.intel-adv-name { font-size: 12px; color: var(--paper-faint); }
+.intel-adv-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--paper);
+  font-variant-numeric: tabular-nums; }
+.intel-adv-label { font-size: 13.5px; color: var(--paper); }
+.intel-adv-quote { margin: 2px 0 0; font-size: 12.5px; color: var(--paper-dim); line-height: 1.4; }
+.intel-adv-note { margin: 2px 0 0; font-size: 12px; color: var(--paper-faint); }
+.intel-adv-change { margin: 2px 0 0; font-size: 12px; color: var(--paper-faint); }
+.intel-adv-link { font-size: 12.5px; color: var(--signal); justify-self: start; }
+.intel-adv-changes li { display: grid; gap: 1px; padding: 3px 0; }
+.intel-adv-changes .text-btn { text-align: left; padding: 0; font-size: 13px; white-space: normal; }
+.intel-adv-changes .li-s { font-size: 11.5px; color: var(--paper-faint); }
+
+/* ---------------------------------------------------------------- news volume (country card, News drawer) */
+.intel-spk { display: grid; gap: 6px; }
+.intel-spk .kv { margin: 0; }
+.intel-spk-flag { color: #ffe7bf; }
+.intel-spk-chart-label { font-size: 12px; color: var(--paper-faint); margin-top: 2px; }
+.intel-spk .text-btn { padding: 0; font-size: 12.5px; text-align: left; }
+.intel-spikes { border-bottom: 1px solid var(--ink-3); }
+.intel-spikes .intel-sev { width: auto; min-width: 34px; padding: 0 4px; }
+.intel-spikes .intel-item-main { grid-template-columns: 38px 1fr; }
+
+@media (max-width: 860px) {
+  .intel-drawer-list { max-height: 45vh; }
+}

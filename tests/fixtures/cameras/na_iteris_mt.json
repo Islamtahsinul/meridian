@@ -1,0 +1,59 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "geometry": {
+    "coordinates": [
+     -106.5,
+     48.4
+    ],
+    "type": "Point"
+   },
+   "id": "900010",
+   "properties": {
+    "area": "",
+    "cameras": [
+     {
+      "description": "South Elev 2750",
+      "id": "900100-00-01",
+      "image": "https://mt.cdn.iteris-atis.com/rwis_images/900100-00-01.jpg",
+      "message": null,
+      "name": "Testville - South Elev 2750",
+      "updateTime": 1795431600
+     },
+     {
+      "description": "Horizon Elev 2750",
+      "id": "900101-00-02",
+      "image": "https://mt.cdn.iteris-atis.com/rwis_images/900101-00-02.jpg",
+      "message": null,
+      "name": "Testville - Horizon Elev 2750",
+      "updateTime": 1795431600
+     },
+     {
+      "description": "Roadway Elev 2570",
+      "id": "900102-00-03",
+      "image": "https://mt.cdn.iteris-atis.com/rwis_images/900102-00-03.jpg",
+      "message": null,
+      "name": "Testville - Roadway Elev 2570",
+      "updateTime": 1795431600
+     },
+     {
+      "description": "North Elev 2750",
+      "id": "900103-00-04",
+      "image": "https://mt.cdn.iteris-atis.com/rwis_images/900103-00-04.jpg",
+      "message": null,
+      "name": "Testville - North Elev 2750",
+      "updateTime": 1795431600
+     }
+    ],
+    "description": "MT-99 MP 1.0",
+    "id": "900010",
+    "message": null,
+    "mrm": 1.0,
+    "name": "Testville",
+    "route": "MT-99"
+   },
+   "type": "Feature"
+  }
+ ]
+}

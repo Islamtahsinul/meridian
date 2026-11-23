@@ -1,0 +1,108 @@
+/* Daily briefing (CONTRACT.md section 11): plotting-table navy, chart-paper text, alert colours only
+   for severity, tabular figures for every number. Class names start with briefing-. */
+
+.briefing-btn { position: relative; }
+.briefing-dot {
+  position: absolute; top: 5px; right: 5px; width: 7px; height: 7px; border-radius: 50%;
+  background: var(--signal); box-shadow: 0 0 0 2px var(--ink-0); pointer-events: none;
+}
+
+.briefing-drawer .drawer-body { overscroll-behavior: contain; }
+.briefing { display: flex; flex-direction: column; min-height: 0; }
+.briefing-bar {
+  display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--ink-3);
+  position: sticky; top: 0; background: var(--ink-1); z-index: 1;
+}
+.briefing-select {
+  flex: 1 1 auto; min-width: 0; height: 30px; padding: 0 8px; font-size: 13px; font-stretch: semi-condensed;
+  background: var(--ink-0); color: var(--paper); border: 1px solid var(--ink-3); border-radius: var(--r-control);
+}
+.briefing-select:focus { outline: none; border-color: var(--signal); }
+.briefing-gen { flex: none; }
+.briefing-progress { margin: 0; padding: 7px 14px; font-size: 12.5px; color: var(--paper-dim); border-bottom: 1px solid var(--ink-2); }
+.briefing-progress::before {
+  content: ""; display: inline-block; width: 7px; height: 7px; margin-right: 8px; border-radius: 50%;
+  background: var(--signal); animation: pulse 1.2s ease-in-out infinite; vertical-align: 1px;
+}
+@media (prefers-reduced-motion: reduce) { .briefing-progress::before { animation: none; } }
+
+.briefing-content { padding: 4px 14px 14px; }
+.briefing-meta { margin: 10px 0 8px; font-size: 13px; line-height: 1.45; font-variant-numeric: tabular-nums; }
+.briefing-period strong { font-weight: 600; }
+.briefing-note {
+  margin: 6px 0; padding: 2px 0 2px 9px; border-left: 2px solid var(--ink-4); font-size: 12.5px; color: var(--paper-dim);
+}
+.briefing-label { font-size: 12px; color: var(--paper-faint); font-stretch: semi-condensed; letter-spacing: .02em; margin-bottom: 4px; }
+
+.briefing-ai {
+  margin: 10px 0; padding: 10px 12px; background: var(--ink-2); border: 1px solid var(--ink-3); border-radius: var(--r-panel);
+}
+.briefing-ai p { margin: 0 0 8px; font-size: 13.5px; line-height: 1.5; max-width: 72ch; }
+.briefing-ai .briefing-ai-note { margin: 4px 0 0; font-size: 11.5px; color: var(--paper-faint); }
+.briefing-ai-wait { margin: 10px 0; font-size: 12.5px; color: var(--paper-dim); }
+.briefing-cite {
+  display: inline; padding: 0 5px; margin: 0 1px; font-size: 12px; font-stretch: semi-condensed; line-height: 1.5;
+  color: var(--paper-dim); background: transparent; border: 1px solid var(--ink-4); border-radius: var(--r-chip); cursor: pointer;
+}
+.briefing-cite:hover { color: var(--paper); border-color: var(--signal); }
+
+.briefing-summary { margin: 10px 0 6px; }
+.briefing-summary p { margin: 0 0 6px; font-size: 13px; line-height: 1.5; color: var(--paper-dim); max-width: 75ch; }
+
+.briefing-sec { border-top: 1px solid var(--ink-3); padding: 2px 0 6px; scroll-margin-top: 56px; }
+.briefing-sec-head {
+  display: flex; align-items: center; gap: 8px; padding: 8px 4px; cursor: pointer; list-style: none;
+  font-size: 15px; font-weight: 600; font-stretch: semi-condensed; border-radius: var(--r-control);
+}
+.briefing-sec-head::-webkit-details-marker { display: none; }
+.briefing-sec-head::before {
+  content: ""; width: 0; height: 0; border-style: solid; border-width: 4.5px 0 4.5px 6px;
+  border-color: transparent transparent transparent var(--paper-faint); transition: transform .12s ease-out;
+}
+.briefing-sec[open] > .briefing-sec-head::before { transform: rotate(90deg); }
+.briefing-sec-head:hover { background: var(--ink-2); }
+.briefing-sec-title { flex: 0 1 auto; }
+.briefing-sec-count { font-size: 12.5px; font-weight: 400; color: var(--paper-faint); }
+.briefing-sec-worst { margin-left: auto; font-size: 11.5px; font-weight: 400; padding: 0 6px; border-radius: var(--r-chip); border: 1px solid; }
+.briefing-sec-summary { margin: 0 0 4px 18px; font-size: 12.5px; line-height: 1.45; color: var(--paper-dim); }
+.briefing-sub { margin: 8px 0 2px 18px; font-size: 12px; color: var(--paper-faint); font-stretch: semi-condensed; }
+.briefing-list { list-style: none; margin: 0; padding: 0 0 0 10px; }
+.briefing-empty { margin: 4px 0 6px 18px; font-size: 13px; color: var(--paper-dim); }
+
+.briefing-item, .briefing-trend {
+  display: grid; grid-template-columns: 38px 1fr; gap: 8px; align-items: start; width: 100%;
+  padding: 6px 8px; border: 0; border-radius: var(--r-control); background: transparent; color: inherit; text-align: left;
+  font: inherit;
+}
+button.briefing-open { cursor: pointer; }
+button.briefing-open:hover { background: var(--ink-2); }
+button.briefing-open:hover .briefing-item-title { color: #fff; }
+.briefing-item-main { min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.briefing-item-title { font-size: 13.5px; line-height: 1.35; color: var(--paper); overflow-wrap: anywhere; }
+.briefing-item-line { font-size: 12.5px; line-height: 1.4; color: var(--paper-dim); overflow-wrap: anywhere; }
+.briefing-item-meta { font-size: 11.5px; line-height: 1.5; color: var(--paper-faint); font-variant-numeric: tabular-nums; }
+.briefing-item-meta .badge { font-size: 11px; padding: 0 5px; margin-left: 2px; vertical-align: 1px; }
+
+.briefing-sev {
+  display: inline-flex; align-items: center; justify-content: center; min-width: 30px; height: 21px; margin-top: 1px;
+  font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums; border-radius: var(--r-chip); border: 1px solid;
+}
+.sev-red { color: #ffd6d2; border-color: var(--red); background: rgba(255, 93, 82, .16); }
+.sev-amber { color: #ffe7bf; border-color: var(--amber); background: rgba(255, 181, 71, .14); }
+.sev-blue { color: #d8ecff; border-color: var(--blue); background: rgba(108, 182, 255, .12); }
+.sev-grey { color: var(--paper-dim); border-color: var(--ink-4); background: transparent; }
+.briefing-sec-worst.sev-red, .briefing-sec-worst.sev-amber, .briefing-sec-worst.sev-blue { background: transparent; }
+
+.briefing-trend { grid-template-columns: 56px 1fr; }
+.briefing-trend-value {
+  font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; color: var(--paper);
+  font-stretch: semi-condensed; line-height: 1.3; overflow-wrap: normal;
+}
+.briefing-trend.is-notable .briefing-trend-value { color: var(--amber); }
+
+.briefing-foot { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--ink-3); font-size: 11.5px; color: var(--paper-faint); }
+.briefing-foot p { margin: 0 0 4px; max-width: 80ch; }
+.briefing-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 10px 0 2px; }
+.briefing-actions .faint { font-size: 12px; }
+.briefing-intro { padding: 14px 0; }
+.briefing-intro p { margin: 0 0 8px; max-width: 60ch; }

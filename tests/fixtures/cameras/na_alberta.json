@@ -1,0 +1,46 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "Id": 1,
+    "Location": "Stoney Trail - Nose Hill Drive NW (W of E INT)",
+    "Url": "https://511.alberta.ca/map/Cctv/1",
+    "Status": "Enabled",
+    "Source": "Alberta511",
+    "Direction_Of_Travel": "Unknown"
+   },
+   "geometry": {
+    "x": -114.223475,
+    "y": 51.106617
+   }
+  },
+  {
+   "attributes": {
+    "Id": 604,
+    "Location": "Flanders Avenue / Crowchild Trail SW",
+    "Url": "https://511.alberta.ca/map/Cctv/604",
+    "Status": "Enabled",
+    "Source": "USER",
+    "Direction_Of_Travel": "Unknown"
+   },
+   "geometry": {
+    "x": -114.117574,
+    "y": 51.015766
+   }
+  },
+  {
+   "attributes": {
+    "Id": 406,
+    "Location": "Bow Trail / Sarcee Trail SW",
+    "Url": "https://511.alberta.ca/map/Cctv/406",
+    "Status": "Enabled",
+    "Source": "Calgary",
+    "Direction_Of_Travel": "Unknown"
+   },
+   "geometry": {
+    "x": -114.164045515367,
+    "y": 51.0527429371556
+   }
+  }
+ ]
+}

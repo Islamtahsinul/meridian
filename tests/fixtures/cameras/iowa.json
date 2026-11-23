@@ -1,0 +1,80 @@
+{
+ "features": [
+  {
+   "attributes": {
+    "device_id": 59661281,
+    "COMMON_ID": "RWIS_7",
+    "Desc_": "RWIS - US 34 MM 263 @ Burlington",
+    "ImageName": "R7: US 34 Ramps",
+    "ImageURL": "https://atmsqf.iowadot.gov/snapshots/Public/RWIS/RWIS_7-00.jpg",
+    "VideoURL": null,
+    "Route": "US 34",
+    "REGION": "RWIS Cameras",
+    "Type": "RWIS",
+    "latitude": 40.813,
+    "longitude": -91.0992
+   },
+   "geometry": {
+    "x": -91.09920000000001,
+    "y": 40.81299999999999
+   }
+  },
+  {
+   "attributes": {
+    "device_id": 59661281,
+    "COMMON_ID": "RWIS_7",
+    "Desc_": "RWIS - US 34 MM 263 @ Burlington",
+    "ImageName": "R7: South View",
+    "ImageURL": "https://atmsqf.iowadot.gov/snapshots/public/RWIS/RWIS_7-01.jpg",
+    "VideoURL": null,
+    "Route": "US 34",
+    "REGION": "RWIS Cameras",
+    "Type": "RWIS",
+    "latitude": 40.813,
+    "longitude": -91.0992
+   },
+   "geometry": {
+    "x": -91.09920000000001,
+    "y": 40.81299999999999
+   }
+  },
+  {
+   "attributes": {
+    "device_id": 59662096,
+    "COMMON_ID": "WLTV10",
+    "Desc_": "WL - I-380 @ MM 67.4 (Gilbertville Rd)",
+    "ImageName": "WL - I-380 @ MM 67.4 (Gilbertville Rd)",
+    "ImageURL": "https://atmsqf.iowadot.gov/SNAPSHOTS/PUBLIC/Metro/wltv10hd.jpeg",
+    "VideoURL": "https://video4.iowadot.gov:8888/waterloo/wltv10lb/playlist.m3u8",
+    "Route": "I-380",
+    "REGION": "Waterloo",
+    "Type": "Iowa DOT",
+    "latitude": 42.451063,
+    "longitude": -92.2369
+   },
+   "geometry": {
+    "x": -92.2369,
+    "y": 42.451062999999984
+   }
+  },
+  {
+   "attributes": {
+    "device_id": 59661523,
+    "COMMON_ID": "WWD47",
+    "Desc_": "WWD - US 30 @ IA 330 S (47)",
+    "ImageName": "WWD - US 30 @ IA 330 S (47)",
+    "ImageURL": "https://atmsqf.iowadot.gov/snapshots/Public/WWD/WWD47.jpg",
+    "VideoURL": null,
+    "Route": "US 30",
+    "REGION": "WWD",
+    "Type": "Iowa DOT",
+    "latitude": 42.008491,
+    "longitude": -93.020471
+   },
+   "geometry": {
+    "x": -93.020471,
+    "y": 42.008491
+   }
+  }
+ ]
+}

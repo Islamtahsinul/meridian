@@ -1,0 +1,4 @@
+"OID_","World Port Index Number","Region Name","Main Port Name","Alternate Port Name","UN/LOCODE","Country Code","World Water Body","Tidal Range (m)","Channel Depth (m)","Cargo Pier Depth (m)","Maximum Vessel Length (m)","Maximum Vessel Draft (m)","Harbor Size","Harbor Type","Harbor Use","Shelter Afforded","Facilities - Container","Facilities - Oil Terminal","Dry Dock","Railway","Latitude","Longitude"
+1,"34230","England -- South Coast","Southampton","","GB SOU","United Kingdom","English Channel","4.5","12.6","16.0","400","14.5","L","CN","Unknown","G","Y","Y","M","L","50.9","-1.4"
+2,"99999","Nowhere","Bad Port","","","Atlantis","Ocean","","","","","","S","CB","","F","N","N","","","",""
+3,"40000","Brazil -- East Coast","Santos","Porto de Santos","BR SSZ","BR","South Atlantic","1.2","13.5","","366","13.2","Large","River Natural","","Excellent","Yes","No","","","-23.95","-46.3"
